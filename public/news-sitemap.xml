@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://www.edilizia24ore.it/articolo/news-fotovoltaico-plug-play-balcone/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Edilizia 24 Ore</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-20T06:00:00.000Z</news:publication_date>
+      <news:title>Fotovoltaico da balcone plug &amp; play: regole e prezzi 2026</news:title>
+    </news:news>
+  </url>
+</urlset>

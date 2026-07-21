@@ -1,0 +1,158 @@
+import {
+  SITE_URL,
+  CATEGORY_LABELS,
+  NEWS_SUBCATEGORY_SLUG_BY_NAME,
+  type Article,
+  type NewsSubcategory,
+} from '@/data/types';
+
+export function formatDateIT(iso: string): string {
+  return new Intl.DateTimeFormat('it-IT', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  }).format(new Date(iso));
+}
+
+export function categoryUrl(category: Article['category']): string {
+  return `/categoria/${category}`;
+}
+
+export function newsSubcategoryUrl(subcategory: NewsSubcategory): string {
+  return `/categoria/${NEWS_SUBCATEGORY_SLUG_BY_NAME[subcategory]}`;
+}
+
+/** Parent section crumb for an article: news subcategory page, /guide for Top-N, /categoria/news as fallback. */
+export function articleParentCrumb(
+  article: Pick<Article, 'category' | 'subcategory'>,
+): { name: string; path: string } {
+  if (article.category === 'news') {
+    if (article.subcategory) {
+      return { name: article.subcategory, path: newsSubcategoryUrl(article.subcategory) };
+    }
+    return { name: CATEGORY_LABELS.news, path: '/categoria/news' };
+  }
+  return { name: 'Guide e Classifiche', path: '/guide' };
+}
+
+export function articleUrl(article: Pick<Article, 'slug'>): string {
+  return `/articolo/${article.slug}`;
+}
+
+export function absoluteUrl(path: string): string {
+  return `${SITE_URL}${path}`;
+}
+
+/** Tronca un testo per meta description (max ~160 char). */
+export function metaDescription(text: string, max = 158): string {
+  if (text.length <= max) return text;
+  return text.slice(0, max - 1).replace(/\s+\S*$/, '') + '…';
+}
+
+/** Slug sicuro per ancore TOC da un heading. */
+export function headingId(heading: string, index: number): string {
+  const base = heading
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+  return `${base || 'sezione'}-${index}`;
+}
+
+/** Estrae la lista ordinata (1. 2. 3. ...) dal primo paragrafo numerato di un articolo Top-N. */
+export function extractRankedList(article: Article): string[] {
+  const pattern = /(\d+)\)\s*([^;]+);?/g;
+  for (const section of article.sections) {
+    for (const p of section.paragraphs) {
+      const matches = [...p.matchAll(pattern)];
+      if (matches.length >= (article.category === 'top-10' ? 10 : 5)) {
+        return matches.map((m) => m[2].trim());
+      }
+    }
+  }
+  return [];
+}
+
+export const publisherOrganizationLd = {
+  '@type': 'Organization',
+  '@id': `${SITE_URL}/#organization`,
+  name: 'Edilizia 24 Ore',
+  url: SITE_URL + '/',
+  logo: {
+    '@type': 'ImageObject',
+    url: `${SITE_URL}/logo.png`,
+    width: 512,
+    height: 512,
+  },
+};
+
+export function newsArticleLd(article: Article): Record<string, unknown> {
+  const url = absoluteUrl(articleUrl(article));
+  const image = article.image
+    ? [
+        {
+          '@type': 'ImageObject',
+          url: absoluteUrl(article.image.src),
+          width: 1200,
+          height: 675,
+          caption: article.image.alt,
+        },
+      ]
+    : [`${SITE_URL}/logo.png`];
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    '@id': `${url}#article`,
+    headline: article.title,
+    description: article.excerpt,
+    image,
+    author: {
+      '@type': 'Person',
+      name: article.author.name,
+      jobTitle: article.author.role,
+    },
+    publisher: publisherOrganizationLd,
+    datePublished: article.publishedAt,
+    dateModified: article.updatedAt,
+    inLanguage: 'it-IT',
+    articleSection: CATEGORY_LABELS[article.category],
+    keywords: article.keywords.join(', '),
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['.in-breve', 'article h1'],
+    },
+  };
+}
+
+export function faqPageLd(article: Article): Record<string, unknown> | null {
+  if (!article.faq?.length) return null;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: article.faq.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  };
+}
+
+export interface Crumb {
+  name: string;
+  path: string;
+}
+
+export function breadcrumbLd(crumbs: Crumb[]): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: crumbs.map((c, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: c.name,
+      item: absoluteUrl(c.path),
+    })),
+  };
+}

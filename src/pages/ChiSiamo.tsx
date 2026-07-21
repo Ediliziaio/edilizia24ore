@@ -1,0 +1,91 @@
+import SeoHead from '@/components/SeoHead';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import { SITE_URL } from '@/data/types';
+import { breadcrumbLd } from '@/lib/seo';
+
+const TEAM = [
+  { name: 'Ing. Marco Ferrante', role: 'Redattore tecnico impianti', bio: 'Ingegnere meccanico, si occupa di pompe di calore, caldaie e impianti HVAC dal 2012.' },
+  { name: 'Dott.ssa Elena Riva', role: 'Esperta fiscalità immobiliare', bio: 'Dottore commercialista, segue bonus edilizi e agevolazioni fiscali dalla prima edizione del Superbonus.' },
+  { name: 'Arch. Giulia Bianchi', role: 'Redattrice architettura e design', bio: 'Architetto, cura le sezioni dedicate a materiali, finiture e tendenze del progetto.' },
+  { name: 'Geom. Paolo Moretti', role: 'Corrispondente cantieri', bio: 'Geometra con vent\u2019anni di direzione lavori, racconta il cantiere dal punto di vista operativo.' },
+];
+
+export default function ChiSiamo() {
+  const crumbs = [
+    { name: 'Home', path: '/' },
+    { name: 'Chi siamo', path: '/chi-siamo' },
+  ];
+
+  return (
+    <>
+      <SeoHead
+        title="Chi siamo — la redazione di Edilizia 24 Ore"
+        description="Edilizia 24 Ore è una redazione indipendente di giornalisti e tecnici specializzati in costruzioni, bonus edilizi, normative e mercato immobiliare. Scopri chi siamo e come lavoriamo."
+        canonical={`${SITE_URL}/chi-siamo`}
+        jsonLd={[breadcrumbLd(crumbs)]}
+      />
+
+      <div className="mx-auto max-w-3xl px-4 py-10">
+        <Breadcrumbs crumbs={crumbs} />
+
+        <article>
+          <h1 className="font-serif text-3xl font-bold text-ink sm:text-4xl">
+            Chi siamo: la redazione di Edilizia 24 Ore
+          </h1>
+
+          <div className="article-body mt-6">
+            <p>
+              Edilizia 24 Ore è un magazine online indipendente dedicato al mondo delle costruzioni
+              in Italia: bonus edilizi e fiscalità, normative tecnica e urbanistica, mercato
+              immobiliare, innovazione di prodotto e di cantiere, sostenibilità. Il nostro obiettivo
+              è semplice: dare a professionisti e privati informazioni precise, verificabili e
+              subito utilizzabili.
+            </p>
+            <p>
+              Ogni articolo nasce da fonti ufficiali — gazzette ufficiali, provvedimenti
+              dell'Agenzia delle Entrate, dati Istat e ANCE, schede tecniche dei produttori — e
+              viene scritto o revisionato da un tecnico del settore prima della pubblicazione. Le
+              classifiche Top 10 e Top 5 seguono criteri dichiarati e aggiornati ogni anno, perché
+              la fiducia dei lettori si costruisce con la trasparenza del metodo.
+            </p>
+            <p>
+              Crediamo in un'informazione tecnica che non rinunci alla chiarezza: ogni pezzo apre
+              con la risposta che il lettore sta cercando, approfondisce con dati e contesto, e si
+              chiude con le domande più frequenti. Niente riempitivi, niente copia-incolla dai
+              comunicati stampa.
+            </p>
+          </div>
+
+          <section aria-labelledby="team-heading" className="mt-12">
+            <h2 id="team-heading" className="mb-6 font-serif text-2xl font-bold text-ink">
+              La redazione
+            </h2>
+            <div className="grid gap-5 sm:grid-cols-2">
+              {TEAM.map((m) => (
+                <div key={m.name} className="rounded-md border border-neutral-200 p-5">
+                  <h3 className="font-serif text-lg font-bold text-ink">{m.name}</h3>
+                  <p className="text-sm font-medium text-brand">{m.role}</p>
+                  <p className="mt-2 text-sm leading-relaxed text-neutral-600">{m.bio}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section aria-labelledby="linea-heading" className="mt-12">
+            <h2 id="linea-heading" className="mb-4 font-serif text-2xl font-bold text-ink">
+              Linea editoriale e correzioni
+            </h2>
+            <div className="article-body">
+              <p>
+                Le norme edilizie cambiano in fretta: quando un decreto o una circolare modifica
+                quanto scritto, aggiorniamo l'articolo e indichiamo la data di ultimo aggiornamento
+                in apertura. Se individui un errore, scrivici dalla pagina contatti: le correzioni
+                sostanziali vengono segnalate in calce al pezzo.
+              </p>
+            </div>
+          </section>
+        </article>
+      </div>
+    </>
+  );
+}
