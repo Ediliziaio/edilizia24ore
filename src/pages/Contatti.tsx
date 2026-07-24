@@ -4,8 +4,42 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { SITE_URL } from '@/data/types';
 import { breadcrumbLd } from '@/lib/seo';
 
+/**
+ * CONTACT ENDPOINT — punto di integrazione backend (come NewsletterBox).
+ * Lascia '' per la sola validazione client (nessun invio reale). Per andare in
+ * produzione incolla un endpoint che accetti POST (es. Formspree):
+ *   const CONTACT_ENDPOINT = 'https://formspree.io/f/<form-id>';
+ */
+const CONTACT_ENDPOINT = '';
+
 export default function Contatti() {
   const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState('');
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setError('');
+    // No endpoint configured yet: keep the previous client-only behaviour.
+    if (!CONTACT_ENDPOINT) {
+      setSent(true);
+      return;
+    }
+    setSending(true);
+    try {
+      const res = await fetch(CONTACT_ENDPOINT, {
+        method: 'POST',
+        headers: { Accept: 'application/json' },
+        body: new FormData(e.currentTarget),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      setSent(true);
+    } catch {
+      setError('Invio non riuscito. Riprova o scrivici a redazione@edilizia24ore.it.');
+    } finally {
+      setSending(false);
+    }
+  }
 
   const crumbs = [
     { name: 'Home', path: '/' },
@@ -53,8 +87,16 @@ export default function Contatti() {
                 <dd>advertising@edilizia24ore.it</dd>
               </div>
               <div>
-                <dt className="font-semibold">Sede</dt>
-                <dd>Via delle Costruzioni 24, 20121 Milano (MI)</dd>
+                <dt className="font-semibold">Editore</dt>
+                <dd>Domus Group S.r.l. — P.IVA 13132010961</dd>
+              </div>
+              <div>
+                <dt className="font-semibold">Sede legale</dt>
+                <dd>Via Aurelio Saffi 29, 20123 Milano (MI)</dd>
+              </div>
+              <div>
+                <dt className="font-semibold">PEC</dt>
+                <dd>domusgroupsrl@legalmail.it</dd>
               </div>
             </dl>
           </section>
@@ -68,21 +110,17 @@ export default function Contatti() {
                 Messaggio inviato. La redazione ti risponderà al più presto.
               </p>
             ) : (
-              <form
-                className="mt-4 space-y-3"
-                onSubmit={(e) => {
-                  e.preventDefault();
-                  setSent(true);
-                }}
-              >
+              <form className="mt-4 space-y-3" onSubmit={handleSubmit}>
                 <div>
                   <label htmlFor="contatto-nome" className="mb-1 block text-sm font-medium text-ink">
                     Nome e cognome
                   </label>
                   <input
                     id="contatto-nome"
+                    name="nome"
                     type="text"
                     required
+                    autoComplete="name"
                     className="w-full rounded-md border border-neutral-300 px-3 py-2 text-sm outline-none focus:border-brand focus:ring-2 focus:ring-brand/20"
                   />
                 </div>
@@ -92,8 +130,10 @@ export default function Contatti() {
                   </label>
                   <input
                     id="contatto-email"
+                    name="email"
                     type="email"
                     required
+                    autoComplete="email"
                     className="w-full rounded-md border border-neutral-300 px-3 py-2 text-sm outline-none focus:border-brand focus:ring-2 focus:ring-brand/20"
                   />
                 </div>
@@ -103,16 +143,23 @@ export default function Contatti() {
                   </label>
                   <textarea
                     id="contatto-msg"
+                    name="messaggio"
                     required
                     rows={4}
                     className="w-full rounded-md border border-neutral-300 px-3 py-2 text-sm outline-none focus:border-brand focus:ring-2 focus:ring-brand/20"
                   />
                 </div>
+                {error && (
+                  <p className="text-sm font-medium text-brand" role="alert">
+                    {error}
+                  </p>
+                )}
                 <button
                   type="submit"
-                  className="rounded-md bg-brand px-5 py-2.5 text-sm font-bold uppercase tracking-wider text-white hover:bg-brand-dark"
+                  disabled={sending}
+                  className="rounded-md bg-brand px-5 py-2.5 text-sm font-bold uppercase tracking-wider text-white hover:bg-brand-dark disabled:opacity-60"
                 >
-                  Invia messaggio
+                  {sending ? 'Invio…' : 'Invia messaggio'}
                 </button>
               </form>
             )}
