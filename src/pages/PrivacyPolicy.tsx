@@ -42,14 +42,15 @@ export default function PrivacyPolicy() {
               1. Titolare del trattamento
             </h2>
             <p>
-              Il titolare del trattamento è <strong>[Ragione Sociale]</strong>, P.IVA{' '}
-              <strong>[P.IVA]</strong>, con sede legale in <strong>[Indirizzo sede legale]</strong>,
-              contattabile all'indirizzo email <strong>[email titolare]</strong>.
+              Il titolare del trattamento è <strong>Domus Group S.r.l.</strong>, P.IVA{' '}
+              <strong>13132010961</strong>, con sede legale in{' '}
+              <strong>Via Aurelio Saffi 29, 20123 Milano (MI)</strong>, contattabile all'indirizzo
+              PEC <strong>domusgroupsrl@legalmail.it</strong>.
             </p>
             <p>
-              Responsabile della protezione dei dati (DPO), se nominato:{' '}
-              <strong>[Nome DPO / email DPO]</strong>. In assenza di nomina, le richieste possono
-              essere inviate direttamente al titolare ai recapiti sopra indicati.
+              Il titolare non ha nominato un Responsabile della protezione dei dati (DPO): le
+              richieste in materia di protezione dei dati possono essere inviate direttamente al
+              titolare ai recapiti sopra indicati.
             </p>
 
             <h2 className="pt-4 font-serif text-xl font-bold text-ink sm:text-2xl">
@@ -167,8 +168,9 @@ export default function PrivacyPolicy() {
               protezione dei dati personali (www.garanteprivacy.it).
             </p>
             <p>
-              Per esercitare i diritti scrivi a <strong>[email titolare]</strong>: risponderemo entro
-              un mese dalla richiesta, termine prorogabile nei casi previsti dal GDPR.
+              Per esercitare i diritti scrivi a <strong>domusgroupsrl@legalmail.it</strong>:
+              risponderemo entro un mese dalla richiesta, termine prorogabile nei casi previsti dal
+              GDPR.
             </p>
 
             <h2 className="pt-4 font-serif text-xl font-bold text-ink sm:text-2xl">

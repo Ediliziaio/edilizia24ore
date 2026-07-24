@@ -80,8 +80,8 @@ export default function Footer() {
           </ul>
         </nav>
 
-        <nav aria-label="Informazioni sulla testata">
-          <h2 className="mb-4 font-serif text-lg font-bold text-white">La testata</h2>
+        <nav aria-label="Informazioni sul progetto editoriale">
+          <h2 className="mb-4 font-serif text-lg font-bold text-white">Il progetto</h2>
           <ul className="space-y-2 text-sm">
             <li>
               <Link to="/chi-siamo" className="hover:text-brand">
@@ -133,9 +133,16 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-neutral-800">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-neutral-500 sm:flex-row">
-          <p>© 2026 Edilizia 24 Ore — Tutti i diritti riservati.</p>
-          <p>Testata giornalistica online. Direttore responsabile: Redazione Edilizia 24 Ore.</p>
+        <div className="mx-auto max-w-7xl px-4 py-5 text-xs leading-relaxed text-neutral-500">
+          <p>
+            Edilizia 24 Ore è un progetto editoriale di <strong>Domus Group S.r.l.</strong> · Sede
+            legale: Via Aurelio Saffi 29, 20123 Milano (MI) · P.IVA 13132010961 · Capitale sociale
+            20.000,00 € · PEC: domusgroupsrl@legalmail.it
+          </p>
+          <p className="mt-1">
+            © 2026 Edilizia 24 Ore — Tutti i diritti riservati. Contenuti a scopo informativo, non
+            costituiscono consulenza professionale.
+          </p>
         </div>
       </div>
     </footer>

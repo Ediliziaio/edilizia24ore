@@ -37,7 +37,7 @@ export default function TerminiCondizioni() {
               I presenti termini regolano l'accesso e l'utilizzo del sito Edilizia 24 Ore
               (di seguito «il Sito»), magazine online dedicato a costruzioni, bonus edilizi,
               normative, mercato immobiliare e innovazione di settore, pubblicato da{' '}
-              <strong>[Ragione Sociale]</strong>, P.IVA <strong>[P.IVA]</strong>. Utilizzando il Sito
+              <strong>Domus Group S.r.l.</strong>, P.IVA <strong>13132010961</strong>. Utilizzando il Sito
               l'utente accetta integralmente i presenti termini; in caso contrario è invitato a non
               proseguire nella navigazione.
             </p>
@@ -103,7 +103,7 @@ export default function TerminiCondizioni() {
             <p>
               I presenti termini sono regolati dalla legge italiana. Per ogni controversia relativa
               all'uso del Sito è competente il foro del consumatore, ove applicabile; in tutti gli
-              altri casi, il foro di <strong>[Sede foro competente]</strong>, salvo diversa
+              altri casi, il foro di <strong>Milano</strong>, salvo diversa
               previsione inderogabile di legge.
             </p>
           </div>
