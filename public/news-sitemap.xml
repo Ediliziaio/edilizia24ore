@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <!-- No articles published within the last 48 hours relative to build time
+       (2026-07-24T16:43:28.286Z). Including the 5 most recent articles instead
+       (demo data: article dates and build time do not align). -->
   <url>
-    <loc>https://www.edilizia24ore.it/articolo/news-fotovoltaico-plug-play-balcone/</loc>
+    <loc>https://www.edilizia24ore.it/articolo/news-fotovoltaico-plug-play-balcone</loc>
     <news:news>
       <news:publication>
         <news:name>Edilizia 24 Ore</news:name>
@@ -10,6 +13,50 @@
       </news:publication>
       <news:publication_date>2026-07-20T06:00:00.000Z</news:publication_date>
       <news:title>Fotovoltaico da balcone plug &amp; play: regole e prezzi 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.edilizia24ore.it/articolo/news-direttiva-case-green-recepimento-italia</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Edilizia 24 Ore</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-18T06:30:00.000Z</news:publication_date>
+      <news:title>Direttiva Case Green 2026: recepimento Italia, cosa cambia</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.edilizia24ore.it/articolo/news-mercato-immobiliare-prezzi-2026</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Edilizia 24 Ore</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-16T06:00:00.000Z</news:publication_date>
+      <news:title>Prezzi case 2026: crescono ancora, la mappa città per città</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.edilizia24ore.it/articolo/top-10-scale-interne-moderne</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Edilizia 24 Ore</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-16T06:00:00.000Z</news:publication_date>
+      <news:title>Scale Interne Moderne: Top 10 del 2026, Tipologie e Prezzi</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.edilizia24ore.it/articolo/news-sicurezza-cantieri-decreto-2026</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Edilizia 24 Ore</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-14T07:00:00.000Z</news:publication_date>
+      <news:title>Sicurezza cantieri 2026: il nuovo decreto, cosa cambia</news:title>
     </news:news>
   </url>
 </urlset>

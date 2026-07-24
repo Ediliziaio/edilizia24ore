@@ -1,12 +1,18 @@
 /**
- * Feed & Google News sitemap generator for EDILIZIA 24 ORE.
+ * Feed, Google News sitemap & sitemap.xml generator for EDILIZIA 24 ORE.
  *
  * Runs at the END of `npm run build` (after scripts/prerender.mjs):
  *   1. Reads article metadata from src/data/articles/*.ts using the TypeScript
  *      compiler API (typescript is already a devDependency — no extra deps).
- *   2. Generates public/news-sitemap.xml (Google News spec) and
- *      public/feed.xml (RSS 2.0, Italian).
- *   3. Copies both into dist/ so they ship with the static build.
+ *   2. Derives tags from article keywords (same rule as src/lib/tags.ts:
+ *      keyword used by >= 2 articles, top 20 by frequency).
+ *   3. Generates, in public/ and dist/ (so they ship with the static build):
+ *        - sitemap.xml       (all indexable routes, with real <lastmod>)
+ *        - news-sitemap.xml   (Google News spec)
+ *        - feed.xml           (RSS 2.0, Italian)
+ *
+ * URL policy: article/category/tag/page URLs have NO trailing slash, matching
+ * the per-route <link rel="canonical"> tags and vercel.json trailingSlash:false.
  *
  * News sitemap window: articles published in the last 48 hours relative to
  * build time. If none match (build-time dates vs article dates may not align
@@ -31,10 +37,12 @@ const SITE_DESCRIPTION =
 /* Article metadata extraction (TypeScript AST, regex-free)            */
 /* ------------------------------------------------------------------ */
 
-/** Extract a plain JS value from a TS expression node (string literals + nested objects). */
+/** Extract a plain JS value from a TS expression node (strings, numbers, objects, arrays). */
 function nodeValue(node) {
   if (!node) return undefined;
   if (ts.isStringLiteralLike(node)) return node.text;
+  if (ts.isNumericLiteral(node)) return Number(node.text);
+  if (ts.isArrayLiteralExpression(node)) return node.elements.map(nodeValue);
   if (ts.isObjectLiteralExpression(node)) {
     const obj = {};
     for (const prop of node.properties) {
@@ -44,7 +52,6 @@ function nodeValue(node) {
     }
     return obj;
   }
-  if (ts.isNumericLiteral(node)) return Number(node.text);
   return undefined;
 }
 
@@ -75,6 +82,40 @@ function loadArticles() {
 }
 
 /* ------------------------------------------------------------------ */
+/* Tags (mirror of src/lib/tags.ts: keyword used by >= 2 articles, top 20) */
+/* ------------------------------------------------------------------ */
+
+const TAG_MIN_ARTICLES = 2;
+const TAG_LIMIT = 20;
+
+function slugifyTag(value) {
+  return value
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+function buildTags(articles) {
+  const freq = new Map();
+  for (const article of articles) {
+    const seen = new Set();
+    for (const keyword of article.keywords ?? []) {
+      const key = String(keyword).trim().toLowerCase();
+      if (!key || seen.has(key)) continue;
+      seen.add(key);
+      freq.set(key, (freq.get(key) ?? 0) + 1);
+    }
+  }
+  return [...freq.entries()]
+    .filter(([, count]) => count >= TAG_MIN_ARTICLES)
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'it'))
+    .slice(0, TAG_LIMIT)
+    .map(([key]) => slugifyTag(key));
+}
+
+/* ------------------------------------------------------------------ */
 /* XML helpers                                                          */
 /* ------------------------------------------------------------------ */
 
@@ -88,6 +129,63 @@ const escapeXml = (s) =>
 
 const CATEGORY_LABELS = { 'top-10': 'Top 10', 'top-5': 'Top 5', news: 'News' };
 const categoryLabel = (a) => a.subcategory || CATEGORY_LABELS[a.category] || a.category;
+
+/* ------------------------------------------------------------------ */
+/* sitemap.xml (all indexable routes, with real lastmod)               */
+/* ------------------------------------------------------------------ */
+
+function buildSitemap(articles, tagSlugs) {
+  // Site-wide freshness = most recent article update.
+  const latest = articles
+    .map((a) => new Date(a.updatedAt || a.publishedAt).getTime())
+    .reduce((max, t) => (t > max ? t : max), 0);
+  const latestIso = new Date(latest).toISOString();
+
+  const urls = [];
+  const push = (loc, { lastmod, changefreq, priority } = {}) =>
+    urls.push({ loc, lastmod, changefreq, priority });
+
+  push('/', { lastmod: latestIso, changefreq: 'daily', priority: '1.0' });
+  push('/categoria/news', { lastmod: latestIso, changefreq: 'daily', priority: '0.9' });
+  for (const slug of ['bonus-fisco', 'normative', 'mercato', 'innovazione', 'sostenibilita']) {
+    push(`/categoria/${slug}`, { lastmod: latestIso, changefreq: 'daily', priority: '0.8' });
+  }
+  push('/guide', { lastmod: latestIso, changefreq: 'weekly', priority: '0.8' });
+
+  for (const a of articles) {
+    push(`/articolo/${a.slug}`, {
+      lastmod: new Date(a.updatedAt || a.publishedAt).toISOString(),
+      changefreq: 'monthly',
+      priority: '0.7',
+    });
+  }
+
+  for (const slug of tagSlugs) {
+    push(`/tag/${slug}`, { lastmod: latestIso, changefreq: 'weekly', priority: '0.6' });
+  }
+
+  push('/chi-siamo', { priority: '0.4' });
+  push('/contatti', { priority: '0.4' });
+  push('/privacy-policy', { changefreq: 'yearly', priority: '0.3' });
+  push('/cookie-policy', { changefreq: 'yearly', priority: '0.3' });
+  push('/termini-e-condizioni', { changefreq: 'yearly', priority: '0.3' });
+
+  const body = urls
+    .map(({ loc, lastmod, changefreq, priority }) => {
+      const parts = [`<loc>${SITE_URL}${escapeXml(loc)}</loc>`];
+      if (lastmod) parts.push(`<lastmod>${lastmod}</lastmod>`);
+      if (changefreq) parts.push(`<changefreq>${changefreq}</changefreq>`);
+      if (priority) parts.push(`<priority>${priority}</priority>`);
+      return `  <url>${parts.join('')}</url>`;
+    })
+    .join('\n');
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${body}
+</urlset>
+`;
+}
 
 /* ------------------------------------------------------------------ */
 /* Google News sitemap                                                  */
@@ -113,7 +211,7 @@ function buildNewsSitemap(articles, buildTime) {
   const items = selected
     .map(
       (a) => `  <url>
-    <loc>${SITE_URL}/articolo/${escapeXml(a.slug)}/</loc>
+    <loc>${SITE_URL}/articolo/${escapeXml(a.slug)}</loc>
     <news:news>
       <news:publication>
         <news:name>${escapeXml(SITE_NAME)}</news:name>
@@ -143,10 +241,10 @@ function buildRss(articles, buildTime) {
     .map(
       (a) => `    <item>
       <title>${escapeXml(a.title)}</title>
-      <link>${SITE_URL}/articolo/${escapeXml(a.slug)}/</link>
+      <link>${SITE_URL}/articolo/${escapeXml(a.slug)}</link>
       <description>${escapeXml(a.excerpt)}</description>
       <pubDate>${new Date(a.publishedAt).toUTCString()}</pubDate>
-      <guid isPermaLink="true">${SITE_URL}/articolo/${escapeXml(a.slug)}/</guid>
+      <guid isPermaLink="true">${SITE_URL}/articolo/${escapeXml(a.slug)}</guid>
       <category>${escapeXml(categoryLabel(a))}</category>
       <author>${escapeXml(a.author?.name || SITE_NAME)}</author>
     </item>`,
@@ -174,25 +272,35 @@ ${items}
 
 const buildTime = new Date();
 const articles = loadArticles();
-console.log(`Loaded ${articles.length} articles from src/data/articles`);
+const tagSlugs = buildTags(articles);
+console.log(
+  `Loaded ${articles.length} articles from src/data/articles (${tagSlugs.length} tags)`,
+);
 
 mkdirSync(publicDir, { recursive: true });
+const sitemapXml = buildSitemap(articles, tagSlugs);
 const newsXml = buildNewsSitemap(articles, buildTime);
 const rssXml = buildRss(articles, buildTime);
 
-writeFileSync(path.join(publicDir, 'news-sitemap.xml'), newsXml);
-writeFileSync(path.join(publicDir, 'feed.xml'), rssXml);
-console.log('  ✓ public/news-sitemap.xml');
-console.log('  ✓ public/feed.xml');
+const outputs = [
+  ['sitemap.xml', sitemapXml],
+  ['news-sitemap.xml', newsXml],
+  ['feed.xml', rssXml],
+];
 
-// Copy into dist/ so the files ship with the static build (script runs AFTER prerender).
-if (readdirSyncSafe(distDir)) {
-  copyFileSync(path.join(publicDir, 'news-sitemap.xml'), path.join(distDir, 'news-sitemap.xml'));
-  copyFileSync(path.join(publicDir, 'feed.xml'), path.join(distDir, 'feed.xml'));
-  console.log('  ✓ dist/news-sitemap.xml');
-  console.log('  ✓ dist/feed.xml');
-} else {
-  console.warn('  ! dist/ not found — skipped copying feeds (run after vite build + prerender)');
+const distExists = readdirSyncSafe(distDir);
+for (const [name, xml] of outputs) {
+  writeFileSync(path.join(publicDir, name), xml);
+  console.log(`  ✓ public/${name}`);
+  // Copy into dist/ so the files ship with the static build (script runs AFTER
+  // vite build has already copied a now-stale public/ into dist/).
+  if (distExists) {
+    copyFileSync(path.join(publicDir, name), path.join(distDir, name));
+    console.log(`  ✓ dist/${name}`);
+  }
+}
+if (!distExists) {
+  console.warn('  ! dist/ not found — skipped copying into dist (run after vite build + prerender)');
 }
 
 function readdirSyncSafe(dir) {
