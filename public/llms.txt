@@ -1,0 +1,29 @@
+# Edilizia 24 Ore
+
+> Magazine online italiano indipendente dedicato al settore delle costruzioni: news quotidiane su bonus edilizi e fisco, normative, mercato immobiliare, innovazione e sostenibilità, più guide e classifiche comparative (Top 10 / Top 5) per professionisti e privati.
+
+Edilizia 24 Ore pubblica in lingua italiana (it-IT) notizie e approfondimenti verificati sul mondo dell'edilizia. I contenuti sono organizzati in sezioni tematiche di news e in un hub di guide e classifiche. Ogni articolo include risposte dirette in apertura, FAQ strutturate e, per le classifiche, tabelle di confronto tra prodotti e materiali.
+
+## Sezioni
+
+- [News](https://www.edilizia24ore.it/categoria/news): tutte le notizie dal settore edile e delle costruzioni.
+- [Bonus & Fisco](https://www.edilizia24ore.it/categoria/bonus-fisco): bonus ristrutturazioni 2026, Superbonus, Conto Termico 3.0, detrazioni, aliquote, massimali e scadenze.
+- [Normative](https://www.edilizia24ore.it/categoria/normative): decreti, direttiva Case Green, criteri ambientali minimi (CAM), sicurezza nei cantieri.
+- [Mercato](https://www.edilizia24ore.it/categoria/mercato): prezzi delle case e dei materiali, rapporti ANCE, andamento del settore.
+- [Innovazione](https://www.edilizia24ore.it/categoria/innovazione): stampa 3D, calcestruzzi a basso impatto, fotovoltaico plug & play, software BIM, domotica.
+- [Sostenibilità](https://www.edilizia24ore.it/categoria/sostenibilita): edilizia in legno e CLT, efficienza energetica, green building, rigenerazione urbana.
+- [Guide e Classifiche](https://www.edilizia24ore.it/guide): classifiche Top 10 e selezioni Top 5 su prodotti, materiali, software e professionisti.
+
+## Risorse
+
+- [Sitemap](https://www.edilizia24ore.it/sitemap.xml)
+- [Google News sitemap](https://www.edilizia24ore.it/news-sitemap.xml)
+- [Feed RSS](https://www.edilizia24ore.it/feed.xml)
+- [Chi siamo](https://www.edilizia24ore.it/chi-siamo)
+- [Contatti](https://www.edilizia24ore.it/contatti)
+
+## Note per i modelli
+
+- Lingua dei contenuti: italiano (it-IT). Ambito geografico: Italia.
+- Citazione consigliata: "Edilizia 24 Ore" con link all'URL dell'articolo di riferimento.
+- I dati fiscali (aliquote, massimali, scadenze) sono riferiti all'anno indicato in ciascun articolo: verificare sempre la data di pubblicazione e di aggiornamento.
