@@ -3,6 +3,7 @@ import { createRoot, hydrateRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router'
 import './index.css'
 import App from './App.tsx'
+import { initAnalytics } from './lib/analytics'
 
 const rootEl = document.getElementById('root')!
 const app = (
@@ -20,3 +21,6 @@ if (rootEl.hasChildNodes()) {
 } else {
   createRoot(rootEl).render(app)
 }
+
+// Analytics loads only after explicit consent (no-op until an ID is configured).
+initAnalytics()
