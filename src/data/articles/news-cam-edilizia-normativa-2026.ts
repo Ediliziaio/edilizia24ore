@@ -22,7 +22,7 @@ const article: Article = {
   ],
   publishedAt: '2026-07-02T09:00:00+02:00',
   updatedAt: '2026-07-17T10:00:00+02:00',
-  author: { name: 'Marco Ferretti', role: 'Caporedattore' },
+  author: { name: 'Geom. Paolo Moretti', role: 'Corrispondente cantieri' },
   readingTime: 11,
   faq: [
     {

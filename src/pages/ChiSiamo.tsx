@@ -1,14 +1,14 @@
+import { Link } from 'react-router';
 import SeoHead from '@/components/SeoHead';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { SITE_URL } from '@/data/types';
+import { authors, authorUrl } from '@/data/authors';
 import { breadcrumbLd } from '@/lib/seo';
 
-const TEAM = [
-  { name: 'Ing. Marco Ferrante', role: 'Redattore tecnico impianti', bio: 'Ingegnere meccanico, si occupa di pompe di calore, caldaie e impianti HVAC dal 2012.' },
-  { name: 'Dott.ssa Elena Riva', role: 'Esperta fiscalità immobiliare', bio: 'Dottore commercialista, segue bonus edilizi e agevolazioni fiscali dalla prima edizione del Superbonus.' },
-  { name: 'Arch. Giulia Bianchi', role: 'Redattrice architettura e design', bio: 'Architetto, cura le sezioni dedicate a materiali, finiture e tendenze del progetto.' },
-  { name: 'Geom. Paolo Moretti', role: 'Corrispondente cantieri', bio: 'Geometra con vent\u2019anni di direzione lavori, racconta il cantiere dal punto di vista operativo.' },
-];
+// The roster lives in src/data/authors.ts so that bylines, author pages and
+// this page can never drift apart: an article signed by someone missing here
+// is unverifiable authorship, a hard E-E-A-T failure on YMYL topics.
+const TEAM = authors;
 
 export default function ChiSiamo() {
   const crumbs = [
@@ -62,10 +62,22 @@ export default function ChiSiamo() {
             </h2>
             <div className="grid gap-5 sm:grid-cols-2">
               {TEAM.map((m) => (
-                <div key={m.name} className="rounded-md border border-neutral-200 p-5">
-                  <h3 className="font-serif text-lg font-bold text-ink">{m.name}</h3>
-                  <p className="text-sm font-medium text-brand">{m.role}</p>
+                <div key={m.slug} className="rounded-md border border-neutral-200 p-5">
+                  <h3 className="font-serif text-lg font-bold text-ink">
+                    <Link to={authorUrl(m)} className="hover:text-brand">
+                      {m.name}
+                    </Link>
+                  </h3>
+                  <p className="text-sm font-medium text-brand">
+                    {m.role} · {m.credential}
+                  </p>
                   <p className="mt-2 text-sm leading-relaxed text-neutral-600">{m.bio}</p>
+                  <Link
+                    to={authorUrl(m)}
+                    className="mt-3 inline-block text-sm font-semibold text-brand hover:underline"
+                  >
+                    Articoli firmati →
+                  </Link>
                 </div>
               ))}
             </div>
@@ -81,6 +93,10 @@ export default function ChiSiamo() {
                 quanto scritto, aggiorniamo l'articolo e indichiamo la data di ultimo aggiornamento
                 in apertura. Se individui un errore, scrivici dalla pagina contatti: le correzioni
                 sostanziali vengono segnalate in calce al pezzo.
+              </p>
+              <p>
+                Edilizia 24 Ore è edito da Domus Group S.r.l. I contenuti hanno finalità informativa
+                e non sostituiscono la consulenza di un professionista abilitato.
               </p>
             </div>
           </section>

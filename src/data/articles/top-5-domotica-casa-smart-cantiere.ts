@@ -21,7 +21,7 @@ const article: Article = {
   ],
   publishedAt: '2026-07-13T09:00:00+02:00',
   updatedAt: '2026-07-18T10:00:00+02:00',
-  author: { name: 'Alessandro Riva', role: 'Esperto impianti' },
+  author: { name: 'Ing. Marco Ferrante', role: 'Redattore tecnico impianti' },
   readingTime: 10,
   faq: [
     {

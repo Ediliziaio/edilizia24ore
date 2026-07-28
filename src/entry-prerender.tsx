@@ -3,6 +3,7 @@ import { StaticRouter } from 'react-router';
 import App from './App';
 import { articles } from '@/data/articles';
 import { tags } from '@/lib/tags';
+import { authors } from '@/data/authors';
 import { takeSsrSeoProps, seoPropsToHeadHtml } from '@/components/SeoHead';
 
 export interface PrerenderResult {
@@ -29,6 +30,7 @@ export function getPrerenderRoutes(): string[] {
     ...articles.map((a) => `/articolo/${a.slug}`),
     '/cerca',
     ...tags.map((t) => `/tag/${t.slug}`),
+    ...authors.map((a) => `/autore/${a.slug}`),
     '/chi-siamo',
     '/contatti',
     '/privacy-policy',

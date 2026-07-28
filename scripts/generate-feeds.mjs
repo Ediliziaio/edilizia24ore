@@ -134,6 +134,9 @@ const categoryLabel = (a) => a.subcategory || CATEGORY_LABELS[a.category] || a.c
 /* sitemap.xml (all indexable routes, with real lastmod)               */
 /* ------------------------------------------------------------------ */
 
+/** Editorial roster slugs — must mirror src/data/authors.ts. */
+const AUTHOR_SLUGS = ['marco-ferrante', 'elena-riva', 'giulia-bianchi', 'paolo-moretti'];
+
 function buildSitemap(articles, tagSlugs) {
   // Site-wide freshness = most recent article update.
   const latest = articles
@@ -164,7 +167,11 @@ function buildSitemap(articles, tagSlugs) {
     push(`/tag/${slug}`, { lastmod: latestIso, changefreq: 'weekly', priority: '0.6' });
   }
 
-  push('/chi-siamo', { priority: '0.4' });
+  for (const slug of AUTHOR_SLUGS) {
+    push(`/autore/${slug}`, { lastmod: latestIso, changefreq: 'weekly', priority: '0.5' });
+  }
+
+  push('/chi-siamo', { lastmod: latestIso, priority: '0.5' });
   push('/contatti', { priority: '0.4' });
   push('/privacy-policy', { changefreq: 'yearly', priority: '0.3' });
   push('/cookie-policy', { changefreq: 'yearly', priority: '0.3' });
@@ -192,20 +199,18 @@ ${body}
 /* ------------------------------------------------------------------ */
 
 function buildNewsSitemap(articles, buildTime) {
+  // Google News spec: ONLY articles published in the last 48 hours. Padding the
+  // file with older posts produces "article too old" errors in Search Console,
+  // so when nothing is recent we ship a valid, empty urlset.
   const windowMs = 48 * 60 * 60 * 1000;
   const now = buildTime.getTime();
-  let selected = articles.filter((a) => {
+  const selected = articles.filter((a) => {
     const t = new Date(a.publishedAt).getTime();
     return t <= now && now - t <= windowMs;
   });
 
-  let fallbackComment = '';
   if (selected.length === 0) {
-    selected = articles.slice(0, 5);
-    fallbackComment =
-      `  <!-- No articles published within the last 48 hours relative to build time\n` +
-      `       (${buildTime.toISOString()}). Including the 5 most recent articles instead\n` +
-      `       (demo data: article dates and build time do not align). -->\n`;
+    console.warn('  ! news-sitemap: nessun articolo pubblicato nelle ultime 48h (urlset vuoto)');
   }
 
   const items = selected
@@ -227,7 +232,7 @@ function buildNewsSitemap(articles, buildTime) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-${fallbackComment}${items}
+${items}
 </urlset>
 `;
 }

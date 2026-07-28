@@ -22,7 +22,7 @@ const article: Article = {
   ],
   publishedAt: '2026-07-16T08:00:00+02:00',
   updatedAt: '2026-07-16T08:00:00+02:00',
-  author: { name: 'Sara Bellini', role: 'Redattrice' },
+  author: { name: 'Geom. Paolo Moretti', role: 'Corrispondente cantieri' },
   readingTime: 10,
   faq: [
     {

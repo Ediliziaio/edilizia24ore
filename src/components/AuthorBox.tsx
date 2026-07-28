@@ -1,11 +1,18 @@
+import { Link } from 'react-router';
+import { authorUrl, getAuthorByName } from '@/data/authors';
+
 interface Props {
   name: string;
   role: string;
 }
 
 export default function AuthorBox({ name, role }: Props) {
+  // Bylines resolve to the editorial roster (src/data/authors.ts): real bio and
+  // a link to the author page, so the byline maps to a verifiable person.
+  const author = getAuthorByName(name);
+
   const initials = name
-    .replace(/^(Ing\.|Dott\.|Dott\.ssa|Arch\.|Geom\.|Avv\.)\s*/i, '')
+    .replace(/^(Ing\.|Dott\.ssa|Dott\.|Arch\.|Geom\.|Avv\.)\s*/i, '')
     .split(' ')
     .map((w) => w[0])
     .slice(0, 2)
@@ -24,12 +31,32 @@ export default function AuthorBox({ name, role }: Props) {
         {initials}
       </div>
       <div>
-        <h2 className="font-serif text-lg font-bold text-ink">{name}</h2>
-        <p className="text-sm font-medium text-brand">{role}</p>
-        <p className="mt-2 text-sm leading-relaxed text-neutral-600">
-          Giornalista della redazione di Edilizia 24 Ore. Ogni articolo è verificato prima della
-          pubblicazione e aggiornato in caso di novità normative o di mercato.
+        <h2 className="font-serif text-lg font-bold text-ink">
+          {author ? (
+            <Link to={authorUrl(author)} className="hover:text-brand">
+              {name}
+            </Link>
+          ) : (
+            name
+          )}
+        </h2>
+        <p className="text-sm font-medium text-brand">
+          {role}
+          {author ? ` · ${author.credential}` : ''}
         </p>
+        <p className="mt-2 text-sm leading-relaxed text-neutral-600">
+          {author
+            ? author.bio
+            : 'Redazione di Edilizia 24 Ore. Ogni articolo è verificato prima della pubblicazione e aggiornato in caso di novità normative o di mercato.'}
+        </p>
+        {author && (
+          <Link
+            to={authorUrl(author)}
+            className="mt-3 inline-block text-sm font-semibold text-brand hover:underline"
+          >
+            Tutti gli articoli di {author.name} →
+          </Link>
+        )}
       </div>
     </section>
   );

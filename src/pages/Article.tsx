@@ -11,6 +11,7 @@ import AdSlot from '@/components/AdSlot';
 import NewsletterBox from '@/components/NewsletterBox';
 import ComparisonTable from '@/components/ComparisonTable';
 import { articles, getArticleBySlug, getRelated } from '@/data/articles';
+import { authorUrl, getAuthorByName } from '@/data/authors';
 import { CATEGORY_LABELS } from '@/data/types';
 import {
   absoluteUrl,
@@ -86,6 +87,7 @@ export default function Article() {
   if (!article) return <Navigate to="/404" replace />;
 
   const h1 = article.h1 ?? article.title;
+  const authorEntity = getAuthorByName(article.author.name);
   const crumbs = [
     { name: 'Home', path: '/' },
     articleParentCrumb(article),
@@ -129,7 +131,13 @@ export default function Article() {
                   <span>
                     Di{' '}
                     <strong className="text-ink" itemProp="author">
-                      {article.author.name}
+                      {authorEntity ? (
+                        <Link to={authorUrl(authorEntity)} className="hover:text-brand">
+                          {article.author.name}
+                        </Link>
+                      ) : (
+                        article.author.name
+                      )}
                     </strong>
                     , {article.author.role}
                   </span>

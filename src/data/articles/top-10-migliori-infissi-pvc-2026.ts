@@ -21,7 +21,7 @@ const article: Article = {
   ],
   publishedAt: '2026-06-11T08:30:00+02:00',
   updatedAt: '2026-06-16T10:00:00+02:00',
-  author: { name: 'Marco Ferretti', role: 'Caporedattore' },
+  author: { name: 'Arch. Giulia Bianchi', role: 'Redattrice architettura e design' },
   readingTime: 10,
   faq: [
     {

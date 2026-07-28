@@ -22,7 +22,7 @@ const article: Article = {
   ],
   publishedAt: '2026-06-17T09:00:00+02:00',
   updatedAt: '2026-07-15T10:00:00+02:00',
-  author: { name: 'Marco Ferretti', role: 'Caporedattore' },
+  author: { name: 'Dott.ssa Elena Riva', role: 'Esperta fiscalità immobiliare' },
   readingTime: 10,
   faq: [
     {

@@ -21,7 +21,7 @@ const article: Article = {
   ],
   publishedAt: '2026-06-24T08:00:00+02:00',
   updatedAt: '2026-06-29T09:00:00+02:00',
-  author: { name: 'Giulia Colombo', role: 'Giornalista edilizia' },
+  author: { name: 'Arch. Giulia Bianchi', role: 'Redattrice architettura e design' },
   readingTime: 10,
   faq: [
     {

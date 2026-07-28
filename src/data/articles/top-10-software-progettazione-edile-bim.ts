@@ -21,7 +21,7 @@ const article: Article = {
   ],
   publishedAt: '2026-06-19T08:00:00+02:00',
   updatedAt: '2026-06-23T10:00:00+02:00',
-  author: { name: 'Sara Bellini', role: 'Redattrice' },
+  author: { name: 'Arch. Giulia Bianchi', role: 'Redattrice architettura e design' },
   readingTime: 11,
   faq: [
     {

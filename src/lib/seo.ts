@@ -1,3 +1,4 @@
+import { authorUrl, getAuthorByName } from '@/data/authors';
 import {
   SITE_URL,
   CATEGORY_LABELS,
@@ -85,10 +86,34 @@ export const publisherOrganizationLd = {
     width: 512,
     height: 512,
   },
+  // Publisher identity: resolves the site to a real, accountable legal entity.
+  publishingPrinciples: `${SITE_URL}/chi-siamo`,
+  parentOrganization: {
+    '@type': 'Organization',
+    name: 'Domus Group S.r.l.',
+    vatID: 'IT13132010961',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Via Aurelio Saffi 29',
+      postalCode: '20123',
+      addressLocality: 'Milano',
+      addressRegion: 'MI',
+      addressCountry: 'IT',
+    },
+  },
+  contactPoint: {
+    '@type': 'ContactPoint',
+    contactType: 'editorial',
+    email: 'redazione@edilizia24ore.it',
+    availableLanguage: ['it'],
+  },
 };
 
 export function newsArticleLd(article: Article): Record<string, unknown> {
   const url = absoluteUrl(articleUrl(article));
+  // Evergreen rankings are not news: NewsArticle only for dated reporting.
+  const type = article.category === 'news' ? 'NewsArticle' : 'Article';
+  const author = getAuthorByName(article.author.name);
   const image = article.image
     ? [
         {
@@ -102,16 +127,25 @@ export function newsArticleLd(article: Article): Record<string, unknown> {
     : [`${SITE_URL}/logo.png`];
   return {
     '@context': 'https://schema.org',
-    '@type': 'NewsArticle',
+    '@type': type,
     '@id': `${url}#article`,
     headline: article.title,
     description: article.excerpt,
     image,
-    author: {
-      '@type': 'Person',
-      name: article.author.name,
-      jobTitle: article.author.role,
-    },
+    author: author
+      ? {
+          '@type': 'Person',
+          '@id': `${absoluteUrl(authorUrl(author))}#person`,
+          name: author.name,
+          url: absoluteUrl(authorUrl(author)),
+          jobTitle: author.role,
+          knowsAbout: author.expertise,
+        }
+      : {
+          '@type': 'Person',
+          name: article.author.name,
+          jobTitle: article.author.role,
+        },
     publisher: publisherOrganizationLd,
     datePublished: article.publishedAt,
     dateModified: article.updatedAt,
