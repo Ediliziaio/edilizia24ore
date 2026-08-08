@@ -87,6 +87,9 @@ function loadArticles() {
 
 const TAG_MIN_ARTICLES = 2;
 const TAG_LIMIT = 20;
+/** Mirrors TAG_INDEX_MIN_ARTICLES in src/lib/tags.ts: thin tags are noindex,
+ *  so they must not be advertised in sitemap.xml (conflicting signals). */
+const TAG_INDEX_MIN_ARTICLES = 3;
 
 function slugifyTag(value) {
   return value
@@ -112,6 +115,7 @@ function buildTags(articles) {
     .filter(([, count]) => count >= TAG_MIN_ARTICLES)
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'it'))
     .slice(0, TAG_LIMIT)
+    .filter(([, count]) => count >= TAG_INDEX_MIN_ARTICLES)
     .map(([key]) => slugifyTag(key));
 }
 

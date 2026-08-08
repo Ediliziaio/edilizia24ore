@@ -21,6 +21,21 @@ export interface TagInfo {
 export const TAG_MIN_ARTICLES = 2;
 export const TAG_LIMIT = 20;
 
+/**
+ * Indexation gate for tag archives.
+ *
+ * A tag listing 2 articles is a near-duplicate of the category page that
+ * already contains them: it adds no unique value, competes for the same
+ * queries and burns crawl budget on a low-authority domain ("Discovered –
+ * currently not indexed"). Thin tags stay browsable but are noindex,follow
+ * and are kept out of sitemap.xml.
+ */
+export const TAG_INDEX_MIN_ARTICLES = 3;
+
+export function isTagIndexable(tag: Pick<TagInfo, 'count'>): boolean {
+  return tag.count >= TAG_INDEX_MIN_ARTICLES;
+}
+
 const normalizeKeyword = (value: string): string => value.trim().toLowerCase();
 
 /** URL-safe slug for a tag (lowercase, accents stripped, dashes). */

@@ -1,5 +1,6 @@
 import { Link } from 'react-router';
 import { articles } from '@/data/articles';
+import { authors, authorUrl } from '@/data/authors';
 import { articleUrl } from '@/lib/seo';
 import { resetConsent } from '@/lib/consent';
 
@@ -81,8 +82,17 @@ export default function Footer() {
         </nav>
 
         <nav aria-label="Informazioni sul progetto editoriale">
-          <h2 className="mb-4 font-serif text-lg font-bold text-white">Il progetto</h2>
+          <h2 className="mb-4 font-serif text-lg font-bold text-white">La redazione</h2>
           <ul className="space-y-2 text-sm">
+            {/* Author pages linked site-wide: the byline entities need a crawl
+                path from every page, not just from the articles they signed. */}
+            {authors.map((a) => (
+              <li key={a.slug}>
+                <Link to={authorUrl(a)} className="hover:text-brand">
+                  {a.name}
+                </Link>
+              </li>
+            ))}
             <li>
               <Link to="/chi-siamo" className="hover:text-brand">
                 Chi siamo — la redazione

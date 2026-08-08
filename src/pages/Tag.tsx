@@ -7,6 +7,7 @@ import {
   getArticlesByTag,
   getRelatedTags,
   getTagBySlug,
+  isTagIndexable,
   tags,
   tagUrl,
 } from '@/lib/tags';
@@ -81,6 +82,13 @@ function TagPage({ slug }: { slug: string }) {
         description={`Tutti gli articoli di Edilizia 24 Ore sul tema "${info.label}": news, guide pratiche e classifiche aggiornate per professionisti e privati.`}
         canonical={absoluteUrl(tagUrl(info))}
         keywords={[info.key, 'edilizia', 'costruzioni']}
+        // Thin archives (< 3 articles) duplicate the category page: keep them
+        // crawlable for link discovery, out of the index.
+        robots={
+          isTagIndexable(info)
+            ? 'index, follow, max-image-preview:large, max-snippet:-1'
+            : 'noindex, follow'
+        }
         jsonLd={jsonLd}
       />
 
