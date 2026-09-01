@@ -99,6 +99,11 @@ export default function Footer() {
               </Link>
             </li>
             <li>
+              <Link to="/metodologia" className="hover:text-brand">
+                Metodologia delle classifiche
+              </Link>
+            </li>
+            <li>
               <Link to="/contatti" className="hover:text-brand">
                 Contatti e ufficio stampa
               </Link>

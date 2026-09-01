@@ -65,7 +65,7 @@ export interface Article {
 export const SITE_NAME = 'Edilizia 24 Ore';
 export const SITE_URL = 'https://www.edilizia24ore.it';
 export const SITE_DESCRIPTION =
-  "Il portale dell'edilizia italiana: news quotidiane su bonus edilizi, normative, mercato immobiliare, innovazione e sostenibilità, più guide e classifiche per professionisti e privati.";
+  "Classifiche e confronti verificabili per l'edilizia: 16 guide comparative con tabelle, prezzi indicativi e criteri dichiarati su pompe di calore, infissi, isolanti e impianti — più le news su bonus e normative.";
 
 export const CATEGORY_LABELS: Record<ArticleCategory, string> = {
   'top-10': 'Top 10',

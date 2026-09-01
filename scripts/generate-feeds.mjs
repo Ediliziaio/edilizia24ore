@@ -177,6 +177,7 @@ function buildSitemap(articles, tagSlugs) {
     push(`/autore/${slug}`, { lastmod: latestIso, changefreq: 'weekly', priority: '0.5' });
   }
 
+  push('/metodologia', { lastmod: latestIso, changefreq: 'monthly', priority: '0.6' });
   push('/chi-siamo', { lastmod: latestIso, priority: '0.5' });
   push('/contatti', { priority: '0.4' });
   push('/privacy-policy', { changefreq: 'yearly', priority: '0.3' });

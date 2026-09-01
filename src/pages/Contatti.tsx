@@ -63,7 +63,7 @@ export default function Contatti() {
           <p>
             Per segnalazioni, correzioni, comunicati stampa e proposte di collaborazione puoi
             scrivere alla redazione usando il modulo qui sotto. Rispondiamo in genere entro due
-            giorni lavorativi. Per la pubblicità e le inserzioni sui formati banner della testata,
+            giorni lavorativi. Per la pubblicità e le inserzioni sui formati banner del sito,
             indica nell'oggetto "Pubblicità".
           </p>
         </div>

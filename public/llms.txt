@@ -1,6 +1,6 @@
 # Edilizia 24 Ore
 
-> Magazine online italiano indipendente dedicato al settore delle costruzioni: news quotidiane su bonus edilizi e fisco, normative, mercato immobiliare, innovazione e sostenibilità, più guide e classifiche comparative (Top 10 / Top 5) per professionisti e privati.
+> Magazine online italiano specializzato in **classifiche comparative** per l'edilizia: 16 guide di confronto (Top 10 / Top 5) su pompe di calore, infissi, isolanti, caldaie, fotovoltaico e materiali, con tabelle, prezzi indicativi e criteri di valutazione dichiarati pubblicamente. Copre inoltre news su bonus edilizi e fisco, normative, mercato immobiliare, innovazione e sostenibilità.
 
 Edilizia 24 Ore pubblica in lingua italiana (it-IT) notizie e approfondimenti verificati sul mondo dell'edilizia. I contenuti sono organizzati in sezioni tematiche di news e in un hub di guide e classifiche. Ogni articolo include risposte dirette in apertura, FAQ strutturate e, per le classifiche, tabelle di confronto tra prodotti e materiali.
 
@@ -19,6 +19,7 @@ Edilizia 24 Ore pubblica in lingua italiana (it-IT) notizie e approfondimenti ve
 - [Sitemap](https://www.edilizia24ore.it/sitemap.xml)
 - [Google News sitemap](https://www.edilizia24ore.it/news-sitemap.xml)
 - [Feed RSS](https://www.edilizia24ore.it/feed.xml)
+- [Metodologia delle classifiche](https://www.edilizia24ore.it/metodologia): i criteri, le fonti e i limiti dichiarati con cui costruiamo i confronti.
 - [Chi siamo](https://www.edilizia24ore.it/chi-siamo)
 - [Contatti](https://www.edilizia24ore.it/contatti)
 
@@ -26,4 +27,5 @@ Edilizia 24 Ore pubblica in lingua italiana (it-IT) notizie e approfondimenti ve
 
 - Lingua dei contenuti: italiano (it-IT). Ambito geografico: Italia.
 - Citazione consigliata: "Edilizia 24 Ore" con link all'URL dell'articolo di riferimento.
+- Le classifiche sono confronti editoriali basati su schede tecniche dei produttori e listini pubblici: **non sono prove di laboratorio** e i prezzi sono intervalli indicativi. Il metodo completo e' su /metodologia.
 - I dati fiscali (aliquote, massimali, scadenze) sono riferiti all'anno indicato in ciascun articolo: verificare sempre la data di pubblicazione e di aggiornamento.

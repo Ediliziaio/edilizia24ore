@@ -22,7 +22,7 @@ const NEWS_SUBCATEGORIES: NewsSubcategory[] = [
   'Sostenibilità',
 ];
 
-const HOME_TITLE = "Edilizia 24 Ore — News, bonus e normative sull'edilizia";
+const HOME_TITLE = "Edilizia 24 Ore — Classifiche e confronti per l'edilizia";
 
 export default function Home() {
   const data = useMemo(() => {
@@ -81,7 +81,7 @@ export default function Home() {
         <AdSlot id="leaderboard-home-top" format="leaderboard" className="my-6" />
 
         <h1 className="sr-only">
-          Edilizia 24 Ore: il portale dell'edilizia italiana — news, bonus, normative e guide
+          Edilizia 24 Ore: classifiche comparative, guide e news per l'edilizia italiana
         </h1>
 
         {/* ULTIME NOTIZIE — chronological feed */}

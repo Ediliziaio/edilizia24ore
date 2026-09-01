@@ -20,6 +20,7 @@ import {
   breadcrumbLd,
   extractRankedList,
   faqPageLd,
+  itemListLd,
   formatDateIT,
   headingId,
   newsArticleLd,
@@ -75,6 +76,7 @@ export default function Article() {
     return [
       newsArticleLd(article),
       faqPageLd(article),
+      itemListLd(article),
       breadcrumbLd(crumbs),
     ].filter(Boolean) as Record<string, unknown>[];
   }, [article]);

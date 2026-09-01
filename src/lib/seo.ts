@@ -160,6 +160,42 @@ export function newsArticleLd(article: Article): Record<string, unknown> {
   };
 }
 
+/**
+ * Ranked-list schema for the Top-10 / Top-5 comparisons.
+ *
+ * Makes the ranking machine-readable: the position, the entry name and, when a
+ * comparison table exists, the criteria each entry was judged on. This is the
+ * site's own comparative work, so it is declared as an ItemList rather than as
+ * Product/Review markup, which would imply first-hand testing we do not claim.
+ */
+export function itemListLd(article: Article): Record<string, unknown> | null {
+  if (article.category !== 'top-10' && article.category !== 'top-5') return null;
+  // The comparison table is the reliable source: its first column holds the
+  // ranked entries. Fall back to the inline numbered list when there is no
+  // table (only a couple of articles use that older format).
+  const fromTable = article.table?.rows.map((r) => r[0]).filter(Boolean) ?? [];
+  const items = fromTable.length ? fromTable : extractRankedList(article);
+  if (!items.length) return null;
+  const url = absoluteUrl(articleUrl(article));
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    '@id': `${url}#classifica`,
+    name: article.table?.caption ?? article.title,
+    description: article.excerpt,
+    itemListOrder: 'https://schema.org/ItemListOrderDescending',
+    numberOfItems: items.length,
+    inLanguage: 'it-IT',
+    mainEntityOfPage: { '@id': url },
+    ...(article.table ? { about: article.table.columns.slice(1).join(', ') } : {}),
+    itemListElement: items.map((name, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name,
+    })),
+  };
+}
+
 export function faqPageLd(article: Article): Record<string, unknown> | null {
   if (!article.faq?.length) return null;
   return {

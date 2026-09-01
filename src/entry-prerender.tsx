@@ -31,6 +31,7 @@ export function getPrerenderRoutes(): string[] {
     '/cerca',
     ...tags.map((t) => `/tag/${t.slug}`),
     ...authors.map((a) => `/autore/${a.slug}`),
+    '/metodologia',
     '/chi-siamo',
     '/contatti',
     '/privacy-policy',
