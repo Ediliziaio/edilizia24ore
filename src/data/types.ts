@@ -65,7 +65,7 @@ export interface Article {
 export const SITE_NAME = 'Edilizia 24 Ore';
 export const SITE_URL = 'https://www.edilizia24ore.it';
 export const SITE_DESCRIPTION =
-  "L'attualità quotidiana delle costruzioni italiane: bonus e normative in aggiornamento, andamento del mercato immobiliare e dei materiali, sicurezza nei cantieri e innovazione, con il contesto tecnico per capire cosa cambia davvero.";
+  "Bonus edilizi e fiscalità della casa: detrazioni 50% e 36%, ecobonus, Conto Termico e sismabonus con requisiti, massimali e scadenze — e quali interventi e prodotti danno davvero diritto all'agevolazione.";
 
 export const CATEGORY_LABELS: Record<ArticleCategory, string> = {
   'top-10': 'Top 10',

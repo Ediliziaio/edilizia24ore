@@ -54,11 +54,11 @@ export default function ChiSiamo() {
 
           <div className="article-body mt-6">
             <p>
-              Edilizia 24 Ore è un magazine online indipendente dedicato al mondo delle costruzioni
-              in Italia: bonus edilizi e fiscalità, normative tecnica e urbanistica, mercato
-              immobiliare, innovazione di prodotto e di cantiere, sostenibilità. Il nostro obiettivo
-              è semplice: dare a professionisti e privati informazioni precise, verificabili e
-              subito utilizzabili.
+              Edilizia 24 Ore è un magazine online indipendente dedicato ai bonus edilizi e alla
+              fiscalità della casa: detrazioni, ecobonus, Conto Termico e sismabonus spiegati con
+              requisiti, massimali e scadenze. Anche le guide di confronto sui prodotti nascono da
+              lì: servono a capire quali interventi e quali soluzioni danno davvero diritto
+              all'agevolazione.
             </p>
             <p>
               Ogni articolo parte da fonti verificabili e citate: gazzette ufficiali, provvedimenti

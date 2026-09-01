@@ -81,7 +81,7 @@ export default function Home() {
         <AdSlot id="leaderboard-home-top" format="leaderboard" className="my-6" />
 
         <h1 className="sr-only">
-          Edilizia 24 Ore: classifiche comparative, guide e news per l'edilizia italiana
+          Edilizia 24 Ore: bonus edilizi, detrazioni e fiscalità della casa
         </h1>
 
         {/* ULTIME NOTIZIE — chronological feed */}
