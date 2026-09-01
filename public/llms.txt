@@ -1,8 +1,12 @@
 # Edilizia 24 Ore
 
-> Magazine online italiano specializzato in **classifiche comparative** per l'edilizia: 16 guide di confronto (Top 10 / Top 5) su pompe di calore, infissi, isolanti, caldaie, fotovoltaico e materiali, con tabelle, prezzi indicativi e criteri di valutazione dichiarati pubblicamente. Copre inoltre news su bonus edilizi e fisco, normative, mercato immobiliare, innovazione e sostenibilità.
+> Edilizia 24 Ore e' il sito italiano dedicato ai **bonus edilizi e alla fiscalita' della casa**:
+> Superbonus, bonus ristrutturazioni, ecobonus, sismabonus e bonus mobili spiegati con scadenze,
+> requisiti, massimali di spesa e adempimenti. Le guide di confronto sui prodotti sono pensate in
+> funzione dell'agevolazione: quali interventi e quali prodotti danno diritto alla detrazione.
 
-Edilizia 24 Ore pubblica in lingua italiana (it-IT) notizie e approfondimenti verificati sul mondo dell'edilizia. I contenuti sono organizzati in sezioni tematiche di news e in un hub di guide e classifiche. Ogni articolo include risposte dirette in apertura, FAQ strutturate e, per le classifiche, tabelle di confronto tra prodotti e materiali.
+Lingua: italiano (it-IT). I contenuti normativi e fiscali sono verificati rispetto alla normativa
+vigente alla data indicata in ogni articolo e aggiornati quando il quadro cambia.
 
 ## Sezioni
 
