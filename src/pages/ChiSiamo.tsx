@@ -2,13 +2,32 @@ import { Link } from 'react-router';
 import SeoHead from '@/components/SeoHead';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { SITE_URL } from '@/data/types';
-import { authors, authorUrl } from '@/data/authors';
 import { breadcrumbLd } from '@/lib/seo';
 
-// The roster lives in src/data/authors.ts so that bylines, author pages and
-// this page can never drift apart: an article signed by someone missing here
-// is unverifiable authorship, a hard E-E-A-T failure on YMYL topics.
-const TEAM = authors;
+// No named personas: articles carry a collective byline, so this page
+// describes the process instead of listing people a reader could not verify.
+const DESKS = [
+  {
+    area: 'Bonus e fiscalità',
+    detail:
+      'Aliquote, massimali, requisiti e adempimenti verso Agenzia delle Entrate ed ENEA, sempre riferiti al provvedimento che li istituisce.',
+  },
+  {
+    area: 'Normative e cantiere',
+    detail:
+      'Decreti, recepimenti di direttive europee, criteri ambientali minimi e sicurezza sul lavoro, con le scadenze operative.',
+  },
+  {
+    area: 'Impianti ed energia',
+    detail:
+      'Pompe di calore, caldaie, fotovoltaico e isolamento: dati di targa dichiarati dai costruttori e rendimenti stagionali a confronto.',
+  },
+  {
+    area: 'Materiali e progetto',
+    detail:
+      'Serramenti, rivestimenti, pavimenti e finiture, con prezzi indicativi di mercato e destinazione d’uso.',
+  },
+];
 
 export default function ChiSiamo() {
   const crumbs = [
@@ -57,30 +76,43 @@ export default function ChiSiamo() {
           </div>
 
           <section aria-labelledby="team-heading" className="mt-12">
-            <h2 id="team-heading" className="mb-6 font-serif text-2xl font-bold text-ink">
-              La redazione
+            <h2 id="team-heading" className="mb-4 font-serif text-2xl font-bold text-ink">
+              Chi firma gli articoli
             </h2>
+            <div className="article-body">
+              <p>
+                Gli articoli di Edilizia 24 Ore sono firmati <strong>«Redazione Edilizia 24 Ore»</strong>:
+                sono il risultato di un lavoro collettivo di stesura, verifica e aggiornamento, non
+                dell’opera di un singolo autore. Preferiamo una firma collettiva verificabile a nomi
+                che il lettore non potrebbe controllare.
+              </p>
+              <p>
+                La responsabilità editoriale e legale dei contenuti è di Domus Group S.r.l., i cui
+                dati completi sono in fondo a ogni pagina e nella{' '}
+                <Link to="/contatti" className="font-medium text-brand underline">
+                  pagina contatti
+                </Link>
+                .
+              </p>
+            </div>
+
+            <h3 className="mb-4 mt-8 font-serif text-xl font-bold text-ink">Le aree che seguiamo</h3>
             <div className="grid gap-5 sm:grid-cols-2">
-              {TEAM.map((m) => (
-                <div key={m.slug} className="rounded-md border border-neutral-200 p-5">
-                  <h3 className="font-serif text-lg font-bold text-ink">
-                    <Link to={authorUrl(m)} className="hover:text-brand">
-                      {m.name}
-                    </Link>
-                  </h3>
-                  <p className="text-sm font-medium text-brand">
-                    {m.role} · {m.credential}
-                  </p>
-                  <p className="mt-2 text-sm leading-relaxed text-neutral-600">{m.bio}</p>
-                  <Link
-                    to={authorUrl(m)}
-                    className="mt-3 inline-block text-sm font-semibold text-brand hover:underline"
-                  >
-                    Articoli firmati →
-                  </Link>
+              {DESKS.map((d) => (
+                <div key={d.area} className="rounded-md border border-neutral-200 p-5">
+                  <h4 className="font-serif text-lg font-bold text-ink">{d.area}</h4>
+                  <p className="mt-2 text-sm leading-relaxed text-neutral-600">{d.detail}</p>
                 </div>
               ))}
             </div>
+            <p className="mt-6 text-sm text-neutral-600">
+              Per le classifiche comparative i criteri, le fonti e i limiti del metodo sono
+              dichiarati nella{' '}
+              <Link to="/metodologia" className="font-medium text-brand underline">
+                pagina metodologia
+              </Link>
+              .
+            </p>
           </section>
 
           <section aria-labelledby="linea-heading" className="mt-12">

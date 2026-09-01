@@ -138,9 +138,6 @@ const categoryLabel = (a) => a.subcategory || CATEGORY_LABELS[a.category] || a.c
 /* sitemap.xml (all indexable routes, with real lastmod)               */
 /* ------------------------------------------------------------------ */
 
-/** Editorial roster slugs — must mirror src/data/authors.ts. */
-const AUTHOR_SLUGS = ['tommaso-salvetti', 'federica-anselmi', 'beatrice-ongaro', 'nicola-trevisan'];
-
 function buildSitemap(articles, tagSlugs) {
   // Site-wide freshness = most recent article update.
   const latest = articles
@@ -171,10 +168,6 @@ function buildSitemap(articles, tagSlugs) {
 
   for (const slug of tagSlugs) {
     push(`/tag/${slug}`, { lastmod: latestIso, changefreq: 'weekly', priority: '0.6' });
-  }
-
-  for (const slug of AUTHOR_SLUGS) {
-    push(`/autore/${slug}`, { lastmod: latestIso, changefreq: 'weekly', priority: '0.5' });
   }
 
   push('/metodologia', { lastmod: latestIso, changefreq: 'monthly', priority: '0.6' });

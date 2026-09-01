@@ -11,7 +11,6 @@ import AdSlot from '@/components/AdSlot';
 import NewsletterBox from '@/components/NewsletterBox';
 import ComparisonTable from '@/components/ComparisonTable';
 import { articles, getArticleBySlug, getRelated } from '@/data/articles';
-import { authorUrl, getAuthorByName } from '@/data/authors';
 import { CATEGORY_LABELS } from '@/data/types';
 import {
   absoluteUrl,
@@ -89,7 +88,6 @@ export default function Article() {
   if (!article) return <Navigate to="/404" replace />;
 
   const h1 = article.h1 ?? article.title;
-  const authorEntity = getAuthorByName(article.author.name);
   const crumbs = [
     { name: 'Home', path: '/' },
     articleParentCrumb(article),
@@ -133,15 +131,9 @@ export default function Article() {
                   <span>
                     Di{' '}
                     <strong className="text-ink" itemProp="author">
-                      {authorEntity ? (
-                        <Link to={authorUrl(authorEntity)} className="hover:text-brand">
-                          {article.author.name}
-                        </Link>
-                      ) : (
-                        article.author.name
-                      )}
+                      {article.author.name}
                     </strong>
-                    , {article.author.role}
+                    {article.author.role ? `, ${article.author.role}` : ''}
                   </span>
                   <span aria-hidden="true">·</span>
                   <span>
@@ -247,7 +239,7 @@ export default function Article() {
               <span id="faq-heading-anchor" aria-hidden="true" />
               <FaqAccordion faq={article.faq} />
 
-              <AuthorBox name={article.author.name} role={article.author.role} />
+              <AuthorBox name={article.author.name} />
             </article>
 
             {/* Related articles */}

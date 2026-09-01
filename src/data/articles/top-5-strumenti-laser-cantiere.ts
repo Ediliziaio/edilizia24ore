@@ -21,7 +21,7 @@ const article: Article = {
   ],
   publishedAt: '2026-06-24T09:00:00+02:00',
   updatedAt: '2026-07-13T10:00:00+02:00',
-  author: { name: 'Geom. Nicola Trevisan', role: 'Corrispondente cantieri' },
+  author: { name: 'Redazione Edilizia 24 Ore', role: '' },
   readingTime: 9,
   faq: [
     {

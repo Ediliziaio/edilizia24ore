@@ -21,7 +21,7 @@ const article: Article = {
   ],
   publishedAt: '2026-07-06T09:00:00+02:00',
   updatedAt: '2026-07-16T10:00:00+02:00',
-  author: { name: 'Arch. Beatrice Ongaro', role: 'Redattrice architettura e design' },
+  author: { name: 'Redazione Edilizia 24 Ore', role: '' },
   readingTime: 9,
   faq: [
     {

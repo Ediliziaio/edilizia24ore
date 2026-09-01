@@ -1,62 +1,43 @@
 import { Link } from 'react-router';
-import { authorUrl, getAuthorByName } from '@/data/authors';
 
 interface Props {
   name: string;
-  role: string;
 }
 
-export default function AuthorBox({ name, role }: Props) {
-  // Bylines resolve to the editorial roster (src/data/authors.ts): real bio and
-  // a link to the author page, so the byline maps to a verifiable person.
-  const author = getAuthorByName(name);
-
-  const initials = name
-    .replace(/^(Ing\.|Dott\.ssa|Dott\.|Arch\.|Geom\.|Avv\.)\s*/i, '')
-    .split(' ')
-    .map((w) => w[0])
-    .slice(0, 2)
-    .join('')
-    .toUpperCase();
-
+/**
+ * Editorial accountability box.
+ *
+ * Articles carry a collective byline, so instead of a fabricated author
+ * profile this points readers at the two pages that actually answer "who
+ * wrote this and how": the newsroom page and the ranking methodology.
+ */
+export default function AuthorBox({ name }: Props) {
   return (
     <section
-      aria-label="Informazioni sull'autore"
+      aria-label="Chi ha scritto questo articolo"
       className="mt-12 flex items-start gap-4 rounded-md border border-neutral-200 bg-neutral-50 p-5"
     >
       <div
         aria-hidden="true"
-        className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-ink font-serif text-lg font-bold text-white"
+        className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-ink font-serif text-sm font-bold text-white"
       >
-        {initials}
+        24
       </div>
       <div>
-        <h2 className="font-serif text-lg font-bold text-ink">
-          {author ? (
-            <Link to={authorUrl(author)} className="hover:text-brand">
-              {name}
-            </Link>
-          ) : (
-            name
-          )}
-        </h2>
-        <p className="text-sm font-medium text-brand">
-          {role}
-          {author ? ` · ${author.credential}` : ''}
-        </p>
+        <h2 className="font-serif text-lg font-bold text-ink">{name}</h2>
         <p className="mt-2 text-sm leading-relaxed text-neutral-600">
-          {author
-            ? author.bio
-            : 'Redazione di Edilizia 24 Ore. Ogni articolo è verificato prima della pubblicazione e aggiornato in caso di novità normative o di mercato.'}
+          Gli articoli sono scritti e verificati dalla redazione a partire da fonti ufficiali,
+          schede tecniche dei produttori e rilevazioni di prezzo, e aggiornati quando cambiano
+          norme o condizioni di mercato.
         </p>
-        {author && (
-          <Link
-            to={authorUrl(author)}
-            className="mt-3 inline-block text-sm font-semibold text-brand hover:underline"
-          >
-            Tutti gli articoli di {author.name} →
+        <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm font-semibold text-brand">
+          <Link to="/chi-siamo" className="hover:underline">
+            Chi siamo e come lavoriamo →
           </Link>
-        )}
+          <Link to="/metodologia" className="hover:underline">
+            Metodologia delle classifiche →
+          </Link>
+        </p>
       </div>
     </section>
   );

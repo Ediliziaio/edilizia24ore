@@ -21,7 +21,7 @@ const article: Article = {
   ],
   publishedAt: '2026-07-03T08:00:00+02:00',
   updatedAt: '2026-07-07T09:30:00+02:00',
-  author: { name: 'Ing. Tommaso Salvetti', role: 'Redattore tecnico impianti' },
+  author: { name: 'Redazione Edilizia 24 Ore', role: '' },
   readingTime: 11,
   faq: [
     {

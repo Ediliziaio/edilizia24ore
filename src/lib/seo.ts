@@ -1,4 +1,3 @@
-import { authorUrl, getAuthorByName } from '@/data/authors';
 import {
   SITE_URL,
   CATEGORY_LABELS,
@@ -113,7 +112,6 @@ export function newsArticleLd(article: Article): Record<string, unknown> {
   const url = absoluteUrl(articleUrl(article));
   // Evergreen rankings are not news: NewsArticle only for dated reporting.
   const type = article.category === 'news' ? 'NewsArticle' : 'Article';
-  const author = getAuthorByName(article.author.name);
   const image = article.image
     ? [
         {
@@ -132,20 +130,9 @@ export function newsArticleLd(article: Article): Record<string, unknown> {
     headline: article.title,
     description: article.excerpt,
     image,
-    author: author
-      ? {
-          '@type': 'Person',
-          '@id': `${absoluteUrl(authorUrl(author))}#person`,
-          name: author.name,
-          url: absoluteUrl(authorUrl(author)),
-          jobTitle: author.role,
-          knowsAbout: author.expertise,
-        }
-      : {
-          '@type': 'Person',
-          name: article.author.name,
-          jobTitle: article.author.role,
-        },
+    // Collective byline: the newsroom is the author, so the author is the
+    // publishing Organization rather than an unverifiable Person.
+    author: { '@id': `${SITE_URL}/#organization` },
     publisher: publisherOrganizationLd,
     datePublished: article.publishedAt,
     dateModified: article.updatedAt,

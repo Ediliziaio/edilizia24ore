@@ -22,7 +22,7 @@ const article: Article = {
   ],
   publishedAt: '2026-06-29T09:00:00+02:00',
   updatedAt: '2026-07-15T11:00:00+02:00',
-  author: { name: 'Dott.ssa Federica Anselmi', role: 'Esperta fiscalità immobiliare' },
+  author: { name: 'Redazione Edilizia 24 Ore', role: '' },
   readingTime: 11,
   faq: [
     {

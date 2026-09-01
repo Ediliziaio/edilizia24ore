@@ -15,23 +15,8 @@
       "permanent": true
     },
     {
-      "source": "/autore/marco-ferrante",
-      "destination": "https://www.edilizia24ore.it/autore/tommaso-salvetti",
-      "permanent": true
-    },
-    {
-      "source": "/autore/elena-riva",
-      "destination": "https://www.edilizia24ore.it/autore/federica-anselmi",
-      "permanent": true
-    },
-    {
-      "source": "/autore/giulia-bianchi",
-      "destination": "https://www.edilizia24ore.it/autore/beatrice-ongaro",
-      "permanent": true
-    },
-    {
-      "source": "/autore/paolo-moretti",
-      "destination": "https://www.edilizia24ore.it/autore/nicola-trevisan",
+      "source": "/autore/:slug*",
+      "destination": "https://www.edilizia24ore.it/chi-siamo",
       "permanent": true
     }
   ],
