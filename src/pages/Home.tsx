@@ -22,7 +22,7 @@ const NEWS_SUBCATEGORIES: NewsSubcategory[] = [
   'Sostenibilità',
 ];
 
-const HOME_TITLE = "Edilizia 24 Ore — News e attualità delle costruzioni";
+const HOME_TITLE = "Edilizia 24 Ore — Bonus edilizi, incentivi e fiscalità della casa";
 
 export default function Home() {
   const data = useMemo(() => {
