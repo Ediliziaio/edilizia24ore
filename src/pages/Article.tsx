@@ -160,7 +160,12 @@ export default function Article() {
                 </p>
               </header>
 
-              <ArticleVisual article={article} priority className="aspect-[16/9] w-full rounded-md" />
+              <ArticleVisual
+                article={article}
+                priority
+                sizes="(min-width: 1024px) 760px, 100vw"
+                className="aspect-[16/9] w-full rounded-md"
+              />
 
               {/* "In breve" answer-first box (AEO/GEO pattern) */}
               <div className="in-breve mt-8" role="note" aria-label="Risposta in breve">

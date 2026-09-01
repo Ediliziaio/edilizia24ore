@@ -8,6 +8,12 @@ interface Props {
    * Everywhere else the image is lazy-loaded.
    */
   priority?: boolean;
+  /**
+   * Rendered width hint for `sizes`. Cards are ~400px wide, the article hero
+   * spans the content column: without this every card would download the
+   * 1200px file (the homepage alone pulled ~2.7 MB of images).
+   */
+  sizes?: string;
 }
 
 const CATEGORY_COLORS: Record<Article['category'], { bg: string; accent: string }> = {
@@ -22,14 +28,29 @@ const CATEGORY_PATTERNS: Record<Article['category'], string> = {
   news: 'M0 10 H20',
 };
 
+/** /images/articoli/<slug>.jpg -> /images/articoli/r/<slug>-<w>.webp */
+function webpSrcSet(src: string): string | undefined {
+  const m = src.match(/^\/images\/articoli\/(.+)\.jpg$/);
+  if (!m) return undefined;
+  return [400, 800, 1200]
+    .map((w) => `/images/articoli/r/${m[1]}-${w}.webp ${w}w`)
+    .join(', ');
+}
+
 /**
  * Editorial hero visual: renders the real article image when available
  * (1200x675, width/height set to avoid CLS), otherwise falls back to a
  * fast CSS/SVG placeholder coloured by category.
  */
-export default function ArticleVisual({ article, className = '', priority = false }: Props) {
+export default function ArticleVisual({
+  article,
+  className = '',
+  priority = false,
+  sizes = '(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw',
+}: Props) {
   if (article.image) {
-    return (
+    const srcSet = webpSrcSet(article.image.src);
+    const img = (
       <img
         src={article.image.src}
         alt={article.image.alt}
@@ -40,6 +61,15 @@ export default function ArticleVisual({ article, className = '', priority = fals
         decoding={priority ? 'sync' : 'async'}
         className={`object-cover ${className}`}
       />
+    );
+    // WebP with the original JPEG as fallback; og:image keeps pointing at the JPEG.
+    return srcSet ? (
+      <picture>
+        <source type="image/webp" srcSet={srcSet} sizes={sizes} />
+        {img}
+      </picture>
+    ) : (
+      img
     );
   }
 

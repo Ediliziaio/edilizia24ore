@@ -6,6 +6,17 @@ interface Props {
   sticky?: boolean;
 }
 
+/**
+ * Ad inventory switch.
+ *
+ * While this is false every slot renders nothing: empty dashed "Pubblicità"
+ * frames (3-4 per page) read as an unfinished site to both readers and quality
+ * algorithms, which is the last thing a domain still fighting for indexation
+ * needs. Set it to true once real creatives or an AdSense unit are wired in —
+ * the ten insertion points across the site stay exactly where they are.
+ */
+const AD_INVENTORY_ENABLED = false;
+
 const FORMATS = {
   leaderboard: { label: 'Leaderboard', w: 970, h: 250 },
   sidebar: { label: 'Half Page', w: 300, h: 600 },
@@ -13,6 +24,8 @@ const FORMATS = {
 } as const;
 
 export default function AdSlot({ id, format, className = '', sticky = false }: Props) {
+  if (!AD_INVENTORY_ENABLED) return null;
+
   const f = FORMATS[format];
   return (
     <aside

@@ -83,8 +83,8 @@ export const publisherOrganizationLd = {
   logo: {
     '@type': 'ImageObject',
     url: `${SITE_URL}/logo.png`,
-    width: 512,
-    height: 512,
+    width: 640,
+    height: 187,
   },
   // Publisher identity: resolves the site to a real, accountable legal entity.
   publishingPrinciples: `${SITE_URL}/chi-siamo`,

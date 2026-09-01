@@ -149,8 +149,8 @@ function buildSitemap(articles, tagSlugs) {
   const latestIso = new Date(latest).toISOString();
 
   const urls = [];
-  const push = (loc, { lastmod, changefreq, priority } = {}) =>
-    urls.push({ loc, lastmod, changefreq, priority });
+  const push = (loc, { lastmod, changefreq, priority, image } = {}) =>
+    urls.push({ loc, lastmod, changefreq, priority, image });
 
   push('/', { lastmod: latestIso, changefreq: 'daily', priority: '1.0' });
   push('/categoria/news', { lastmod: latestIso, changefreq: 'daily', priority: '0.9' });
@@ -164,6 +164,8 @@ function buildSitemap(articles, tagSlugs) {
       lastmod: new Date(a.updatedAt || a.publishedAt).toISOString(),
       changefreq: 'monthly',
       priority: '0.7',
+      // Editorial hero declared for Google Images discovery.
+      image: { loc: `${SITE_URL}/images/articoli/${a.slug}.jpg`, caption: a.title },
     });
   }
 
@@ -182,17 +184,24 @@ function buildSitemap(articles, tagSlugs) {
   push('/termini-e-condizioni', { changefreq: 'yearly', priority: '0.3' });
 
   const body = urls
-    .map(({ loc, lastmod, changefreq, priority }) => {
+    .map(({ loc, lastmod, changefreq, priority, image }) => {
       const parts = [`<loc>${SITE_URL}${escapeXml(loc)}</loc>`];
       if (lastmod) parts.push(`<lastmod>${lastmod}</lastmod>`);
       if (changefreq) parts.push(`<changefreq>${changefreq}</changefreq>`);
       if (priority) parts.push(`<priority>${priority}</priority>`);
+      if (image) {
+        parts.push(
+          `<image:image><image:loc>${escapeXml(image.loc)}</image:loc>` +
+            `<image:caption>${escapeXml(image.caption)}</image:caption></image:image>`,
+        );
+      }
       return `  <url>${parts.join('')}</url>`;
     })
     .join('\n');
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${body}
 </urlset>
 `;
