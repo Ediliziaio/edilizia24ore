@@ -39,7 +39,7 @@ export default function ChiSiamo() {
     <>
       <SeoHead
         title="Chi siamo — la redazione di Edilizia 24 Ore"
-        description="Edilizia 24 Ore è una redazione indipendente di giornalisti e tecnici specializzati in costruzioni, bonus edilizi, normative e mercato immobiliare. Scopri chi siamo e come lavoriamo."
+        description="Chi pubblica Edilizia 24 Ore, come nascono gli articoli e perché la firma è collettiva: fonti utilizzate, linea editoriale, correzioni e responsabilità legale dell’editore."
         canonical={`${SITE_URL}/chi-siamo`}
         jsonLd={[breadcrumbLd(crumbs)]}
       />
@@ -61,11 +61,11 @@ export default function ChiSiamo() {
               subito utilizzabili.
             </p>
             <p>
-              Ogni articolo nasce da fonti ufficiali — gazzette ufficiali, provvedimenti
-              dell'Agenzia delle Entrate, dati Istat e ANCE, schede tecniche dei produttori — e
-              viene scritto o revisionato da un tecnico del settore prima della pubblicazione. Le
+              Ogni articolo parte da fonti verificabili e citate: gazzette ufficiali, provvedimenti
+              dell'Agenzia delle Entrate, dati Istat e ANCE, schede tecniche dei produttori. Le
               classifiche Top 10 e Top 5 seguono criteri dichiarati e aggiornati ogni anno, perché
-              la fiducia dei lettori si costruisce con la trasparenza del metodo.
+              la fiducia dei lettori si costruisce con la trasparenza del metodo, non con le
+              credenziali di chi firma.
             </p>
             <p>
               Crediamo in un'informazione tecnica che non rinunci alla chiarezza: ogni pezzo apre

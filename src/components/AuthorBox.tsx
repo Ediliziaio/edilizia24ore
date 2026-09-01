@@ -26,9 +26,9 @@ export default function AuthorBox({ name }: Props) {
       <div>
         <h2 className="font-serif text-lg font-bold text-ink">{name}</h2>
         <p className="mt-2 text-sm leading-relaxed text-neutral-600">
-          Gli articoli sono scritti e verificati dalla redazione a partire da fonti ufficiali,
-          schede tecniche dei produttori e rilevazioni di prezzo, e aggiornati quando cambiano
-          norme o condizioni di mercato.
+          Gli articoli sono redatti a partire da fonti ufficiali, schede tecniche dei produttori
+          e rilevazioni di prezzo, e aggiornati quando cambiano norme o condizioni di mercato.
+          Le fonti sono citate nel testo.
         </p>
         <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm font-semibold text-brand">
           <Link to="/chi-siamo" className="hover:underline">
