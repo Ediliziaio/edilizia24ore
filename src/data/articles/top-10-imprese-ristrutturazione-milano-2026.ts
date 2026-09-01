@@ -21,7 +21,7 @@ const article: Article = {
   ],
   publishedAt: '2026-06-08T09:00:00+02:00',
   updatedAt: '2026-06-12T11:00:00+02:00',
-  author: { name: 'Geom. Paolo Moretti', role: 'Corrispondente cantieri' },
+  author: { name: 'Geom. Nicola Trevisan', role: 'Corrispondente cantieri' },
   readingTime: 10,
   faq: [
     {
