@@ -6,6 +6,12 @@ import { inspectAttr } from 'kimi-plugin-inspect-react'
 // https://vite.dev/config/
 export default defineConfig(({ command }) => ({
   base: './',
+  define: {
+    // Build day, frozen at compile time. TopBar starts from this on BOTH the
+    // server render and the first client render, so hydration matches exactly;
+    // only then does the visitor's real date replace it (see TopBar.tsx).
+    __BUILD_DAY__: JSON.stringify(new Date().toISOString().slice(0, 10)),
+  },
   plugins: [
     // Dev-only: injects code-path attributes for the editor inspector.
     // Must not run during `vite build` — it bloats prerendered HTML (~35KB/page).
