@@ -38,7 +38,8 @@ const CREATIVES = {
     maxWidth: 1200,
   },
   sidebar: {
-    mobile: { src: '/images/ads/eic-sidebar.jpg', w: 700, h: 583 },
+    // Native Half Page 300x600: displayed 1:1, no upscaling.
+    mobile: { src: '/images/ads/eic-sidebar-300x600.jpg', w: 300, h: 600 },
     desktop: null,
     maxWidth: 300,
   },
