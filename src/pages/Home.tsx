@@ -22,7 +22,7 @@ const NEWS_SUBCATEGORIES: NewsSubcategory[] = [
   'Sostenibilità',
 ];
 
-const HOME_TITLE = "Edilizia 24 Ore — Classifiche e confronti per l'edilizia";
+const HOME_TITLE = "Edilizia 24 Ore — News e attualità delle costruzioni";
 
 export default function Home() {
   const data = useMemo(() => {
