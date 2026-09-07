@@ -30,6 +30,7 @@ export function getPrerenderRoutes(): string[] {
     '/cerca',
     ...tags.map((t) => `/tag/${t.slug}`),
     '/metodologia',
+    '/calcolatore-bonus-edilizi',
     '/chi-siamo',
     '/contatti',
     '/privacy-policy',

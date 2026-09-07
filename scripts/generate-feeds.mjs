@@ -170,6 +170,7 @@ function buildSitemap(articles, tagSlugs) {
     push(`/tag/${slug}`, { lastmod: latestIso, changefreq: 'weekly', priority: '0.6' });
   }
 
+  push('/calcolatore-bonus-edilizi', { lastmod: latestIso, changefreq: 'monthly', priority: '0.8' });
   push('/metodologia', { lastmod: latestIso, changefreq: 'monthly', priority: '0.6' });
   push('/chi-siamo', { lastmod: latestIso, priority: '0.5' });
   push('/contatti', { priority: '0.4' });

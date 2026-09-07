@@ -11,6 +11,7 @@ const NAV_ITEMS = [
   { to: '/categoria/innovazione', label: 'Innovazione' },
   { to: '/categoria/sostenibilita', label: 'Sostenibilità' },
   { to: '/guide', label: 'Guide' },
+  { to: '/calcolatore-bonus-edilizi', label: 'Calcolatore bonus' },
 ];
 
 const SECONDARY_ITEMS = [

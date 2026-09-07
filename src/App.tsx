@@ -19,6 +19,7 @@ import EagerArticle from '@/pages/Article';
 import EagerSearch from '@/pages/Search';
 import EagerTag from '@/pages/Tag';
 import EagerMetodologia from '@/pages/Metodologia';
+import EagerCalcolatoreBonus from '@/pages/CalcolatoreBonus';
 import EagerChiSiamo from '@/pages/ChiSiamo';
 import EagerContatti from '@/pages/Contatti';
 import EagerPrivacyPolicy from '@/pages/PrivacyPolicy';
@@ -34,6 +35,7 @@ const Article: PageComponent = import.meta.env.SSR ? EagerArticle : lazy(() => i
 const Search: PageComponent = import.meta.env.SSR ? EagerSearch : lazy(() => import('@/pages/Search'));
 const Tag: PageComponent = import.meta.env.SSR ? EagerTag : lazy(() => import('@/pages/Tag'));
 const Metodologia: PageComponent = import.meta.env.SSR ? EagerMetodologia : lazy(() => import('@/pages/Metodologia'));
+const CalcolatoreBonus: PageComponent = import.meta.env.SSR ? EagerCalcolatoreBonus : lazy(() => import('@/pages/CalcolatoreBonus'));
 const ChiSiamo: PageComponent = import.meta.env.SSR ? EagerChiSiamo : lazy(() => import('@/pages/ChiSiamo'));
 const Contatti: PageComponent = import.meta.env.SSR ? EagerContatti : lazy(() => import('@/pages/Contatti'));
 const PrivacyPolicy: PageComponent = import.meta.env.SSR ? EagerPrivacyPolicy : lazy(() => import('@/pages/PrivacyPolicy'));
@@ -52,6 +54,7 @@ export default function App() {
         <Route path="/cerca" element={<Search />} />
         <Route path="/tag/:tag" element={<Tag />} />
         <Route path="/metodologia" element={<Metodologia />} />
+        <Route path="/calcolatore-bonus-edilizi" element={<CalcolatoreBonus />} />
         <Route path="/chi-siamo" element={<ChiSiamo />} />
         <Route path="/contatti" element={<Contatti />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
