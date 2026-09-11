@@ -1,32 +1,13 @@
 import { useEffect, useState, type FormEvent } from 'react';
 import { Link } from 'react-router';
+import { CRM_FORM_ID } from '@/data/types';
+import { inviaLead } from '@/lib/eicLead';
 
 /**
- * ---------------------------------------------------------------------------
- * NEWSLETTER ENDPOINT — punto di integrazione backend
- * ---------------------------------------------------------------------------
- * Lascia la stringa VUOTA per la modalità demo (nessun backend): l'iscrizione
- * viene simulata e salvata solo in localStorage (chiave `e24-newsletter`).
- *
- * Per andare in produzione incolla qui l'URL del tuo form endpoint:
- *
- *   • Formspree (più semplice):
- *       const NEWSLETTER_ENDPOINT = 'https://formspree.io/f/<form-id>';
- *     Accetta direttamente il POST JSON { email, ts } usato sotto.
- *
- *   • Brevo (ex Sendinblue):
- *     NON chiamare api.brevo.com dal browser (la API key finirebbe nel bundle).
- *     Crea una piccola serverless function / proxy che riceve { email } e chiama
- *     POST https://api.brevo.com/v3/contacts/doubleOptinConfirmation
- *     (consigliato: attiva il double opt-in) con la chiave lato server.
- *
- *   • Mailchimp:
- *     Usa l'action del form embedded oppure un proxy serverless verso la
- *     Marketing API (stessa regola: niente API key nel client).
- * ---------------------------------------------------------------------------
+ * Le iscrizioni vanno al CRM di Edilizia in Cloud (con la campagna di
+ * provenienza). localStorage serve solo a ricordare al lettore che è già
+ * iscritto: il dato vero sta nel CRM.
  */
-const NEWSLETTER_ENDPOINT = '';
-
 const STORAGE_KEY = 'e24-newsletter';
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
@@ -84,22 +65,14 @@ export default function NewsletterBox() {
     setStatus('loading');
 
     try {
-      if (NEWSLETTER_ENDPOINT) {
-        const res = await fetch(NEWSLETTER_ENDPOINT, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-          body: JSON.stringify({ email: value, ts: new Date().toISOString() }),
-        });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      } else {
-        // Demo mode: nessun backend configurato — simula la latenza di rete.
-        await new Promise((resolve) => setTimeout(resolve, 600));
-      }
+      // Il successo si mostra solo quando il CRM ha accettato l'iscrizione.
+      await inviaLead(CRM_FORM_ID, { email: value, tipo: 'newsletter' });
       persistSubscription(value);
       setStatus('success');
     } catch {
+      // L'email resta nel campo: il lettore può riprovare senza riscriverla.
       setStatus('error');
-      setError("Non siamo riusciti a registrare l'iscrizione. Riprova tra poco.");
+      setError('Invio non riuscito. Riprova tra poco.');
     }
   };
 
@@ -140,8 +113,7 @@ export default function NewsletterBox() {
               <>
                 <p className="font-semibold">Iscrizione registrata!</p>
                 <p className="mt-1">
-                  Ti abbiamo inviato un'email di conferma (double opt-in): clicca il link nel
-                  messaggio per attivare definitivamente l'iscrizione.
+                  Grazie: da ora riceverai la newsletter all'indirizzo che hai indicato.
                 </p>
               </>
             ) : (

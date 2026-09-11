@@ -64,6 +64,8 @@ export interface Article {
 
 export const SITE_NAME = 'Edilizia 24 Ore';
 export const SITE_URL = 'https://www.edilizia24ore.it';
+/** Form del CRM Edilizia in Cloud che riceve contatti e iscrizioni newsletter del sito. */
+export const CRM_FORM_ID = '4e98af91-153c-49ef-a117-a4c7f5ce4c35';
 export const SITE_DESCRIPTION =
   "Bonus edilizi e fiscalità della casa: detrazioni 50% e 36%, ecobonus, Conto Termico e sismabonus con requisiti, massimali e scadenze — e quali interventi e prodotti danno davvero diritto all'agevolazione.";
 

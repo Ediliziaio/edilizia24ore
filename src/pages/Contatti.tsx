@@ -1,17 +1,11 @@
 import { useState } from 'react';
 import SeoHead from '@/components/SeoHead';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { SITE_URL } from '@/data/types';
+import { CRM_FORM_ID, SITE_URL } from '@/data/types';
 import { breadcrumbLd } from '@/lib/seo';
+import { inviaLead } from '@/lib/eicLead';
 
-/**
- * CONTACT ENDPOINT — punto di integrazione backend (come NewsletterBox).
- * Lascia '' per la sola validazione client (nessun invio reale). Per andare in
- * produzione incolla un endpoint che accetti POST (es. Formspree):
- *   const CONTACT_ENDPOINT = 'https://formspree.io/f/<form-id>';
- */
-const CONTACT_ENDPOINT = '';
-
+/** Il modulo manda il messaggio al CRM di Edilizia in Cloud, con la campagna di provenienza. */
 export default function Contatti() {
   const [sent, setSent] = useState(false);
   const [sending, setSending] = useState(false);
@@ -19,23 +13,23 @@ export default function Contatti() {
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    if (sending) return;
     setError('');
-    // No endpoint configured yet: keep the previous client-only behaviour.
-    if (!CONTACT_ENDPOINT) {
-      setSent(true);
-      return;
-    }
+    const dati = new FormData(e.currentTarget);
+    const campo = (nome: string) => String(dati.get(nome) ?? '').trim();
     setSending(true);
     try {
-      const res = await fetch(CONTACT_ENDPOINT, {
-        method: 'POST',
-        headers: { Accept: 'application/json' },
-        body: new FormData(e.currentTarget),
+      await inviaLead(CRM_FORM_ID, {
+        nome: campo('nome'),
+        email: campo('email'),
+        messaggio: campo('messaggio'),
+        tipo: 'contatto',
       });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      // Il messaggio di conferma compare solo dopo che il CRM ha accettato.
       setSent(true);
     } catch {
-      setError('Invio non riuscito. Riprova o scrivici a redazione@edilizia24ore.it.');
+      // Il modulo resta a video con quanto scritto: si può riprovare subito.
+      setError('Invio non riuscito. Riprova tra poco.');
     } finally {
       setSending(false);
     }

@@ -4,6 +4,10 @@ import { BrowserRouter } from 'react-router'
 import './index.css'
 import App from './App.tsx'
 import { initAnalytics } from './lib/analytics'
+import { salvaParametriCampagna } from './lib/eicLead'
+
+// Salva UTM/gclid/fbclid all'atterraggio: il form può essere compilato su un'altra pagina.
+salvaParametriCampagna()
 
 const rootEl = document.getElementById('root')!
 const app = (
