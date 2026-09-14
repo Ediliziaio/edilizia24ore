@@ -113,7 +113,7 @@ const article: Article = {
       heading: "Cosa fanno invece le aziende che stanno tenendo: la generazione vendite B2B entra in azienda",
       paragraphs: [
         "Le imprese che nel 2026 tengono il portafoglio ordini hanno reso l’acquisizione clienti un processo, con responsabili, tempi e numeri.",
-        "«Dopo i bonus non vince chi ha il listino più basso», sostiene Arnold Koci, founder di Clientium e autore de La macchina degli appuntamenti. «Vince chi ha un sistema di acquisizione. Il listino lo copiano in una settimana, il sistema no.»"
+        "«Dopo i bonus non vince chi ha il listino più basso», sostiene [Arnold Koci](https://www.arnoldkoci.com \"sponsored\"), founder di [Clientium](https://www.clientium.it \"sponsored\") e autore de La macchina degli appuntamenti. «Vince chi ha un sistema di acquisizione. Il listino lo copiano in una settimana, il sistema no.»"
       ],
       blocks: [
         {
@@ -163,7 +163,7 @@ const article: Article = {
         },
         {
           type: "p",
-          text: "«Dopo i bonus non vince chi ha il listino più basso», sostiene Arnold Koci, founder di Clientium e autore de La macchina degli appuntamenti. «Vince chi ha un sistema di acquisizione. Il listino lo copiano in una settimana, il sistema no.»"
+          text: "«Dopo i bonus non vince chi ha il listino più basso», sostiene [Arnold Koci](https://www.arnoldkoci.com \"sponsored\"), founder di [Clientium](https://www.clientium.it \"sponsored\") e autore de La macchina degli appuntamenti. «Vince chi ha un sistema di acquisizione. Il listino lo copiano in una settimana, il sistema no.»"
         }
       ]
     },
