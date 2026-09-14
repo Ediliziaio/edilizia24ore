@@ -126,6 +126,10 @@ const articleImages: Record<string, ArticleImage> = {
     src: '/images/articoli/news-rigenerazione-urbana-progetti-2026.jpg',
     alt: 'Ex area industriale italiana in riqualificazione con gru e nuovi edifici',
   },
+  'vendite-b2b-edilizia-2026': {
+    src: '/images/articoli/vendite-b2b-edilizia-2026.jpg',
+    alt: "Finiti i bonus, la domanda non arriva più da sola: cosa cambia nelle vendite B2B dell’edilizia",
+  },
 };
 
 export default articleImages;

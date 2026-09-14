@@ -3,9 +3,18 @@ export interface FaqItem {
   a: string;
 }
 
+/** Blocchi opzionali di una sezione: liste, tabelle e sottotitoli oltre ai paragrafi. */
+export type SectionBlock =
+  | { type: 'p'; text: string }
+  | { type: 'h3'; text: string }
+  | { type: 'list'; ordered?: boolean; items: string[] }
+  | { type: 'table'; headers: string[]; rows: string[][] };
+
 export interface ContentSection {
   heading: string;
   paragraphs: string[];
+  /** se presente, la sezione si rende da questi blocchi (paragraphs resta per estrazioni e ricerca) */
+  blocks?: SectionBlock[];
 }
 
 /**
@@ -58,6 +67,8 @@ export interface Article {
   table?: ComparisonTable;
   /** editorial hero image, attached from articleImages.ts in data/articles/index.ts */
   image?: ArticleImage;
+  /** optional lead paragraphs rendered before the first section */
+  intro?: string[];
   /** body, >= 4000 characters total of paragraph text */
   sections: ContentSection[];
 }

@@ -1,3 +1,4 @@
+import type { SectionBlock } from '@/data/types';
 import { useMemo, type ReactNode } from 'react';
 import { Link, Navigate, useParams } from 'react-router';
 import SeoHead from '@/components/SeoHead';
@@ -26,36 +27,101 @@ import {
 } from '@/lib/seo';
 
 /**
- * Renders paragraph text, converting the inline-link syntax
- * `[anchor text](/internal/path)` into crawlable internal links.
- * Only same-site absolute paths (/articolo/..., /categoria/..., /guide) are
- * supported; anything else is printed as plain text.
+ * Renders paragraph text with a tiny inline syntax:
+ * - `[anchor](/internal/path)` → crawlable internal <Link>
+ * - `[anchor](https://…)` → external link (rel="noopener")
+ * - `[anchor](https://… "sponsored")` → paid link (rel="sponsored noopener")
+ * - `**text**` → <strong>
  */
-const INLINE_LINK_RE = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
+const INLINE_RE = /\[([^\]]+)\]\((\/[^)\s]*|https?:\/\/[^)\s]+)(?:\s+"([^"]*)")?\)|\*\*(.+?)\*\*/g;
+const LINK_CLS =
+  'font-medium text-brand underline decoration-brand/40 underline-offset-2 transition-colors hover:text-ink hover:decoration-ink';
 
 function renderInlineLinks(text: string): ReactNode {
-  INLINE_LINK_RE.lastIndex = 0;
-  if (!INLINE_LINK_RE.test(text)) return text;
-  INLINE_LINK_RE.lastIndex = 0;
+  INLINE_RE.lastIndex = 0;
+  if (!INLINE_RE.test(text)) return text;
+  INLINE_RE.lastIndex = 0;
 
   const parts: ReactNode[] = [];
   let last = 0;
   let key = 0;
-  for (const m of text.matchAll(INLINE_LINK_RE)) {
+  for (const m of text.matchAll(INLINE_RE)) {
     if (m.index > last) parts.push(text.slice(last, m.index));
-    parts.push(
-      <Link
-        key={key++}
-        to={m[2]}
-        className="font-medium text-brand underline decoration-brand/40 underline-offset-2 transition-colors hover:text-ink hover:decoration-ink"
-      >
-        {m[1]}
-      </Link>,
-    );
+    if (m[4] !== undefined) {
+      parts.push(<strong key={key++}>{m[4]}</strong>);
+    } else if (m[2].startsWith('/')) {
+      parts.push(
+        <Link key={key++} to={m[2]} className={LINK_CLS}>
+          {m[1]}
+        </Link>,
+      );
+    } else {
+      parts.push(
+        <a
+          key={key++}
+          href={m[2]}
+          target="_blank"
+          rel={m[3] === 'sponsored' ? 'sponsored noopener' : 'noopener'}
+          className={LINK_CLS}
+        >
+          {m[1]}
+        </a>,
+      );
+    }
     last = m.index + m[0].length;
   }
   if (last < text.length) parts.push(text.slice(last));
   return parts;
+}
+
+function renderSectionBlock(b: SectionBlock, j: number): ReactNode {
+  switch (b.type) {
+    case 'p':
+      return <p key={j}>{renderInlineLinks(b.text)}</p>;
+    case 'h3':
+      return (
+        <h3 key={j} className="mb-2 mt-6 font-serif text-xl font-bold text-ink">
+          {b.text}
+        </h3>
+      );
+    case 'list': {
+      const ListTag = b.ordered ? 'ol' : 'ul';
+      return (
+        <ListTag key={j} className={`my-4 space-y-1.5 pl-6 ${b.ordered ? 'list-decimal' : 'list-disc'}`}>
+          {b.items.map((item, k) => (
+            <li key={k}>{renderInlineLinks(item)}</li>
+          ))}
+        </ListTag>
+      );
+    }
+    case 'table':
+      return (
+        <div key={j} className="my-6 overflow-x-auto">
+          <table className="w-full border-collapse text-[15px]">
+            <thead>
+              <tr>
+                {b.headers.map((h, k) => (
+                  <th key={k} className="border-b-2 border-ink/80 px-3 py-2 text-left align-bottom font-semibold text-ink">
+                    {h}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {b.rows.map((row, k) => (
+                <tr key={k}>
+                  {row.map((cell, c) => (
+                    <td key={c} className="border-b border-neutral-200 px-3 py-2 align-top">
+                      {renderInlineLinks(cell)}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+  }
 }
 
 export default function Article() {
@@ -221,14 +287,17 @@ export default function Article() {
 
               {/* Body sections with in-article ads after 2nd and 5th section */}
               <div className="article-body mt-10" itemProp="articleBody">
+                {article.intro?.map((p, j) => (
+                  <p key={`intro-${j}`}>{renderInlineLinks(p)}</p>
+                ))}
                 {article.sections.map((s, i) => (
                   <section key={i} aria-labelledby={headingId(s.heading, i)} className="mt-10 first:mt-0">
                     <h2 id={headingId(s.heading, i)} className="mb-4 font-serif text-2xl font-bold text-ink">
                       {s.heading}
                     </h2>
-                    {s.paragraphs.map((p, j) => (
-                      <p key={j}>{renderInlineLinks(p)}</p>
-                    ))}
+                    {s.blocks
+                      ? s.blocks.map(renderSectionBlock)
+                      : s.paragraphs.map((p, j) => <p key={j}>{renderInlineLinks(p)}</p>)}
                     {(i === 1 || i === 4) && (
                       <AdSlot id={`in-article-${i === 1 ? '1' : '2'}-${article.slug}`} format="in-article" className="my-8" />
                     )}
