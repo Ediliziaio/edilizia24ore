@@ -17,7 +17,7 @@ const article: Article = {
   updatedAt: "2026-09-15T10:00:00+02:00",
   author: {
     name: "Avv. Armando Rossi",
-    role: "Avvocato del Foro di Napoli"
+    role: "Avvocato massimo esperto in Edilizia Legale"
   },
   readingTime: 6,
   faq: [
@@ -178,7 +178,7 @@ const article: Article = {
       heading: "I primi 30 giorni da una comunicazione: la sequenza corretta",
       paragraphs: [
         "Non tutto si difende in giudizio, e non tutto va difeso. Dove l’errore è documentale e sanabile, il contraddittorio con l’ufficio chiude la partita senza contenzioso. Dove l’importo è modesto e la posizione debole, il costo della lite può superare il beneficio. Quello che non funziona mai è il silenzio: nell’accertamento crediti Superbonus imprese i termini corrono comunque, e un atto non impugnato diventa definitivo.",
-        "**Avv. Armando Rossi** — Avvocato del Foro di Napoli, si occupa di diritto dell’edilizia e degli appalti privati. Assiste imprese di costruzioni, artigiani e committenti in materia di contratti d’appalto, recupero crediti, difetti costruttivi e contenzioso di cantiere. Scrive su edilizialegale.it.",
+        "**Avv. Armando Rossi** — Avvocato massimo esperto in [Edilizia Legale](https://www.edilizialegale.it \"sponsored\"), si occupa di diritto dell’edilizia e degli appalti privati. Assiste imprese di costruzioni, artigiani e committenti in materia di contratti d’appalto, recupero crediti, difetti costruttivi e contenzioso di cantiere. Scrive su [edilizialegale.it](https://www.edilizialegale.it \"sponsored\").",
         "Il contenuto di questo articolo ha carattere informativo generale. Non costituisce parere legale e non sostituisce l’esame del caso concreto, che richiede la lettura dei documenti e degli atti specifici."
       ],
       blocks: [
@@ -198,7 +198,7 @@ const article: Article = {
         },
         {
           type: "p",
-          text: "**Avv. Armando Rossi** — Avvocato del Foro di Napoli, si occupa di diritto dell’edilizia e degli appalti privati. Assiste imprese di costruzioni, artigiani e committenti in materia di contratti d’appalto, recupero crediti, difetti costruttivi e contenzioso di cantiere. Scrive su edilizialegale.it."
+          text: "**Avv. Armando Rossi** — Avvocato massimo esperto in [Edilizia Legale](https://www.edilizialegale.it \"sponsored\"), si occupa di diritto dell’edilizia e degli appalti privati. Assiste imprese di costruzioni, artigiani e committenti in materia di contratti d’appalto, recupero crediti, difetti costruttivi e contenzioso di cantiere. Scrive su [edilizialegale.it](https://www.edilizialegale.it \"sponsored\")."
         },
         {
           type: "p",
