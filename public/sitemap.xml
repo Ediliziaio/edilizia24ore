@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url><loc>https://www.edilizia24ore.it/</loc><lastmod>2026-09-14T12:00:00.000Z</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.edilizia24ore.it/categoria/news</loc><lastmod>2026-09-14T12:00:00.000Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.edilizia24ore.it/categoria/bonus-fisco</loc><lastmod>2026-09-14T12:00:00.000Z</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.edilizia24ore.it/categoria/normative</loc><lastmod>2026-09-14T12:00:00.000Z</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.edilizia24ore.it/categoria/mercato</loc><lastmod>2026-09-14T12:00:00.000Z</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.edilizia24ore.it/categoria/innovazione</loc><lastmod>2026-09-14T12:00:00.000Z</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.edilizia24ore.it/categoria/sostenibilita</loc><lastmod>2026-09-14T12:00:00.000Z</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.edilizia24ore.it/guide</loc><lastmod>2026-09-14T12:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.edilizia24ore.it/</loc><lastmod>2026-09-15T08:00:00.000Z</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.edilizia24ore.it/categoria/news</loc><lastmod>2026-09-15T08:00:00.000Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.edilizia24ore.it/categoria/bonus-fisco</loc><lastmod>2026-09-15T08:00:00.000Z</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.edilizia24ore.it/categoria/normative</loc><lastmod>2026-09-15T08:00:00.000Z</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.edilizia24ore.it/categoria/mercato</loc><lastmod>2026-09-15T08:00:00.000Z</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.edilizia24ore.it/categoria/innovazione</loc><lastmod>2026-09-15T08:00:00.000Z</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.edilizia24ore.it/categoria/sostenibilita</loc><lastmod>2026-09-15T08:00:00.000Z</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.edilizia24ore.it/guide</loc><lastmod>2026-09-15T08:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.edilizia24ore.it/articolo/accertamento-crediti-superbonus-imprese</loc><lastmod>2026-09-15T08:00:00.000Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority><image:image><image:loc>https://www.edilizia24ore.it/images/articoli/accertamento-crediti-superbonus-imprese.jpg</image:loc><image:caption>Accertamenti Superbonus: come si difende l’impresa</image:caption></image:image></url>
   <url><loc>https://www.edilizia24ore.it/articolo/vendite-b2b-edilizia-2026</loc><lastmod>2026-09-14T12:00:00.000Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority><image:image><image:loc>https://www.edilizia24ore.it/images/articoli/vendite-b2b-edilizia-2026.jpg</image:loc><image:caption>Vendite B2B edilizia 2026: cosa cambia dopo i bonus</image:caption></image:image></url>
   <url><loc>https://www.edilizia24ore.it/articolo/news-fotovoltaico-plug-play-balcone</loc><lastmod>2026-07-20T06:00:00.000Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority><image:image><image:loc>https://www.edilizia24ore.it/images/articoli/news-fotovoltaico-plug-play-balcone.jpg</image:loc><image:caption>Fotovoltaico da balcone plug &amp; play: regole e prezzi 2026</image:caption></image:image></url>
   <url><loc>https://www.edilizia24ore.it/articolo/news-direttiva-case-green-recepimento-italia</loc><lastmod>2026-07-18T06:30:00.000Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority><image:image><image:loc>https://www.edilizia24ore.it/images/articoli/news-direttiva-case-green-recepimento-italia.jpg</image:loc><image:caption>Direttiva Case Green 2026: recepimento Italia, cosa cambia</image:caption></image:image></url>
@@ -40,13 +41,13 @@
   <url><loc>https://www.edilizia24ore.it/articolo/top-10-imprese-ristrutturazione-milano-2026</loc><lastmod>2026-06-12T09:00:00.000Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority><image:image><image:loc>https://www.edilizia24ore.it/images/articoli/top-10-imprese-ristrutturazione-milano-2026.jpg</image:loc><image:caption>Top 10 Imprese Ristrutturazione Milano 2026: Prezzi</image:caption></image:image></url>
   <url><loc>https://www.edilizia24ore.it/articolo/top-5-errori-ristrutturazione-bagno</loc><lastmod>2026-07-10T08:00:00.000Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority><image:image><image:loc>https://www.edilizia24ore.it/images/articoli/top-5-errori-ristrutturazione-bagno.jpg</image:loc><image:caption>Ristrutturazione bagno 2026: 5 errori da evitare</image:caption></image:image></url>
   <url><loc>https://www.edilizia24ore.it/articolo/news-rigenerazione-urbana-progetti-2026</loc><lastmod>2026-06-08T06:30:00.000Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority><image:image><image:loc>https://www.edilizia24ore.it/images/articoli/news-rigenerazione-urbana-progetti-2026.jpg</image:loc><image:caption>Rigenerazione urbana 2026: i progetti che cambiano le città</image:caption></image:image></url>
-  <url><loc>https://www.edilizia24ore.it/tag/conto-termico-3-0</loc><lastmod>2026-09-14T12:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.edilizia24ore.it/tag/agenzia-delle-entrate</loc><lastmod>2026-09-14T12:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.edilizia24ore.it/tag/bonus-ristrutturazioni-2026</loc><lastmod>2026-09-14T12:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.edilizia24ore.it/tag/bonus-ristrutturazioni-50</loc><lastmod>2026-09-14T12:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.edilizia24ore.it/calcolatore-bonus-edilizi</loc><lastmod>2026-09-14T12:00:00.000Z</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.edilizia24ore.it/metodologia</loc><lastmod>2026-09-14T12:00:00.000Z</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.edilizia24ore.it/chi-siamo</loc><lastmod>2026-09-14T12:00:00.000Z</lastmod><priority>0.5</priority></url>
+  <url><loc>https://www.edilizia24ore.it/tag/conto-termico-3-0</loc><lastmod>2026-09-15T08:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.edilizia24ore.it/tag/agenzia-delle-entrate</loc><lastmod>2026-09-15T08:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.edilizia24ore.it/tag/bonus-ristrutturazioni-2026</loc><lastmod>2026-09-15T08:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.edilizia24ore.it/tag/bonus-ristrutturazioni-50</loc><lastmod>2026-09-15T08:00:00.000Z</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.edilizia24ore.it/calcolatore-bonus-edilizi</loc><lastmod>2026-09-15T08:00:00.000Z</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.edilizia24ore.it/metodologia</loc><lastmod>2026-09-15T08:00:00.000Z</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.edilizia24ore.it/chi-siamo</loc><lastmod>2026-09-15T08:00:00.000Z</lastmod><priority>0.5</priority></url>
   <url><loc>https://www.edilizia24ore.it/contatti</loc><priority>0.4</priority></url>
   <url><loc>https://www.edilizia24ore.it/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://www.edilizia24ore.it/cookie-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>

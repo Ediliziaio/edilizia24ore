@@ -130,6 +130,10 @@ const articleImages: Record<string, ArticleImage> = {
     src: '/images/articoli/vendite-b2b-edilizia-2026.jpg',
     alt: "Finiti i bonus, la domanda non arriva più da sola: cosa cambia nelle vendite B2B dell’edilizia",
   },
+  'accertamento-crediti-superbonus-imprese': {
+    src: '/images/articoli/accertamento-crediti-superbonus-imprese.jpg',
+    alt: "Accertamenti sui crediti Superbonus: che cosa sta arrivando alle imprese e come ci si difende",
+  },
 };
 
 export default articleImages;

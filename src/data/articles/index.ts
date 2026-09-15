@@ -37,6 +37,7 @@ import newsFotovoltaicoPlugPlayBalcone from './news-fotovoltaico-plug-play-balco
 import newsEdiliziaLegnoCltSostenibilita from './news-edilizia-legno-clt-sostenibilita';
 import newsRigenerazioneUrbanaProgetti2026 from './news-rigenerazione-urbana-progetti-2026';
 import newsVenditeB2bEdilizia2026 from './vendite-b2b-edilizia-2026';
+import newsAccertamentoCreditiSuperbonus from './accertamento-crediti-superbonus-imprese';
 
 const all: Article[] = [
   top10PompeDiCalore2026,
@@ -70,6 +71,7 @@ const all: Article[] = [
   newsEdiliziaLegnoCltSostenibilita,
   newsRigenerazioneUrbanaProgetti2026,
   newsVenditeB2bEdilizia2026,
+  newsAccertamentoCreditiSuperbonus,
 ];
 
 /** All 30 articles, sorted by publication date (most recent first). */
