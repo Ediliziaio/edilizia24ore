@@ -127,8 +127,9 @@ export function newsArticleLd(article: Article): Record<string, unknown> {
     '@context': 'https://schema.org',
     '@type': type,
     '@id': `${url}#article`,
+    ...(article.sponsor ? { sponsor: { "@type": "Organization", name: article.sponsor } } : {}),
     headline: article.title,
-    description: article.excerpt,
+    description: article.seoDescription ?? article.excerpt,
     image,
     // Collective byline: the newsroom is the author, so the author is the
     // publishing Organization rather than an unverifiable Person.
@@ -169,7 +170,7 @@ export function itemListLd(article: Article): Record<string, unknown> | null {
     '@type': 'ItemList',
     '@id': `${url}#classifica`,
     name: article.table?.caption ?? article.title,
-    description: article.excerpt,
+    description: article.seoDescription ?? article.excerpt,
     itemListOrder: 'https://schema.org/ItemListOrderDescending',
     numberOfItems: items.length,
     inLanguage: 'it-IT',

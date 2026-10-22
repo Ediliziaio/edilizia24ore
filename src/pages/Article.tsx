@@ -163,8 +163,8 @@ export default function Article() {
   return (
     <>
       <SeoHead
-        title={article.title}
-        description={article.excerpt}
+        title={article.seoTitle ?? article.title}
+        description={article.seoDescription ?? article.excerpt}
         canonical={absoluteUrl(articleUrl(article))}
         ogType="article"
         {...(article.image

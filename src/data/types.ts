@@ -44,6 +44,9 @@ export type NewsSubcategory =
   | 'Sostenibilità';
 
 export interface Article {
+  /** Search snippets can be concise without shortening the visible headline. */
+  seoTitle?: string;
+  seoDescription?: string;
   /** Paid editorial feature; always visibly disclosed. */
   sponsor?: string | null;
   slug: string;
