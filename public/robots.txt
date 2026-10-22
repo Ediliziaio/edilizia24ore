@@ -3,3 +3,4 @@ Allow: /
 
 Sitemap: https://www.edilizia24ore.it/sitemap.xml
 Sitemap: https://www.edilizia24ore.it/news-sitemap.xml
+Sitemap: https://www.edilizia24ore.it/sitemap-editorial.xml
