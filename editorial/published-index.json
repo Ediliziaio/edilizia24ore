@@ -2,8 +2,8 @@
   {
     "title": "Facciata ventilata: cosa deve comprendere il prezzo al mq",
     "description": "Rivestimento, sottostruttura, isolamento e opere accessorie: come confrontare due preventivi di facciata ventilata senza fermarsi al prezzo delle lastre.",
-    "path": "/guide-pratiche/facciata-ventilata-preventivo-prezzo-completo",
-    "section": "guide-pratiche",
+    "path": "/articolo/facciata-ventilata-preventivo-prezzo-completo",
+    "section": "native",
     "slug": "facciata-ventilata-preventivo-prezzo-completo",
     "publishedAt": "2026-10-22T07:18:01Z",
     "image": "/editorial-assets/facciata-ventilata-preventivo-prezzo-completo.webp",
@@ -11,26 +11,30 @@
     "sourceURLs": [
       "https://www.rockwool.com/it/download-strumenti/come-installare-i-prodotti-rockwool/indicazioni-di-posa-facciate-ventilate/",
       "https://www.rockwool.com/siteassets/rw-it/brochuremanuali/facciate-ventilate/redair---soluzioni-per-facciate-ventilate.pdf"
-    ]
+    ],
+    "previousPath": "/guide-pratiche/facciata-ventilata-preventivo-prezzo-completo",
+    "category": "Innovazione"
   },
   {
     "title": "Renova Solution: una scheda di progetto per la ristrutturazione",
     "description": "Decisioni, referenti e revisioni: come organizzare la richiesta di ristrutturazione e conoscere l’offerta Renova Solution.",
-    "path": "/speciali-aziende/renova-solution-una-scheda-di-progetto-per-la-ristrutturazione",
-    "section": "speciali-aziende",
+    "path": "/articolo/renova-solution-una-scheda-di-progetto-per-la-ristrutturazione",
+    "section": "native",
     "slug": "renova-solution-una-scheda-di-progetto-per-la-ristrutturazione",
     "publishedAt": "2026-10-22T07:18:01Z",
     "image": "/editorial-assets/renova-solution.webp",
     "sponsor": "Renova Solution",
     "sourceURLs": [
       "https://www.renovasolution.it/"
-    ]
+    ],
+    "previousPath": "/speciali-aziende/renova-solution-una-scheda-di-progetto-per-la-ristrutturazione",
+    "category": "Mercato"
   },
   {
     "title": "Innovasol: dal primo contatto a una richiesta di impianto più chiara",
     "description": "Obiettivo, documenti e sopralluogo: un percorso pratico per chiedere a Innovasol una proposta riferita al proprio immobile.",
-    "path": "/speciali-aziende/innovasol-dal-primo-contatto-a-una-richiesta-di-impianto-piu-chiara",
-    "section": "speciali-aziende",
+    "path": "/articolo/innovasol-dal-primo-contatto-a-una-richiesta-di-impianto-piu-chiara",
+    "section": "native",
     "slug": "innovasol-dal-primo-contatto-a-una-richiesta-di-impianto-piu-chiara",
     "publishedAt": "2026-10-22T07:18:01Z",
     "image": "/editorial-assets/innovasol.webp",
@@ -38,13 +42,15 @@
     "sourceURLs": [
       "https://innovasol.it/",
       "https://innovasol.it/preventivo-gratuito/"
-    ]
+    ],
+    "previousPath": "/speciali-aziende/innovasol-dal-primo-contatto-a-una-richiesta-di-impianto-piu-chiara",
+    "category": "Sostenibilità"
   },
   {
     "title": "Green Energy Group e le CER: le domande per iniziare il confronto",
     "description": "Ruolo dei partecipanti, documenti e progetto locale: come avvicinarsi alla proposta sulle comunità energetiche presentata da Green Energy Group.",
-    "path": "/speciali-aziende/green-energy-group-e-le-cer-le-domande-per-iniziare-il-confronto",
-    "section": "speciali-aziende",
+    "path": "/articolo/green-energy-group-e-le-cer-le-domande-per-iniziare-il-confronto",
+    "section": "native",
     "slug": "green-energy-group-e-le-cer-le-domande-per-iniziare-il-confronto",
     "publishedAt": "2026-10-22T07:18:01Z",
     "image": "/editorial-assets/green-energy-group.webp",
@@ -52,6 +58,8 @@
     "sourceURLs": [
       "https://greenenergygroup.it/",
       "https://greenenergygroup.it/comunita-energetica-contributo/"
-    ]
+    ],
+    "previousPath": "/speciali-aziende/green-energy-group-e-le-cer-le-domande-per-iniziare-il-confronto",
+    "category": "Sostenibilità"
   }
 ]

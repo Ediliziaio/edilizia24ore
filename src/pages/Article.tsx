@@ -30,7 +30,7 @@ import {
  * Renders paragraph text with a tiny inline syntax:
  * - `[anchor](/internal/path)` → crawlable internal <Link>
  * - `[anchor](https://…)` → external link (rel="noopener")
- * - `[anchor](https://… "sponsored")` → paid link (rel="sponsored noopener")
+ * - `[anchor](https://… "sponsored")` → paid link (rel="sponsored nofollow noopener noreferrer")
  * - `**text**` → <strong>
  */
 const INLINE_RE = /\[([^\]]+)\]\((\/[^)\s]*|https?:\/\/[^)\s]+)(?:\s+"([^"]*)")?\)|\*\*(.+?)\*\*/g;
@@ -61,7 +61,7 @@ function renderInlineLinks(text: string): ReactNode {
           key={key++}
           href={m[2]}
           target="_blank"
-          rel={m[3] === 'sponsored' ? 'sponsored noopener' : 'noopener'}
+          rel={m[3] === 'sponsored' ? 'sponsored nofollow noopener noreferrer' : 'noopener'}
           className={LINK_CLS}
         >
           {m[1]}
@@ -187,7 +187,8 @@ export default function Article() {
             <article itemScope itemType="https://schema.org/NewsArticle">
               <header className="mb-6">
                 <CategoryBadge category={article.category} subcategory={article.subcategory} size="md" />
-                <h1
+                {article.sponsor && <p className="my-3 font-sans text-xs font-bold uppercase tracking-wide" role="note">Contenuto sponsorizzato · {article.sponsor}</p>}
+            <h1
                   itemProp="headline"
                   className="mt-3 font-serif text-3xl font-bold leading-tight text-ink sm:text-4xl"
                 >

@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-
+  <url>
+    <loc>https://www.edilizia24ore.it/articolo/facciata-ventilata-preventivo-prezzo-completo</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Edilizia 24 Ore</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-22T00:00:00.000Z</news:publication_date>
+      <news:title>Facciata ventilata: cosa deve comprendere il prezzo al mq</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.edilizia24ore.it/articolo/renova-solution-una-scheda-di-progetto-per-la-ristrutturazione</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Edilizia 24 Ore</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-22T00:00:00.000Z</news:publication_date>
+      <news:title>Renova Solution: una scheda di progetto per la ristrutturazione</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.edilizia24ore.it/articolo/innovasol-dal-primo-contatto-a-una-richiesta-di-impianto-piu-chiara</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Edilizia 24 Ore</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-22T00:00:00.000Z</news:publication_date>
+      <news:title>Innovasol: dal primo contatto a una richiesta di impianto più chiara</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.edilizia24ore.it/articolo/green-energy-group-e-le-cer-le-domande-per-iniziare-il-confronto</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Edilizia 24 Ore</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-22T00:00:00.000Z</news:publication_date>
+      <news:title>Green Energy Group e le CER: le domande per iniziare il confronto</news:title>
+    </news:news>
+  </url>
 </urlset>

@@ -1,3 +1,4 @@
+import { editorialNative } from "./editorial-native";
 import type { Article, ArticleCategory } from '../types';
 import articleImages from '../articleImages';
 
@@ -75,7 +76,7 @@ const all: Article[] = [
 ];
 
 /** All 30 articles, sorted by publication date (most recent first). */
-export const articles: Article[] = [...all]
+export const articles: Article[] = [...editorialNative, ...all]
   // Attach the editorial hero image (when one exists) from the merged manifest.
   .map((a) => (articleImages[a.slug] ? { ...a, image: articleImages[a.slug] } : a))
   .sort(

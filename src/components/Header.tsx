@@ -33,7 +33,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b-2 border-brand bg-white shadow-sm">
-      <nav aria-label="Guide e speciali" style={{display:"flex",justifyContent:"center",flexWrap:"wrap",gap:"20px",padding:"8px 16px",background:"#f5f5f2",color:"#263c42",fontSize:"13px",borderBottom:"1px solid #dce1df"}}><a href="/guide-pratiche">Guide pratiche</a><a href="/speciali-aziende">Speciali aziende · contenuti sponsorizzati</a></nav>
+
       <div className="mx-auto max-w-7xl px-4">
         <div
           className={`flex items-center justify-between gap-4 transition-all ${

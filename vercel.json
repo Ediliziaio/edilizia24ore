@@ -4,6 +4,36 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/guide-pratiche/facciata-ventilata-preventivo-prezzo-completo",
+      "destination": "/articolo/facciata-ventilata-preventivo-prezzo-completo",
+      "permanent": true
+    },
+    {
+      "source": "/speciali-aziende/renova-solution-una-scheda-di-progetto-per-la-ristrutturazione",
+      "destination": "/articolo/renova-solution-una-scheda-di-progetto-per-la-ristrutturazione",
+      "permanent": true
+    },
+    {
+      "source": "/speciali-aziende/innovasol-dal-primo-contatto-a-una-richiesta-di-impianto-piu-chiara",
+      "destination": "/articolo/innovasol-dal-primo-contatto-a-una-richiesta-di-impianto-piu-chiara",
+      "permanent": true
+    },
+    {
+      "source": "/speciali-aziende/green-energy-group-e-le-cer-le-domande-per-iniziare-il-confronto",
+      "destination": "/articolo/green-energy-group-e-le-cer-le-domande-per-iniziare-il-confronto",
+      "permanent": true
+    },
+    {
+      "source": "/guide-pratiche",
+      "destination": "/news",
+      "permanent": true
+    },
+    {
+      "source": "/speciali-aziende",
+      "destination": "/news",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
       "has": [
         {

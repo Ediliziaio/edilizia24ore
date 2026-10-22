@@ -15,6 +15,7 @@ export default function ArticleCard({ article, variant = 'default' }: Props) {
     return (
       <article className="group border-b border-neutral-200 py-3 last:border-b-0">
         <Link to={articleUrl(article)} className="block">
+          {article.sponsor && <p className="mb-1 font-sans text-[10px] font-bold uppercase tracking-wide">Contenuto sponsorizzato · {article.sponsor}</p>}
           <h3 className="font-serif text-[15px] font-bold leading-snug text-ink group-hover:text-brand">
             {article.title}
           </h3>
@@ -42,7 +43,8 @@ export default function ArticleCard({ article, variant = 'default' }: Props) {
         <div className="min-w-0">
           <CategoryBadge category={article.category} subcategory={article.subcategory} />
           <Link to={articleUrl(article)} className="mt-2 block">
-            <h3 className="font-serif text-lg font-bold leading-snug text-ink group-hover:text-brand sm:text-xl">
+            {article.sponsor && <p className="mb-1 font-sans text-[10px] font-bold uppercase tracking-wide">Contenuto sponsorizzato · {article.sponsor}</p>}
+          <h3 className="font-serif text-lg font-bold leading-snug text-ink group-hover:text-brand sm:text-xl">
               {article.title}
             </h3>
           </Link>
@@ -65,6 +67,7 @@ export default function ArticleCard({ article, variant = 'default' }: Props) {
       <div className="flex flex-1 flex-col p-4">
         <CategoryBadge category={article.category} subcategory={article.subcategory} />
         <Link to={articleUrl(article)} className="mt-2 block">
+          {article.sponsor && <p className="mb-1 font-sans text-[10px] font-bold uppercase tracking-wide">Contenuto sponsorizzato · {article.sponsor}</p>}
           <h3 className="font-serif text-lg font-bold leading-snug text-ink group-hover:text-brand">
             {article.title}
           </h3>

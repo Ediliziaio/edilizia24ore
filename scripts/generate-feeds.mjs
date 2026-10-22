@@ -46,7 +46,7 @@ function nodeValue(node) {
   if (ts.isObjectLiteralExpression(node)) {
     const obj = {};
     for (const prop of node.properties) {
-      if (ts.isPropertyAssignment(prop) && ts.isIdentifier(prop.name)) {
+      if (ts.isPropertyAssignment(prop) && (ts.isIdentifier(prop.name) || ts.isStringLiteralLike(prop.name))) {
         obj[prop.name.text] = nodeValue(prop.initializer);
       }
     }
@@ -62,8 +62,9 @@ function parseArticleFile(filePath) {
   for (const stmt of sf.statements) {
     if (!ts.isVariableStatement(stmt)) continue;
     for (const decl of stmt.declarationList.declarations) {
-      if (!decl.initializer || !ts.isObjectLiteralExpression(decl.initializer)) continue;
+      if (!decl.initializer || (!ts.isObjectLiteralExpression(decl.initializer) && !ts.isArrayLiteralExpression(decl.initializer))) continue;
       const obj = nodeValue(decl.initializer);
+      if (Array.isArray(obj) && obj.every((a) => a && typeof a.slug === 'string')) return obj;
       if (obj && typeof obj.slug === 'string') return obj;
     }
   }
@@ -74,7 +75,7 @@ function loadArticles() {
   const files = readdirSync(articlesDir)
     .filter((f) => f.endsWith('.ts') && f !== 'index.ts')
     .sort();
-  const articles = files.map((f) => parseArticleFile(path.join(articlesDir, f)));
+  const articles = files.flatMap((f) => parseArticleFile(path.join(articlesDir, f)));
   articles.sort(
     (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
   );
