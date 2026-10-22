@@ -25,12 +25,12 @@
     },
     {
       "source": "/guide-pratiche",
-      "destination": "/news",
+      "destination": "/categoria/news",
       "permanent": true
     },
     {
       "source": "/speciali-aziende",
-      "destination": "/news",
+      "destination": "/categoria/news",
       "permanent": true
     },
     {
