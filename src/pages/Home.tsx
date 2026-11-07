@@ -83,6 +83,14 @@ export default function Home() {
         <h1 className="sr-only">
           Edilizia 24 Ore: bonus edilizi, detrazioni e fiscalità della casa
         </h1>
+      <section id="percorsi-tematici-seo" aria-labelledby="percorsi-tematici-titolo" className="mx-auto max-w-7xl px-4 py-8">
+        <div className="rounded-xl border border-neutral-200 bg-neutral-50 p-5 sm:p-7">
+          <h2 id="percorsi-tematici-titolo" className="text-2xl font-bold text-neutral-950">Dalla notizia alla decisione sul lavoro</h2>
+          <p className="mt-3 max-w-4xl text-neutral-700 leading-relaxed">Segui gli aggiornamenti e approfondisci gli aspetti che incidono sulle scelte di cantiere. Per le decisioni tecniche e normative verifica sempre fonti e applicabilità al tuo intervento.</p>
+          <ul className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3"><li><a href="/articolo/facciata-ventilata-preventivo-prezzo-completo" className="font-bold text-neutral-950 underline underline-offset-4">Confronta un preventivo per facciata ventilata</a><p className="mt-2 text-sm text-neutral-700 leading-relaxed">Usa la guida alle voci da distinguere prima di confrontare il prezzo finale.</p></li><li><a href="/articolo/news-cam-edilizia-normativa-2026" className="font-bold text-neutral-950 underline underline-offset-4">Approfondisci i CAM edilizia</a><p className="mt-2 text-sm text-neutral-700 leading-relaxed">Leggi il quadro trattato nell’articolo e consulta i riferimenti indicati.</p></li></ul>
+        </div>
+      </section>
+
 
         {/* ULTIME NOTIZIE — chronological feed */}
         <section aria-labelledby="ultime-notizie-heading">
