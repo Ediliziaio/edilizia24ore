@@ -51,6 +51,7 @@ const article: Article = {
     },
   ],
   sections: [
+{"heading": "Verificare fonte e periodo prima di applicare una notizia", "paragraphs": ["Prima di utilizzare una notizia per una decisione concreta, controlla il riferimento dell’atto, la versione pertinente al periodo e le istruzioni applicabili al caso. La guida su [come verificare le notizie sui bonus edilizi](/articolo/bonus-edilizi-verificare-notizie-fonti) propone una scheda delle fonti e dei dubbi da portare al professionista, senza trasformare un titolo generale in una conferma dell’agevolazione."]},
     {
       heading: 'In breve: cosa prevede il Bonus ristrutturazioni 2026',
       paragraphs: [
