@@ -1,5 +1,272 @@
 import type { Article } from "../types";
 export const editorialNative: Article[] = [
+{
+  "slug": "bonus-edilizi-verificare-notizie-fonti",
+  "title": "Notizie sui bonus edilizi: come distinguere annunci, norme e istruzioni operative",
+  "seoTitle": "Bonus edilizi: come verificare una notizia",
+  "seoDescription": "Come verificare le notizie sui bonus edilizi: stato del provvedimento, data, testo vigente e istruzioni. Un metodo senza anticipare aliquote.",
+  "category": "news",
+  "subcategory": "Bonus & Fisco",
+  "excerpt": "Come verificare le notizie sui bonus edilizi: stato del provvedimento, data, testo vigente e istruzioni. Un metodo senza anticipare aliquote.",
+  "keywords": [
+    "notizie bonus edilizi"
+  ],
+  "publishedAt": "2026-11-07",
+  "updatedAt": "2026-11-07",
+  "author": {
+    "name": "Redazione Edilizia 24 Ore",
+    "role": "Redazione"
+  },
+  "readingTime": 7,
+  "faq": [
+    {
+      "q": "Un annuncio permette già di promettere un’agevolazione al cliente?",
+      "a": "Un annuncio non dimostra da solo l’applicabilità di una misura al caso concreto. Prima di assumere impegni, verifica stato del provvedimento, condizioni e documentazione con i professionisti competenti."
+    },
+    {
+      "q": "Basta leggere un articolo aggiornato oggi?",
+      "a": "No. La data recente non garantisce che il testo descriva correttamente la versione pertinente o il tuo caso. Cerca i documenti richiamati e separa pubblicazione della notizia ed efficacia delle disposizioni."
+    },
+    {
+      "q": "Che cosa conservare per chiedere un chiarimento?",
+      "a": "Conserva URL, data, riferimento dell’atto, versione consultata e domanda precisa. Aggiungi una descrizione del tuo intervento e segnala quali decisioni dipendono dalla risposta."
+    }
+  ],
+  "image": {
+    "src": "/editorial-assets/bonus-edilizi-verificare-notizie-fonti.webp",
+    "alt": "Schema illustrativo: Bonus edilizi: come verificare una notizia"
+  },
+  "sections": [
+    {
+      "heading": "Il punto di partenza",
+      "paragraphs": [
+        "Una notizia sui bonus edilizi può arrivare come titolo, messaggio inoltrato o commento a una proposta politica. Prima di usarla per prendere impegni economici serve capire che cosa descrive: un annuncio, un testo in discussione, una disposizione pubblicata oppure un chiarimento operativo. Confondere questi passaggi può far apparire già disponibile una misura ancora da definire.",
+        "Questa guida propone un metodo per verificare le informazioni. Non elenca aliquote o requisiti per un intervento specifico e non anticipa agevolazioni future. L’obiettivo è costruire un fascicolo leggibile da condividere con i professionisti che seguono il progetto e la posizione fiscale del soggetto interessato."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Una notizia sui bonus edilizi può arrivare come titolo, messaggio inoltrato o commento a una proposta politica. Prima di usarla per prendere impegni economici serve capire che cosa descrive: un annuncio, un testo in discussione, una disposizione pubblicata oppure un chiarimento operativo. Confondere questi passaggi può far apparire già disponibile una misura ancora da definire."
+        },
+        {
+          "type": "p",
+          "text": "Questa guida propone un metodo per verificare le informazioni. Non elenca aliquote o requisiti per un intervento specifico e non anticipa agevolazioni future. L’obiettivo è costruire un fascicolo leggibile da condividere con i professionisti che seguono il progetto e la posizione fiscale del soggetto interessato."
+        }
+      ]
+    },
+    {
+      "heading": "Identificare la domanda prima di cercare la risposta",
+      "paragraphs": [
+        "“C’è ancora il bonus?” è una domanda troppo ampia. Prova a descrivere il tipo di intervento, il soggetto interessato, il periodo previsto e il dubbio da chiarire. Non occorre pubblicare dati personali: basta preparare una scheda interna che renda riconoscibile il problema.",
+        "Due persone che leggono lo stesso titolo possono trovarsi in situazioni differenti. Il testo potrebbe riferirsi a una tipologia di spesa, a un periodo o a soggetti specifici. Per questo una notizia generale non consente di concludere automaticamente che una determinata fattura sarà agevolabile.",
+        "La scheda iniziale deve anche distinguere lavori già eseguiti, lavori programmati e ipotesi ancora da valutare. Questi stati non vanno confusi quando chiedi un chiarimento. Il professionista deve sapere quali decisioni sono già state prese e quali possono essere ancora modificate."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "“C’è ancora il bonus?” è una domanda troppo ampia. Prova a descrivere il tipo di intervento, il soggetto interessato, il periodo previsto e il dubbio da chiarire. Non occorre pubblicare dati personali: basta preparare una scheda interna che renda riconoscibile il problema."
+        },
+        {
+          "type": "p",
+          "text": "Due persone che leggono lo stesso titolo possono trovarsi in situazioni differenti. Il testo potrebbe riferirsi a una tipologia di spesa, a un periodo o a soggetti specifici. Per questo una notizia generale non consente di concludere automaticamente che una determinata fattura sarà agevolabile."
+        },
+        {
+          "type": "p",
+          "text": "La scheda iniziale deve anche distinguere lavori già eseguiti, lavori programmati e ipotesi ancora da valutare. Questi stati non vanno confusi quando chiedi un chiarimento. Il professionista deve sapere quali decisioni sono già state prese e quali possono essere ancora modificate."
+        }
+      ]
+    },
+    {
+      "heading": "Separare annuncio, proposta e testo pubblicato",
+      "paragraphs": [
+        "Un comunicato può descrivere un’intenzione. Una proposta può essere modificata durante il suo percorso. Un testo pubblicato deve essere letto con le sue date, condizioni e disposizioni applicative. Il titolo di un articolo spesso comprime questi passaggi: la verifica consiste nel recuperarli.",
+        "Cerca il riferimento preciso dell’atto, non soltanto il nome informale della misura. Registra numero, data e punto richiamato dalla notizia. Se il testo giornalistico non offre questi elementi, considera l’informazione ancora incompleta e cerca una fonte che permetta di ricostruirli.",
+        "La [Gazzetta Ufficiale](https://www.gazzettaufficiale.it/) è un riferimento per la pubblicazione degli atti. Non basta però trovare un documento con parole simili: occorre verificare che sia quello citato e leggere il passaggio pertinente nel suo contesto."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Un comunicato può descrivere un’intenzione. Una proposta può essere modificata durante il suo percorso. Un testo pubblicato deve essere letto con le sue date, condizioni e disposizioni applicative. Il titolo di un articolo spesso comprime questi passaggi: la verifica consiste nel recuperarli."
+        },
+        {
+          "type": "p",
+          "text": "Cerca il riferimento preciso dell’atto, non soltanto il nome informale della misura. Registra numero, data e punto richiamato dalla notizia. Se il testo giornalistico non offre questi elementi, considera l’informazione ancora incompleta e cerca una fonte che permetta di ricostruirli."
+        },
+        {
+          "type": "p",
+          "text": "La [Gazzetta Ufficiale](https://www.gazzettaufficiale.it/) è un riferimento per la pubblicazione degli atti. Non basta però trovare un documento con parole simili: occorre verificare che sia quello citato e leggere il passaggio pertinente nel suo contesto."
+        }
+      ]
+    },
+    {
+      "heading": "Leggere il testo con la data corretta",
+      "paragraphs": [
+        "Una disposizione può essere modificata nel tempo. Quando consulti un testo, annota la data a cui si riferisce la versione. La data dell’articolo che stai leggendo non sostituisce la data di efficacia delle disposizioni richiamate.",
+        "Le [FAQ di Normattiva](https://www.normattiva.it/staticPage/faq.html) spiegano le funzioni di consultazione del testo vigente e della multivigenza. Queste funzioni aiutano a distinguere versioni temporali; restano da verificare l’atto effettivamente cercato e gli aggiornamenti disponibili nel sistema.",
+        "Evita di salvare soltanto una schermata isolata del comma che sembra favorevole. Conserva il collegamento, il riferimento dell’atto e il contesto necessario a comprenderlo. Una frase può rinviare a definizioni, limiti o altre disposizioni che non compaiono nell’immagine inoltrata."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Una disposizione può essere modificata nel tempo. Quando consulti un testo, annota la data a cui si riferisce la versione. La data dell’articolo che stai leggendo non sostituisce la data di efficacia delle disposizioni richiamate."
+        },
+        {
+          "type": "p",
+          "text": "Le [FAQ di Normattiva](https://www.normattiva.it/staticPage/faq.html) spiegano le funzioni di consultazione del testo vigente e della multivigenza. Queste funzioni aiutano a distinguere versioni temporali; restano da verificare l’atto effettivamente cercato e gli aggiornamenti disponibili nel sistema."
+        },
+        {
+          "type": "p",
+          "text": "Evita di salvare soltanto una schermata isolata del comma che sembra favorevole. Conserva il collegamento, il riferimento dell’atto e il contesto necessario a comprenderlo. Una frase può rinviare a definizioni, limiti o altre disposizioni che non compaiono nell’immagine inoltrata."
+        }
+      ]
+    },
+    {
+      "heading": "Le istruzioni operative sono un passaggio distinto",
+      "paragraphs": [
+        "Una notizia può richiamare una norma e lasciare aperte domande su adempimenti, documenti o procedure. Cerca le istruzioni degli enti competenti per la questione trattata e controlla a quale misura e periodo si riferiscono. Non utilizzare una guida di anni precedenti come se fosse automaticamente aggiornata.",
+        "Quando un documento contiene esempi, verifica che il tuo caso abbia davvero gli stessi elementi. Una risposta a un quesito specifico non diventa una regola universale soltanto perché contiene il nome dell’agevolazione. Porta al consulente la fonte completa e la domanda precisa.",
+        "L’assenza di una risposta immediata non autorizza a scegliere l’interpretazione più conveniente. Registra il punto aperto, il referente che lo sta verificando e la decisione che dipende dal chiarimento. In questo modo l’incertezza rimane visibile nel programma del lavoro."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Una notizia può richiamare una norma e lasciare aperte domande su adempimenti, documenti o procedure. Cerca le istruzioni degli enti competenti per la questione trattata e controlla a quale misura e periodo si riferiscono. Non utilizzare una guida di anni precedenti come se fosse automaticamente aggiornata."
+        },
+        {
+          "type": "p",
+          "text": "Quando un documento contiene esempi, verifica che il tuo caso abbia davvero gli stessi elementi. Una risposta a un quesito specifico non diventa una regola universale soltanto perché contiene il nome dell’agevolazione. Porta al consulente la fonte completa e la domanda precisa."
+        },
+        {
+          "type": "p",
+          "text": "L’assenza di una risposta immediata non autorizza a scegliere l’interpretazione più conveniente. Registra il punto aperto, il referente che lo sta verificando e la decisione che dipende dal chiarimento. In questo modo l’incertezza rimane visibile nel programma del lavoro."
+        }
+      ]
+    },
+    {
+      "heading": "Costruire una scheda delle fonti",
+      "paragraphs": [
+        "La scheda deve permettere a un’altra persona di ricostruire il percorso senza rifare tutta la ricerca. Usa una riga per ogni documento e separa ciò che il testo dice da ciò che resta da verificare nel caso concreto.",
+        "Non serve accumulare decine di collegamenti identici. Se più articoli ripetono lo stesso comunicato, non costituiscono altrettante conferme indipendenti. Conta la possibilità di risalire alla fonte pertinente, non il numero di pagine che riportano la notizia."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "La scheda deve permettere a un’altra persona di ricostruire il percorso senza rifare tutta la ricerca. Usa una riga per ogni documento e separa ciò che il testo dice da ciò che resta da verificare nel caso concreto."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Campo",
+            "Informazione da registrare",
+            "Controllo"
+          ],
+          "rows": [
+            [
+              "Notizia",
+              "Titolo, autore, data e URL",
+              "Quale affermazione devo verificare?"
+            ],
+            [
+              "Atto",
+              "Numero, data e riferimento",
+              "È il documento citato?"
+            ],
+            [
+              "Versione",
+              "Data del testo consultato",
+              "È pertinente al periodo?"
+            ],
+            [
+              "Istruzione",
+              "Ente e documento operativo",
+              "Tratta la misura corretta?"
+            ],
+            [
+              "Dubbio",
+              "Questione ancora aperta",
+              "Chi deve rispondere?"
+            ],
+            [
+              "Decisione",
+              "Scelta che dipende dalla risposta",
+              "È già stato assunto un impegno?"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Non serve accumulare decine di collegamenti identici. Se più articoli ripetono lo stesso comunicato, non costituiscono altrettante conferme indipendenti. Conta la possibilità di risalire alla fonte pertinente, non il numero di pagine che riportano la notizia."
+        }
+      ]
+    },
+    {
+      "heading": "Un esempio illustrativo di verifica",
+      "paragraphs": [
+        "Immagina un titolo che annuncia “nuove agevolazioni dal prossimo anno”. Nel testo compare il riferimento a una proposta, mentre il messaggio inoltrato da un conoscente parla di una misura già approvata. Prima di discutere percentuali, occorre chiarire lo stato del provvedimento.",
+        "La scheda può riportare: affermazione da verificare, documento citato, stato indicato dalla fonte e informazione mancante. Se non è disponibile il testo pubblicato richiamato dal messaggio, non trasformare la proposta in una condizione certa del preventivo.",
+        "L’esempio non riguarda una misura reale particolare. Mostra il metodo: separare i livelli, conservare i riferimenti e collegare la decisione a una verifica. Anche un titolo corretto può essere letto male quando viene estratto dalla sua data e dal suo contesto."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Immagina un titolo che annuncia “nuove agevolazioni dal prossimo anno”. Nel testo compare il riferimento a una proposta, mentre il messaggio inoltrato da un conoscente parla di una misura già approvata. Prima di discutere percentuali, occorre chiarire lo stato del provvedimento."
+        },
+        {
+          "type": "p",
+          "text": "La scheda può riportare: affermazione da verificare, documento citato, stato indicato dalla fonte e informazione mancante. Se non è disponibile il testo pubblicato richiamato dal messaggio, non trasformare la proposta in una condizione certa del preventivo."
+        },
+        {
+          "type": "p",
+          "text": "L’esempio non riguarda una misura reale particolare. Mostra il metodo: separare i livelli, conservare i riferimenti e collegare la decisione a una verifica. Anche un titolo corretto può essere letto male quando viene estratto dalla sua data e dal suo contesto."
+        }
+      ]
+    },
+    {
+      "heading": "Portare al professionista una domanda utilizzabile",
+      "paragraphs": [
+        "Prepara un riepilogo breve con intervento previsto, periodo, documenti disponibili e dubbio. Allega le fonti complete senza inviare soltanto fotografie di titoli. Chiedi quali elementi del tuo caso devono essere controllati e quali documenti mancano prima di poter dare una risposta.",
+        "Distingui inoltre i diversi ambiti: progettazione dell’intervento, adempimenti tecnici e trattamento fiscale possono richiedere competenze differenti. Non aspettarti che una sola frase commerciale risolva tutti questi aspetti. Chiedi chi segue ciascun passaggio e dove verrà conservato il relativo riscontro.",
+        "Nella sezione [notizie dell’edilizia](/categoria/news) puoi seguire altri aggiornamenti. Per ogni notizia che incide su una decisione, ripeti il controllo di fonte, data e perimetro invece di assumere che l’etichetta della categoria certifichi il tuo caso."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Prepara un riepilogo breve con intervento previsto, periodo, documenti disponibili e dubbio. Allega le fonti complete senza inviare soltanto fotografie di titoli. Chiedi quali elementi del tuo caso devono essere controllati e quali documenti mancano prima di poter dare una risposta."
+        },
+        {
+          "type": "p",
+          "text": "Distingui inoltre i diversi ambiti: progettazione dell’intervento, adempimenti tecnici e trattamento fiscale possono richiedere competenze differenti. Non aspettarti che una sola frase commerciale risolva tutti questi aspetti. Chiedi chi segue ciascun passaggio e dove verrà conservato il relativo riscontro."
+        },
+        {
+          "type": "p",
+          "text": "Nella sezione [notizie dell’edilizia](/categoria/news) puoi seguire altri aggiornamenti. Per ogni notizia che incide su una decisione, ripeti il controllo di fonte, data e perimetro invece di assumere che l’etichetta della categoria certifichi il tuo caso."
+        }
+      ]
+    },
+    {
+      "heading": "Aggiornare il fascicolo senza perdere la cronologia",
+      "paragraphs": [
+        "Quando compare una novità, aggiungi il documento e indica quale precedente informazione modifica. Non cancellare la versione usata per una decisione già presa: potrebbe essere necessario capire su quali elementi si basava quella scelta.",
+        "Mantieni un elenco dei punti chiusi e di quelli aperti. “Da verificare” deve avere un referente; “confermato” deve rimandare a un riscontro. Questo piccolo sistema evita che una conversazione informale diventi, nel tempo, un’approvazione che nessuno ricorda di avere dato.",
+        "Un metodo simile è utile anche quando leggi notizie su requisiti ambientali e capitolati, come nell’approfondimento sui [CAM in edilizia](/articolo/news-cam-edilizia-normativa-2026). Il tema cambia, ma resta la necessità di collegare il titolo al documento e al suo campo di applicazione."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Quando compare una novità, aggiungi il documento e indica quale precedente informazione modifica. Non cancellare la versione usata per una decisione già presa: potrebbe essere necessario capire su quali elementi si basava quella scelta."
+        },
+        {
+          "type": "p",
+          "text": "Mantieni un elenco dei punti chiusi e di quelli aperti. “Da verificare” deve avere un referente; “confermato” deve rimandare a un riscontro. Questo piccolo sistema evita che una conversazione informale diventi, nel tempo, un’approvazione che nessuno ricorda di avere dato."
+        },
+        {
+          "type": "p",
+          "text": "Un metodo simile è utile anche quando leggi notizie su requisiti ambientali e capitolati, come nell’approfondimento sui [CAM in edilizia](/articolo/news-cam-edilizia-normativa-2026). Il tema cambia, ma resta la necessità di collegare il titolo al documento e al suo campo di applicazione."
+        }
+      ]
+    }
+  ]
+},
   {
     "slug": "facciata-ventilata-preventivo-prezzo-completo",
     "title": "Facciata ventilata: cosa deve comprendere il prezzo al mq",

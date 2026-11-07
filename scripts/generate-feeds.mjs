@@ -140,22 +140,24 @@ const categoryLabel = (a) => a.subcategory || CATEGORY_LABELS[a.category] || a.c
 /* ------------------------------------------------------------------ */
 
 function buildSitemap(articles, tagSlugs) {
-  // Site-wide freshness = most recent article update.
+  // Home freshness follows articles; other hubs use only their own contents.
   const latest = articles
     .map((a) => new Date(a.updatedAt || a.publishedAt).getTime())
     .reduce((max, t) => (t > max ? t : max), 0);
   const latestIso = new Date(latest).toISOString();
+  const latestFor = (rows) => rows.length ? new Date(Math.max(...rows.map(a => new Date(a.updatedAt || a.publishedAt).getTime()))).toISOString() : undefined;
 
   const urls = [];
   const push = (loc, { lastmod, changefreq, priority, image } = {}) =>
     urls.push({ loc, lastmod, changefreq, priority, image });
 
   push('/', { lastmod: latestIso, changefreq: 'daily', priority: '1.0' });
-  push('/categoria/news', { lastmod: latestIso, changefreq: 'daily', priority: '0.9' });
-  for (const slug of ['bonus-fisco', 'normative', 'mercato', 'innovazione', 'sostenibilita']) {
-    push(`/categoria/${slug}`, { lastmod: latestIso, changefreq: 'daily', priority: '0.8' });
+  push('/categoria/news', { lastmod: latestFor(articles.filter(a => a.category === 'news')), changefreq: 'daily', priority: '0.9' });
+  const subcategories = { 'bonus-fisco': 'Bonus & Fisco', normative: 'Normative', mercato: 'Mercato', innovazione: 'Innovazione', sostenibilita: 'Sostenibilità' };
+  for (const [slug, label] of Object.entries(subcategories)) {
+    push(`/categoria/${slug}`, { lastmod: latestFor(articles.filter(a => a.subcategory === label)), changefreq: 'daily', priority: '0.8' });
   }
-  push('/guide', { lastmod: latestIso, changefreq: 'weekly', priority: '0.8' });
+  push('/guide', { lastmod: latestFor(articles.filter(a => a.category !== 'news')), changefreq: 'weekly', priority: '0.8' });
 
   for (const a of articles) {
     push(`/articolo/${a.slug}`, {
@@ -163,17 +165,17 @@ function buildSitemap(articles, tagSlugs) {
       changefreq: 'monthly',
       priority: '0.7',
       // Editorial hero declared for Google Images discovery.
-      image: { loc: `${SITE_URL}/images/articoli/${a.slug}.jpg`, caption: a.title },
+      image: { loc: `${SITE_URL}${a.image?.src || `/images/articoli/${a.slug}.jpg`}`, caption: a.image?.alt || a.title },
     });
   }
 
   for (const slug of tagSlugs) {
-    push(`/tag/${slug}`, { lastmod: latestIso, changefreq: 'weekly', priority: '0.6' });
+    push(`/tag/${slug}`, { lastmod: latestFor(articles.filter(a => (a.keywords || []).some(keyword => slugifyTag(keyword) === slug))), changefreq: 'weekly', priority: '0.6' });
   }
 
-  push('/calcolatore-bonus-edilizi', { lastmod: latestIso, changefreq: 'monthly', priority: '0.8' });
-  push('/metodologia', { lastmod: latestIso, changefreq: 'monthly', priority: '0.6' });
-  push('/chi-siamo', { lastmod: latestIso, priority: '0.5' });
+  push('/calcolatore-bonus-edilizi', { changefreq: 'monthly', priority: '0.8' });
+  push('/metodologia', { changefreq: 'monthly', priority: '0.6' });
+  push('/chi-siamo', { priority: '0.5' });
   push('/contatti', { priority: '0.4' });
   push('/privacy-policy', { changefreq: 'yearly', priority: '0.3' });
   push('/cookie-policy', { changefreq: 'yearly', priority: '0.3' });
