@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.edilizia24ore.it/articolo/fascicolo-lavori-edilizi-organizzare-documenti</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Edilizia 24 Ore</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-08T00:00:00.000Z</news:publication_date>
+      <news:title>Fascicolo dei lavori edilizi: come collegare preventivi, fatture e documenti</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.edilizia24ore.it/articolo/bonus-edilizi-verificare-notizie-fonti</loc>
     <news:news>
       <news:publication>

@@ -1,6 +1,290 @@
 import type { Article } from "../types";
 export const editorialNative: Article[] = [
 {
+  "slug": "fascicolo-lavori-edilizi-organizzare-documenti",
+  "title": "Fascicolo dei lavori edilizi: come collegare preventivi, fatture e documenti",
+  "seoTitle": "Fascicolo lavori edilizi: organizzare i documenti",
+  "seoDescription": "Organizza il fascicolo dei lavori edilizi: codici, versioni, fatture e riferimenti ai pagamenti. Un metodo da condividere con tecnici e consulenti.",
+  "category": "news",
+  "subcategory": "Bonus & Fisco",
+  "excerpt": "Organizza il fascicolo dei lavori edilizi: codici, versioni, fatture e riferimenti ai pagamenti. Un metodo da condividere con tecnici e consulenti.",
+  "keywords": [
+    "fascicolo lavori edilizi"
+  ],
+  "publishedAt": "2026-11-08",
+  "updatedAt": "2026-11-08",
+  "author": {
+    "name": "Redazione Edilizia 24 Ore",
+    "role": "Redazione"
+  },
+  "readingTime": 7,
+  "faq": [
+    {
+      "q": "Una cartella cloud completa dimostra che gli adempimenti sono corretti?",
+      "a": "No. L’archivio organizzativo aiuta a recuperare i documenti, ma gli adempimenti e il trattamento delle spese richiedono verifiche pertinenti con i professionisti competenti."
+    },
+    {
+      "q": "Posso ricostruire un collegamento soltanto dagli importi?",
+      "a": "La somiglianza delle cifre non basta a confermare una corrispondenza. Registra il punto aperto e cerca riferimenti documentali o un riscontro del soggetto che possiede l’informazione."
+    },
+    {
+      "q": "Devo eliminare le offerte superate?",
+      "a": "È utile mantenerle distinguibili dalla versione pertinente alla decisione. La cronologia permette di capire quali informazioni siano cambiate e a quale documento rimandi una comunicazione successiva."
+    }
+  ],
+  "image": {
+    "src": "/editorial-assets/fascicolo-lavori-edilizi-organizzare-documenti.webp",
+    "alt": "Schema illustrativo: Fascicolo lavori edilizi: organizzare i documenti"
+  },
+  "sections": [
+    {
+      "heading": "Il punto di partenza",
+      "paragraphs": [
+        "Il preventivo è in una mail, le fatture in una cartella e il riferimento di un pagamento in un messaggio. Quando serve ricostruire una spesa dei lavori edilizi, il problema non è sempre l’assenza del documento: spesso manca il collegamento fra i file. Un fascicolo organizzato permette di ritrovare la base di una decisione senza rileggere tutte le conversazioni.",
+        "Questa guida propone un metodo di archiviazione e raccordo da condividere con tecnici e consulenti. Non stabilisce quali spese siano agevolabili né sostituisce gli adempimenti di conservazione o le verifiche fiscali del caso. L’obiettivo è preparare informazioni recuperabili, complete del loro contesto."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Il preventivo è in una mail, le fatture in una cartella e il riferimento di un pagamento in un messaggio. Quando serve ricostruire una spesa dei lavori edilizi, il problema non è sempre l’assenza del documento: spesso manca il collegamento fra i file. Un fascicolo organizzato permette di ritrovare la base di una decisione senza rileggere tutte le conversazioni."
+        },
+        {
+          "type": "p",
+          "text": "Questa guida propone un metodo di archiviazione e raccordo da condividere con tecnici e consulenti. Non stabilisce quali spese siano agevolabili né sostituisce gli adempimenti di conservazione o le verifiche fiscali del caso. L’obiettivo è preparare informazioni recuperabili, complete del loro contesto."
+        }
+      ]
+    },
+    {
+      "heading": "Definire il perimetro del fascicolo",
+      "paragraphs": [
+        "Assegna un identificativo all’intervento e descrivi quali lavori comprende. Se nello stesso immobile esistono fasi o incarichi differenti, rendili riconoscibili. Una cartella chiamata soltanto “casa” può contenere documenti di periodi e prestazioni non omogenei.",
+        "Indica chi mantiene l’indice e chi fornisce i diversi documenti. Il referente organizzativo non assume automaticamente ogni responsabilità tecnica o fiscale: serve sapere a chi rivolgersi quando un’informazione manca o richiede interpretazione.",
+        "Prepara una nota iniziale con denominazione del fascicolo, struttura delle cartelle e convenzione dei nomi. Poche regole condivise sono più utili di una classificazione complessa che ciascun operatore interpreta in modo diverso."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Assegna un identificativo all’intervento e descrivi quali lavori comprende. Se nello stesso immobile esistono fasi o incarichi differenti, rendili riconoscibili. Una cartella chiamata soltanto “casa” può contenere documenti di periodi e prestazioni non omogenei."
+        },
+        {
+          "type": "p",
+          "text": "Indica chi mantiene l’indice e chi fornisce i diversi documenti. Il referente organizzativo non assume automaticamente ogni responsabilità tecnica o fiscale: serve sapere a chi rivolgersi quando un’informazione manca o richiede interpretazione."
+        },
+        {
+          "type": "p",
+          "text": "Prepara una nota iniziale con denominazione del fascicolo, struttura delle cartelle e convenzione dei nomi. Poche regole condivise sono più utili di una classificazione complessa che ciascun operatore interpreta in modo diverso."
+        }
+      ]
+    },
+    {
+      "heading": "Conservare i documenti e costruire un indice",
+      "paragraphs": [
+        "Mantieni i file originali ricevuti e affianca un indice che rimandi alla loro posizione. Il foglio di raccordo non deve riscrivere ogni documento o sostituirlo con un riassunto. Deve permettere di recuperare il file corretto e riconoscere il suo ruolo.",
+        "Distingui offerte, ordini, incarichi, documenti tecnici, fatture e riscontri pertinenti. Se un documento appartiene a più letture del lavoro, usa collegamenti o riferimenti senza creare copie non controllate che potrebbero essere aggiornate separatamente.",
+        "Per le fatture elettroniche, l’[Agenzia delle Entrate descrive un servizio dedicato alla conservazione](https://agenziaentrate.gov.it/portale/web/guest/aree-tematiche/fatturazione-elettronica/guida-fatturazione-elettronica/come-predisporre-inviare-ricevere-fe/come-si-conservano-fe). La cartella organizzativa proposta qui non va confusa con una verifica degli obblighi applicabili: chiedi al consulente quali originali e procedure servano nel tuo caso."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mantieni i file originali ricevuti e affianca un indice che rimandi alla loro posizione. Il foglio di raccordo non deve riscrivere ogni documento o sostituirlo con un riassunto. Deve permettere di recuperare il file corretto e riconoscere il suo ruolo."
+        },
+        {
+          "type": "p",
+          "text": "Distingui offerte, ordini, incarichi, documenti tecnici, fatture e riscontri pertinenti. Se un documento appartiene a più letture del lavoro, usa collegamenti o riferimenti senza creare copie non controllate che potrebbero essere aggiornate separatamente."
+        },
+        {
+          "type": "p",
+          "text": "Per le fatture elettroniche, l’[Agenzia delle Entrate descrive un servizio dedicato alla conservazione](https://agenziaentrate.gov.it/portale/web/guest/aree-tematiche/fatturazione-elettronica/guida-fatturazione-elettronica/come-predisporre-inviare-ricevere-fe/come-si-conservano-fe). La cartella organizzativa proposta qui non va confusa con una verifica degli obblighi applicabili: chiedi al consulente quali originali e procedure servano nel tuo caso."
+        }
+      ]
+    },
+    {
+      "heading": "Collegare il preventivo alla versione confermata",
+      "paragraphs": [
+        "Un’offerta può avere più revisioni. Conserva la versione utilizzata per la decisione e rendi riconoscibili quelle superate. Il nome “definitivo” non basta se esistono diversi allegati con quella stessa parola.",
+        "Registra numero o identificativo, data, oggetto e riferimento della conferma. Se una modifica cambia il perimetro, collega il relativo documento senza cancellare la base iniziale. Sarà più semplice capire perché un importo o una descrizione differiscano dal primo preventivo.",
+        "Non attribuire a una comunicazione informale un significato che non è stato chiarito. Puoi registrarla come informazione da verificare e chiedere al referente come venga collegata ai documenti dell’intervento."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Un’offerta può avere più revisioni. Conserva la versione utilizzata per la decisione e rendi riconoscibili quelle superate. Il nome “definitivo” non basta se esistono diversi allegati con quella stessa parola."
+        },
+        {
+          "type": "p",
+          "text": "Registra numero o identificativo, data, oggetto e riferimento della conferma. Se una modifica cambia il perimetro, collega il relativo documento senza cancellare la base iniziale. Sarà più semplice capire perché un importo o una descrizione differiscano dal primo preventivo."
+        },
+        {
+          "type": "p",
+          "text": "Non attribuire a una comunicazione informale un significato che non è stato chiarito. Puoi registrarla come informazione da verificare e chiedere al referente come venga collegata ai documenti dell’intervento."
+        }
+      ]
+    },
+    {
+      "heading": "Raccordare fatture e prestazioni",
+      "paragraphs": [
+        "Per ogni fattura, l’indice dovrebbe permettere di riconoscere il documento e il collegamento con l’incarico o la fornitura pertinente, quando disponibile. Mantieni la descrizione originale e aggiungi eventuali riferimenti interni in campi separati.",
+        "Se una fattura riguarda più parti del lavoro, non suddividerla arbitrariamente in importi apparentemente ufficiali. Puoi evidenziare il punto da chiarire e portarlo al referente competente. Una ripartizione interna deve restare distinguibile da ciò che il documento effettivamente riporta.",
+        "Evita di utilizzare la cartella come uno strumento per stabilire da solo il trattamento fiscale della spesa. Il suo compito è rendere disponibili documenti e collegamenti necessari alla verifica, non anticiparne l’esito."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Per ogni fattura, l’indice dovrebbe permettere di riconoscere il documento e il collegamento con l’incarico o la fornitura pertinente, quando disponibile. Mantieni la descrizione originale e aggiungi eventuali riferimenti interni in campi separati."
+        },
+        {
+          "type": "p",
+          "text": "Se una fattura riguarda più parti del lavoro, non suddividerla arbitrariamente in importi apparentemente ufficiali. Puoi evidenziare il punto da chiarire e portarlo al referente competente. Una ripartizione interna deve restare distinguibile da ciò che il documento effettivamente riporta."
+        },
+        {
+          "type": "p",
+          "text": "Evita di utilizzare la cartella come uno strumento per stabilire da solo il trattamento fiscale della spesa. Il suo compito è rendere disponibili documenti e collegamenti necessari alla verifica, non anticiparne l’esito."
+        }
+      ]
+    },
+    {
+      "heading": "Una tabella di raccordo essenziale",
+      "paragraphs": [
+        "Inizia con pochi campi che possano essere compilati con informazioni effettive. Se un riferimento manca, utilizza uno stato esplicito invece di inserire una sigla inventata. L’indice deve mostrare anche le lacune, non soltanto i file già disponibili.",
+        "La tabella non deve contenere più dati di quelli necessari al proprio scopo. Definisci chi può accedere alle informazioni e come debbano essere condivise con i professionisti coinvolti."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Inizia con pochi campi che possano essere compilati con informazioni effettive. Se un riferimento manca, utilizza uno stato esplicito invece di inserire una sigla inventata. L’indice deve mostrare anche le lacune, non soltanto i file già disponibili."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Campo",
+            "Informazione",
+            "Controllo utile"
+          ],
+          "rows": [
+            [
+              "Identificativo",
+              "Codice interno della riga",
+              "Collegamento stabile"
+            ],
+            [
+              "Documento",
+              "Tipo, numero e data disponibili",
+              "File originale recuperabile"
+            ],
+            [
+              "Perimetro",
+              "Incarico o fornitura collegati",
+              "Riferimento verificato"
+            ],
+            [
+              "Revisione",
+              "Versione pertinente",
+              "Documento superato distinguibile"
+            ],
+            [
+              "Pagamento",
+              "Riferimento disponibile da verificare",
+              "Raccordo con il documento"
+            ],
+            [
+              "Punto aperto",
+              "Informazione mancante",
+              "Referente e prossimo passaggio"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "La tabella non deve contenere più dati di quelli necessari al proprio scopo. Definisci chi può accedere alle informazioni e come debbano essere condivise con i professionisti coinvolti."
+        }
+      ]
+    },
+    {
+      "heading": "Un esempio illustrativo di ricostruzione",
+      "paragraphs": [
+        "Immagina una fornitura con offerta iniziale, revisione confermata e due documenti di fatturazione. Il primo nome del file richiama il locale, il secondo il numero dell’ordine, mentre una comunicazione successiva usa una descrizione diversa. Senza un indice, sembrano tre percorsi separati.",
+        "La scheda collega i riferimenti allo stesso perimetro e indica quale versione dell’offerta sia stata utilizzata. Per il documento che non riesci ad associare con certezza, registra un punto aperto e chiedi il riscontro al referente. Non completare la corrispondenza soltanto perché gli importi sembrano vicini.",
+        "L’esempio è organizzativo e non descrive una procedura fiscale specifica. Mostra come il fascicolo possa preparare una domanda verificabile, invece di produrre una risposta basata sulla somiglianza dei nomi o delle cifre."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Immagina una fornitura con offerta iniziale, revisione confermata e due documenti di fatturazione. Il primo nome del file richiama il locale, il secondo il numero dell’ordine, mentre una comunicazione successiva usa una descrizione diversa. Senza un indice, sembrano tre percorsi separati."
+        },
+        {
+          "type": "p",
+          "text": "La scheda collega i riferimenti allo stesso perimetro e indica quale versione dell’offerta sia stata utilizzata. Per il documento che non riesci ad associare con certezza, registra un punto aperto e chiedi il riscontro al referente. Non completare la corrispondenza soltanto perché gli importi sembrano vicini."
+        },
+        {
+          "type": "p",
+          "text": "L’esempio è organizzativo e non descrive una procedura fiscale specifica. Mostra come il fascicolo possa preparare una domanda verificabile, invece di produrre una risposta basata sulla somiglianza dei nomi o delle cifre."
+        }
+      ]
+    },
+    {
+      "heading": "Collegare i riferimenti dei pagamenti",
+      "paragraphs": [
+        "Mantieni distinguibili documento di spesa e riferimento del pagamento. Se devi ricostruire il collegamento, conserva gli elementi disponibili senza attribuire automaticamente a un movimento un significato non verificato. Le modalità e gli adempimenti pertinenti devono essere valutati dal consulente sul caso concreto.",
+        "Se nel fascicolo entrano ricevute o altri riscontri, associa il file alla riga corretta e limita le copie diffuse. I documenti possono contenere informazioni personali e finanziarie che non servono a tutti gli operatori coinvolti nel lavoro.",
+        "Quando un riferimento risulta incompleto, descrivi la lacuna: quale documento manca, chi lo può fornire e quale verifica dipende da esso. Un promemoria preciso evita di chiedere ripetutamente “tutto il materiale” senza sapere che cosa occorra davvero."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mantieni distinguibili documento di spesa e riferimento del pagamento. Se devi ricostruire il collegamento, conserva gli elementi disponibili senza attribuire automaticamente a un movimento un significato non verificato. Le modalità e gli adempimenti pertinenti devono essere valutati dal consulente sul caso concreto."
+        },
+        {
+          "type": "p",
+          "text": "Se nel fascicolo entrano ricevute o altri riscontri, associa il file alla riga corretta e limita le copie diffuse. I documenti possono contenere informazioni personali e finanziarie che non servono a tutti gli operatori coinvolti nel lavoro."
+        },
+        {
+          "type": "p",
+          "text": "Quando un riferimento risulta incompleto, descrivi la lacuna: quale documento manca, chi lo può fornire e quale verifica dipende da esso. Un promemoria preciso evita di chiedere ripetutamente “tutto il materiale” senza sapere che cosa occorra davvero."
+        }
+      ]
+    },
+    {
+      "heading": "Separare documentazione tecnica e notizie generali",
+      "paragraphs": [
+        "Una guida trovata online può aiutare a formulare domande, ma non appartiene allo stesso livello dei documenti del tuo intervento. Conserva le fonti informative in una sezione distinta, con data e tema della consultazione.",
+        "Prima di utilizzare una notizia per una decisione, verifica riferimento dell’atto, periodo e campo di applicazione. L’approfondimento su [come verificare le notizie sui bonus edilizi](/articolo/bonus-edilizi-verificare-notizie-fonti) propone una scheda delle fonti, mantenendo separati annunci, disposizioni e istruzioni.",
+        "La stessa attenzione è utile per i temi tecnici e ambientali, come nella lettura dei [CAM in edilizia](/articolo/news-cam-edilizia-normativa-2026). Il fascicolo deve permettere al professionista di riconoscere quali documenti riguardino il lavoro e quali siano soltanto riferimenti da esaminare."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Una guida trovata online può aiutare a formulare domande, ma non appartiene allo stesso livello dei documenti del tuo intervento. Conserva le fonti informative in una sezione distinta, con data e tema della consultazione."
+        },
+        {
+          "type": "p",
+          "text": "Prima di utilizzare una notizia per una decisione, verifica riferimento dell’atto, periodo e campo di applicazione. L’approfondimento su [come verificare le notizie sui bonus edilizi](/articolo/bonus-edilizi-verificare-notizie-fonti) propone una scheda delle fonti, mantenendo separati annunci, disposizioni e istruzioni."
+        },
+        {
+          "type": "p",
+          "text": "La stessa attenzione è utile per i temi tecnici e ambientali, come nella lettura dei [CAM in edilizia](/articolo/news-cam-edilizia-normativa-2026). Il fascicolo deve permettere al professionista di riconoscere quali documenti riguardino il lavoro e quali siano soltanto riferimenti da esaminare."
+        }
+      ]
+    },
+    {
+      "heading": "Verificare che l’archivio sia utilizzabile",
+      "paragraphs": [
+        "Prova a recuperare un documento partendo dall’indice, senza aprire la cronologia delle mail. Controlla che il collegamento funzioni e che la versione sia riconoscibile. Se serve sempre chiedere al compilatore quale file intendesse, rivedi nomi e campi.",
+        "Prima di un incontro con il consulente, prepara un riepilogo dei punti aperti e dei documenti già disponibili. Una domanda circostanziata rende più semplice identificare l’informazione mancante. Nella sezione [notizie dell’edilizia](/categoria/news) trovi altri approfondimenti, da usare come contesto e non come conferma automatica del tuo caso."
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Prova a recuperare un documento partendo dall’indice, senza aprire la cronologia delle mail. Controlla che il collegamento funzioni e che la versione sia riconoscibile. Se serve sempre chiedere al compilatore quale file intendesse, rivedi nomi e campi."
+        },
+        {
+          "type": "p",
+          "text": "Prima di un incontro con il consulente, prepara un riepilogo dei punti aperti e dei documenti già disponibili. Una domanda circostanziata rende più semplice identificare l’informazione mancante. Nella sezione [notizie dell’edilizia](/categoria/news) trovi altri approfondimenti, da usare come contesto e non come conferma automatica del tuo caso."
+        }
+      ]
+    }
+  ]
+},
+{
   "slug": "bonus-edilizi-verificare-notizie-fonti",
   "title": "Notizie sui bonus edilizi: come distinguere annunci, norme e istruzioni operative",
   "seoTitle": "Bonus edilizi: come verificare una notizia",
