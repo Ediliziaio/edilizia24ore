@@ -287,7 +287,7 @@ export default function Article() {
               </nav>
 
               {/* Body sections with in-article ads after 2nd and 5th section */}
-              <div className="article-body mt-10" itemProp="articleBody">
+              <div data-editorial-body className="article-body mt-10" itemProp="articleBody">
                 {article.intro?.map((p, j) => (
                   <p key={`intro-${j}`}>{renderInlineLinks(p)}</p>
                 ))}
