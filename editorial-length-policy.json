@@ -3,6 +3,7 @@
   "enforcePublishedOnOrAfter": "2026-11-07",
   "requiredSlugs": [
     "bonus-edilizi-verificare-notizie-fonti",
-    "fascicolo-lavori-edilizi-organizzare-documenti"
+    "fascicolo-lavori-edilizi-organizzare-documenti",
+    "preventivo-lavori-prezzo-ipotesi-bonus"
   ]
 }
