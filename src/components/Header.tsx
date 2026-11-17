@@ -36,7 +36,7 @@ export default function Header() {
 
       <div className="mx-auto max-w-7xl px-4">
         <div
-          className={`flex items-center justify-between gap-4 transition-all ${
+          className={`flex min-w-0 items-center justify-between gap-2 transition-all sm:gap-4 ${
             scrolled ? 'py-2' : 'py-3 sm:py-4'
           }`}
         >
@@ -53,15 +53,15 @@ export default function Header() {
           </Link>
 
           {/* Desktop nav */}
-          <nav aria-label="Navigazione principale" className="hidden lg:block">
-            <ul className="flex items-center gap-0.5">
+          <nav aria-label="Navigazione principale" className="hidden min-w-0 flex-1 lg:block">
+            <ul className="flex flex-wrap items-center justify-end gap-x-0.5 gap-y-1">
               {NAV_ITEMS.map((item) => (
                 <li key={item.to}>
                   <NavLink
                     to={item.to}
                     end={item.to === '/'}
                     className={({ isActive }) =>
-                      `whitespace-nowrap px-2.5 py-2 text-[13px] font-semibold uppercase tracking-wide transition-colors ${
+                      `block whitespace-nowrap px-2.5 py-2 text-[13px] font-semibold uppercase tracking-wide transition-colors ${
                         isActive
                           ? 'border-b-2 border-brand text-brand'
                           : 'text-ink hover:text-brand'
@@ -76,7 +76,7 @@ export default function Header() {
                 <NavLink
                   to="/chi-siamo"
                   className={({ isActive }) =>
-                    `whitespace-nowrap px-2.5 py-2 text-[13px] font-semibold uppercase tracking-wide transition-colors ${
+                    `block whitespace-nowrap px-2.5 py-2 text-[13px] font-semibold uppercase tracking-wide transition-colors ${
                       isActive ? 'border-b-2 border-brand text-brand' : 'text-neutral-500 hover:text-brand'
                     }`
                   }
