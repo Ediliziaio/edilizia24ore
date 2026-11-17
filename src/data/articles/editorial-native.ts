@@ -1,6 +1,321 @@
 import type { Article } from "../types";
 export const editorialNative: Article[] = [
   {
+    "slug": "lavori-cavallo-anno-fatture-date-documenti",
+    "title": "Lavori a cavallo d'anno: fatture, date e documenti da preparare",
+    "seoTitle": "Lavori a cavallo d’anno: fatture, date e documenti",
+    "seoDescription": "Prepara i documenti dei lavori a cavallo d’anno: cronologia, fatture, pagamenti e domande al consulente. Scheda CSV senza regole fiscali presunte.",
+    "category": "news",
+    "subcategory": "Bonus & Fisco",
+    "excerpt": "Prepara i documenti dei lavori a cavallo d’anno: cronologia, fatture, pagamenti e domande al consulente. Scheda CSV senza regole fiscali presunte.",
+    "keywords": [
+      "lavori a cavallo d’anno",
+      "documenti lavori edilizi",
+      "fatture ristrutturazione"
+    ],
+    "publishedAt": "2026-11-17",
+    "updatedAt": "2026-11-17",
+    "author": {
+      "name": "Redazione Edilizia 24 Ore",
+      "role": "Redazione"
+    },
+    "readingTime": 12,
+    "faq": [
+      {
+        "q": "La data della fattura decide sempre da sola l’anno fiscale?",
+        "a": "Questa guida non attribuisce effetti fiscali a una data. La valutazione richiede regole aggiornate, soggetto, operazione e documenti del caso, da verificare con il consulente."
+      },
+      {
+        "q": "Basta una cartella con le copie delle fatture elettroniche?",
+        "a": "Una cartella aiuta il lavoro documentale. L’Agenzia delle Entrate distingue la semplice memorizzazione dalla conservazione a norma: verifica con chi gestisce il servizio il perimetro pertinente."
+      },
+      {
+        "q": "Che cosa contiene il modello CSV?",
+        "a": "Eventi, date, riferimenti, stato e domande da chiarire. Non contiene aliquote, scadenze fiscali o formule applicabili automaticamente."
+      }
+    ],
+    "image": {
+      "src": "/editorial-assets/lavori-cavallo-anno-fatture-date-documenti.webp",
+      "alt": "Scena illustrativa generata con IA: fascicoli dei lavori, calendario senza date e documenti astratti"
+    },
+    "sections": [
+      {
+        "heading": "Tenere separate le date prima di cercare una scadenza",
+        "paragraphs": [
+          "Quando i lavori attraversano la fine dell'anno, conviene costruire una cronologia che distingua attività eseguite, documenti ricevuti, fatture e pagamenti. Queste informazioni non coincidono automaticamente. Una raccolta ordinata consente a impresa, tecnico e consulente di verificare il caso concreto, senza attribuire a una data un effetto fiscale ricavato da un titolo online o da una semplice previsione commerciale.",
+          "Questa guida è un metodo di preparazione documentale. Non stabilisce l'anno di competenza di un costo, l'accesso a una detrazione, l'aliquota applicabile o una modalità di pagamento universale. Queste valutazioni richiedono regole aggiornate e fatti pertinenti al soggetto e all'intervento. Il contributo operativo è diverso: rendere disponibili le informazioni necessarie, indicare ciò che manca e formulare domande verificabili prima che il calendario diventi una corsa disordinata.",
+          "Un cantiere iniziato in un anno e completato nel successivo può coinvolgere più imprese, forniture separate e documenti prodotti in momenti diversi. Un'unica cartella chiamata “fatture lavori” raramente spiega questi rapporti. È più utile collegare ogni documento a una voce del lavoro e conservare le date con il loro significato, evitando di rinominare tutto in base al solo anno in cui il file è arrivato via email."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Quando i lavori attraversano la fine dell'anno, conviene costruire una cronologia che distingua attività eseguite, documenti ricevuti, fatture e pagamenti. Queste informazioni non coincidono automaticamente. Una raccolta ordinata consente a impresa, tecnico e consulente di verificare il caso concreto, senza attribuire a una data un effetto fiscale ricavato da un titolo online o da una semplice previsione commerciale."
+          },
+          {
+            "type": "p",
+            "text": "Questa guida è un metodo di preparazione documentale. Non stabilisce l'anno di competenza di un costo, l'accesso a una detrazione, l'aliquota applicabile o una modalità di pagamento universale. Queste valutazioni richiedono regole aggiornate e fatti pertinenti al soggetto e all'intervento. Il contributo operativo è diverso: rendere disponibili le informazioni necessarie, indicare ciò che manca e formulare domande verificabili prima che il calendario diventi una corsa disordinata."
+          },
+          {
+            "type": "p",
+            "text": "Un cantiere iniziato in un anno e completato nel successivo può coinvolgere più imprese, forniture separate e documenti prodotti in momenti diversi. Un'unica cartella chiamata “fatture lavori” raramente spiega questi rapporti. È più utile collegare ogni documento a una voce del lavoro e conservare le date con il loro significato, evitando di rinominare tutto in base al solo anno in cui il file è arrivato via email."
+          }
+        ]
+      },
+      {
+        "heading": "Costruire una cronologia dei fatti documentati",
+        "paragraphs": [
+          "Apri un registro con evento, data, riferimento e fonte dell'informazione. Un evento può essere la ricezione di una proposta, l'accordo su una variazione o il ricevimento di una fattura. Non serve introdurre giudizi fiscali nella stessa colonna. Scrivi anzitutto ciò che il documento dimostra e ciò che deve ancora essere verificato. Se conosci soltanto una data indicativa, mantienila distinta da un fatto già accertato.",
+          "Evita di usare la data del messaggio come sostituto di ogni altra data. Il giorno in cui il cliente inoltra una fattura al consulente può essere diverso da quello del documento e dagli altri eventi pertinenti. Conserva il messaggio quando utile, ma riporta separatamente i riferimenti necessari. In questo modo una ricerca nell'archivio non dipenderà dal ricordo di quale persona abbia inviato per ultima una copia del file.",
+          "Per i fatti riferiti dal personale o dall'impresa, indica il documento che li conferma oppure segnala che si tratta di informazione da completare. Un registro ordinato non deve trasformare il racconto di una telefonata in una certificazione dell'avanzamento. Quando serve un'attestazione o una verifica professionale, raccogli il riferimento pertinente. La cronologia serve a sostenere le domande, non a sostituire i documenti previsti nel caso concreto."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Apri un registro con evento, data, riferimento e fonte dell'informazione. Un evento può essere la ricezione di una proposta, l'accordo su una variazione o il ricevimento di una fattura. Non serve introdurre giudizi fiscali nella stessa colonna. Scrivi anzitutto ciò che il documento dimostra e ciò che deve ancora essere verificato. Se conosci soltanto una data indicativa, mantienila distinta da un fatto già accertato."
+          },
+          {
+            "type": "p",
+            "text": "Evita di usare la data del messaggio come sostituto di ogni altra data. Il giorno in cui il cliente inoltra una fattura al consulente può essere diverso da quello del documento e dagli altri eventi pertinenti. Conserva il messaggio quando utile, ma riporta separatamente i riferimenti necessari. In questo modo una ricerca nell'archivio non dipenderà dal ricordo di quale persona abbia inviato per ultima una copia del file."
+          },
+          {
+            "type": "p",
+            "text": "Per i fatti riferiti dal personale o dall'impresa, indica il documento che li conferma oppure segnala che si tratta di informazione da completare. Un registro ordinato non deve trasformare il racconto di una telefonata in una certificazione dell'avanzamento. Quando serve un'attestazione o una verifica professionale, raccogli il riferimento pertinente. La cronologia serve a sostenere le domande, non a sostituire i documenti previsti nel caso concreto."
+          }
+        ]
+      },
+      {
+        "heading": "Collegare fatture, offerte e lavorazioni",
+        "paragraphs": [
+          "Per ogni fattura cerca un collegamento riconoscibile alla proposta o alla lavorazione cui si riferisce. Può essere un numero d'ordine, il riferimento a un contratto o un'indicazione presente nella documentazione ricevuta. Se il collegamento non è chiaro, chiedi all'impresa di precisarlo. Non modificare la fattura per introdurre una spiegazione personale: aggiungi una nota nel registro e conserva l'eventuale chiarimento separato, attribuendolo al suo autore.",
+          "La guida al [fascicolo dei lavori edilizi](https://www.edilizia24ore.it/articolo/fascicolo-lavori-edilizi-organizzare-documenti) propone una struttura generale per unire preventivi, documenti e riferimenti. A fine anno questa struttura diventa utile per distinguere materiali, lavorazioni, prestazioni professionali e variazioni. Non è necessario che ogni documento abbia lo stesso formato: è necessario poter capire a quale parte del progetto si riferisca e quali altri documenti siano collegati.",
+          "Se una fattura comprende più attività, segnala la circostanza al consulente anziché attribuire autonomamente una ripartizione. Lo stesso vale per descrizioni sintetiche che non permettono di riconoscere immediatamente l'intervento. Una richiesta di chiarimento dovrebbe citare numero del documento e voce del lavoro, mantenendo intatta la documentazione originale. Il destinatario potrà così rispondere sul caso preciso invece di inviare una spiegazione generica che lascia aperto il collegamento."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Per ogni fattura cerca un collegamento riconoscibile alla proposta o alla lavorazione cui si riferisce. Può essere un numero d'ordine, il riferimento a un contratto o un'indicazione presente nella documentazione ricevuta. Se il collegamento non è chiaro, chiedi all'impresa di precisarlo. Non modificare la fattura per introdurre una spiegazione personale: aggiungi una nota nel registro e conserva l'eventuale chiarimento separato, attribuendolo al suo autore."
+          },
+          {
+            "type": "p",
+            "text": "La guida al [fascicolo dei lavori edilizi](https://www.edilizia24ore.it/articolo/fascicolo-lavori-edilizi-organizzare-documenti) propone una struttura generale per unire preventivi, documenti e riferimenti. A fine anno questa struttura diventa utile per distinguere materiali, lavorazioni, prestazioni professionali e variazioni. Non è necessario che ogni documento abbia lo stesso formato: è necessario poter capire a quale parte del progetto si riferisca e quali altri documenti siano collegati."
+          },
+          {
+            "type": "p",
+            "text": "Se una fattura comprende più attività, segnala la circostanza al consulente anziché attribuire autonomamente una ripartizione. Lo stesso vale per descrizioni sintetiche che non permettono di riconoscere immediatamente l'intervento. Una richiesta di chiarimento dovrebbe citare numero del documento e voce del lavoro, mantenendo intatta la documentazione originale. Il destinatario potrà così rispondere sul caso preciso invece di inviare una spiegazione generica che lascia aperto il collegamento."
+          }
+        ]
+      },
+      {
+        "heading": "Separare previsione di pagamento e pagamento effettuato",
+        "paragraphs": [
+          "Il calendario delle somme previste serve a programmare, mentre la documentazione dei pagamenti riguarda eventi avvenuti. Mantieni le due informazioni in campi differenti. Un promemoria del cliente, una richiesta dell'impresa e un'evidenza dell'operazione non hanno lo stesso significato. Quando prepari il dossier, chiedi al consulente quali riferimenti siano necessari alla verifica e come collegarli alle fatture, senza dedurre effetti fiscali dalla sola presenza di un ordine di pagamento.",
+          "Prima di un'operazione che intendi sottoporre a verifica per uno specifico trattamento fiscale, porta al consulente i documenti del caso e le domande ancora aperte. Questa guida non indica causali o strumenti validi per qualsiasi intervento. È più utile ottenere una risposta riferita al soggetto, al lavoro e alle condizioni applicabili, conservando la comunicazione pertinente. Un modello trovato online può non conoscere proprio la differenza che conta nel tuo caso.",
+          "Nel registro evita stati ambigui come “sistemato”. Usa descrizioni fattuali: documento ricevuto, informazione da verificare, pagamento previsto oppure evidenza disponibile. Per chi legge dopo settimane, un campo chiaro è più utile di un colore senza legenda. Non ricavare la conclusione fiscale dal nome dello stato: il registro organizza le informazioni, mentre la valutazione resta collegata ai documenti e alla verifica del professionista incaricato."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Il calendario delle somme previste serve a programmare, mentre la documentazione dei pagamenti riguarda eventi avvenuti. Mantieni le due informazioni in campi differenti. Un promemoria del cliente, una richiesta dell'impresa e un'evidenza dell'operazione non hanno lo stesso significato. Quando prepari il dossier, chiedi al consulente quali riferimenti siano necessari alla verifica e come collegarli alle fatture, senza dedurre effetti fiscali dalla sola presenza di un ordine di pagamento."
+          },
+          {
+            "type": "p",
+            "text": "Prima di un'operazione che intendi sottoporre a verifica per uno specifico trattamento fiscale, porta al consulente i documenti del caso e le domande ancora aperte. Questa guida non indica causali o strumenti validi per qualsiasi intervento. È più utile ottenere una risposta riferita al soggetto, al lavoro e alle condizioni applicabili, conservando la comunicazione pertinente. Un modello trovato online può non conoscere proprio la differenza che conta nel tuo caso."
+          },
+          {
+            "type": "p",
+            "text": "Nel registro evita stati ambigui come “sistemato”. Usa descrizioni fattuali: documento ricevuto, informazione da verificare, pagamento previsto oppure evidenza disponibile. Per chi legge dopo settimane, un campo chiaro è più utile di un colore senza legenda. Non ricavare la conclusione fiscale dal nome dello stato: il registro organizza le informazioni, mentre la valutazione resta collegata ai documenti e alla verifica del professionista incaricato."
+          }
+        ]
+      },
+      {
+        "heading": "Raccogliere i documenti senza scambiare una copia per conservazione",
+        "paragraphs": [
+          "Scaricare i file in una cartella è utile per lavorare, ma non esaurisce gli aspetti della conservazione delle fatture elettroniche. L'[Agenzia delle Entrate spiega la differenza fra semplice memorizzazione e conservazione a norma](https://agenziaentrate.gov.it/portale/web/guest/aree-tematiche/fatturazione-elettronica/guida-fatturazione-elettronica/come-predisporre-inviare-ricevere-fe/come-si-conservano-fe). La pagina illustra anche il servizio dell'Agenzia disponibile nell'area riservata. Per il proprio archivio occorre verificare quale servizio sia attivo e quale perimetro copra, senza presumere che ogni copia inviata via email sia già conservata.",
+          "Con il consulente o con il soggetto che gestisce la fatturazione chiarisci dove siano disponibili gli originali e come recuperarli. Evita di chiedere credenziali a persone non autorizzate o di inserire dati riservati in strumenti condivisi senza necessità. La scheda editoriale può contenere riferimenti interni ai documenti, lasciando i file nell'archivio appropriato. Organizzare i collegamenti non richiede diffondere l'intero contenuto amministrativo a ogni partecipante al progetto.",
+          "Tieni separate la copia leggibile usata durante una riunione e la documentazione originale pertinente. Se un documento viene aggiornato o corretto secondo le procedure applicabili, conserva i riferimenti che permettono di comprenderne la relazione con il precedente. Non cancellare informazioni soltanto per far coincidere la cartella con un riepilogo. Prima chiedi a chi gestisce l'archivio come debba essere rappresentata la situazione documentale effettiva."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Scaricare i file in una cartella è utile per lavorare, ma non esaurisce gli aspetti della conservazione delle fatture elettroniche. L'[Agenzia delle Entrate spiega la differenza fra semplice memorizzazione e conservazione a norma](https://agenziaentrate.gov.it/portale/web/guest/aree-tematiche/fatturazione-elettronica/guida-fatturazione-elettronica/come-predisporre-inviare-ricevere-fe/come-si-conservano-fe). La pagina illustra anche il servizio dell'Agenzia disponibile nell'area riservata. Per il proprio archivio occorre verificare quale servizio sia attivo e quale perimetro copra, senza presumere che ogni copia inviata via email sia già conservata."
+          },
+          {
+            "type": "p",
+            "text": "Con il consulente o con il soggetto che gestisce la fatturazione chiarisci dove siano disponibili gli originali e come recuperarli. Evita di chiedere credenziali a persone non autorizzate o di inserire dati riservati in strumenti condivisi senza necessità. La scheda editoriale può contenere riferimenti interni ai documenti, lasciando i file nell'archivio appropriato. Organizzare i collegamenti non richiede diffondere l'intero contenuto amministrativo a ogni partecipante al progetto."
+          },
+          {
+            "type": "p",
+            "text": "Tieni separate la copia leggibile usata durante una riunione e la documentazione originale pertinente. Se un documento viene aggiornato o corretto secondo le procedure applicabili, conserva i riferimenti che permettono di comprenderne la relazione con il precedente. Non cancellare informazioni soltanto per far coincidere la cartella con un riepilogo. Prima chiedi a chi gestisce l'archivio come debba essere rappresentata la situazione documentale effettiva."
+          }
+        ]
+      },
+      {
+        "heading": "Registrare le variazioni senza riscrivere la storia del lavoro",
+        "paragraphs": [
+          "Una modifica approvata durante il cantiere può cambiare oggetto, quantità, prezzo e calendario. A fine anno occorre riconoscere quali documenti si riferiscano alla versione iniziale e quali alla variazione. Usa riferimenti distinti e collega la conferma ricevuta. Non sovrascrivere la vecchia proposta con una nuova copia lasciando lo stesso nome, perché chi ricostruisce i fatti potrebbe non capire quale versione fosse pertinente in un determinato momento.",
+          "Le informazioni economiche dovrebbero restare collegate al perimetro del lavoro. Nella guida su [prezzo dei lavori e ipotesi di bonus](https://www.edilizia24ore.it/articolo/preventivo-lavori-prezzo-ipotesi-bonus) viene proposta questa distinzione: il corrispettivo dell'intervento e l'eventuale trattamento fiscale non sono la stessa voce. Una variazione non va presentata come fiscalmente neutra o agevolata senza la verifica pertinente. Raccogli prima la descrizione del cambiamento e i documenti che lo rappresentano.",
+          "Se la variazione è ancora in discussione, indica lo stato aperto. Non inserire nel dossier di fine anno un importo come definitivo soltanto perché compariva in una simulazione. Chiedi quali informazioni debbano essere confermate dall'impresa e quali dal professionista. Il registro può aiutare a coordinare questi passaggi, facendo emergere le dipendenze fra decisioni commerciali, documentazione tecnica e valutazione fiscale senza confonderne gli autori."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Una modifica approvata durante il cantiere può cambiare oggetto, quantità, prezzo e calendario. A fine anno occorre riconoscere quali documenti si riferiscano alla versione iniziale e quali alla variazione. Usa riferimenti distinti e collega la conferma ricevuta. Non sovrascrivere la vecchia proposta con una nuova copia lasciando lo stesso nome, perché chi ricostruisce i fatti potrebbe non capire quale versione fosse pertinente in un determinato momento."
+          },
+          {
+            "type": "p",
+            "text": "Le informazioni economiche dovrebbero restare collegate al perimetro del lavoro. Nella guida su [prezzo dei lavori e ipotesi di bonus](https://www.edilizia24ore.it/articolo/preventivo-lavori-prezzo-ipotesi-bonus) viene proposta questa distinzione: il corrispettivo dell'intervento e l'eventuale trattamento fiscale non sono la stessa voce. Una variazione non va presentata come fiscalmente neutra o agevolata senza la verifica pertinente. Raccogli prima la descrizione del cambiamento e i documenti che lo rappresentano."
+          },
+          {
+            "type": "p",
+            "text": "Se la variazione è ancora in discussione, indica lo stato aperto. Non inserire nel dossier di fine anno un importo come definitivo soltanto perché compariva in una simulazione. Chiedi quali informazioni debbano essere confermate dall'impresa e quali dal professionista. Il registro può aiutare a coordinare questi passaggi, facendo emergere le dipendenze fra decisioni commerciali, documentazione tecnica e valutazione fiscale senza confonderne gli autori."
+          }
+        ]
+      },
+      {
+        "heading": "Un esempio di cronologia che attraversa dicembre e gennaio",
+        "paragraphs": [
+          "Immaginiamo un caso puramente illustrativo, privo di conseguenze fiscali predefinite. A dicembre viene condivisa una proposta per una lavorazione; nello stesso periodo il tecnico chiede un'integrazione; a gennaio arriva una versione aggiornata dell'offerta e successivamente viene ricevuto un documento amministrativo. Il registro deve conservare tutti gli eventi con i rispettivi riferimenti. Non basta inserire l'intero pacchetto nella cartella dell'ultimo anno perché l'ultima email è arrivata a gennaio.",
+          "La domanda al consulente non è “in quale anno metto tutto?”, ma quali fatti e documenti servano per valutare ciascun aspetto. La risposta può richiedere ulteriori informazioni sul soggetto, sull'operazione e sulle condizioni applicabili. L'esempio non suggerisce una regola di competenza né un comportamento da adottare per ottenere un'agevolazione: mostra come preparare una conversazione nella quale i dati non debbano essere ricostruiti da ricordi e screenshot.",
+          "Se l'impresa modifica una descrizione o invia un chiarimento, aggiungi il riferimento alla riga pertinente. Il valore della cronologia consiste nel rendere visibile il rapporto fra eventi, non nel creare una sequenza formalmente perfetta a posteriori. Anche un'informazione ancora da verificare deve essere leggibile come tale. Forzare una data o eliminare un passaggio rende il dossier meno utile a chi deve valutare la situazione reale."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Immaginiamo un caso puramente illustrativo, privo di conseguenze fiscali predefinite. A dicembre viene condivisa una proposta per una lavorazione; nello stesso periodo il tecnico chiede un'integrazione; a gennaio arriva una versione aggiornata dell'offerta e successivamente viene ricevuto un documento amministrativo. Il registro deve conservare tutti gli eventi con i rispettivi riferimenti. Non basta inserire l'intero pacchetto nella cartella dell'ultimo anno perché l'ultima email è arrivata a gennaio."
+          },
+          {
+            "type": "p",
+            "text": "La domanda al consulente non è “in quale anno metto tutto?”, ma quali fatti e documenti servano per valutare ciascun aspetto. La risposta può richiedere ulteriori informazioni sul soggetto, sull'operazione e sulle condizioni applicabili. L'esempio non suggerisce una regola di competenza né un comportamento da adottare per ottenere un'agevolazione: mostra come preparare una conversazione nella quale i dati non debbano essere ricostruiti da ricordi e screenshot."
+          },
+          {
+            "type": "p",
+            "text": "Se l'impresa modifica una descrizione o invia un chiarimento, aggiungi il riferimento alla riga pertinente. Il valore della cronologia consiste nel rendere visibile il rapporto fra eventi, non nel creare una sequenza formalmente perfetta a posteriori. Anche un'informazione ancora da verificare deve essere leggibile come tale. Forzare una data o eliminare un passaggio rende il dossier meno utile a chi deve valutare la situazione reale."
+          }
+        ]
+      },
+      {
+        "heading": "Controllare le notizie prima di trasformarle in istruzioni",
+        "paragraphs": [
+          "Verso fine anno aumentano messaggi su proroghe, cambiamenti e presunte scadenze decisive. Prima di prendere una decisione cerca la fonte primaria, la data e il passaggio effettivamente applicabile. Una proposta in discussione, un annuncio e una disposizione vigente non possono essere riuniti sotto la stessa formula. Per organizzare la verifica puoi usare la guida su [come leggere le notizie sui bonus edilizi](https://www.edilizia24ore.it/articolo/bonus-edilizi-verificare-notizie-fonti).",
+          "Quando chiedi una conferma al consulente, allega la notizia e formula la domanda relativa al tuo caso. Non chiedere soltanto se il titolo sia vero: indica il soggetto interessato, il lavoro e la decisione che stai valutando. Le informazioni personali e amministrative vanno condivise con i soggetti appropriati. La risposta dovrebbe chiarire quali elementi siano già valutabili e quali richiedano documenti o aggiornamenti successivi.",
+          "Evita di copiare nel preventivo una percentuale o una scadenza letta in una pubblicazione senza identificarne le condizioni. Anche una fonte autorevole può descrivere un caso diverso. Mantieni nel registro un campo per il riferimento e uno per la verifica professionale, distinguendo una notizia consultata da una conclusione applicata al progetto. Questo rende possibile aggiornare il quadro senza riscrivere arbitrariamente i documenti originari."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Verso fine anno aumentano messaggi su proroghe, cambiamenti e presunte scadenze decisive. Prima di prendere una decisione cerca la fonte primaria, la data e il passaggio effettivamente applicabile. Una proposta in discussione, un annuncio e una disposizione vigente non possono essere riuniti sotto la stessa formula. Per organizzare la verifica puoi usare la guida su [come leggere le notizie sui bonus edilizi](https://www.edilizia24ore.it/articolo/bonus-edilizi-verificare-notizie-fonti)."
+          },
+          {
+            "type": "p",
+            "text": "Quando chiedi una conferma al consulente, allega la notizia e formula la domanda relativa al tuo caso. Non chiedere soltanto se il titolo sia vero: indica il soggetto interessato, il lavoro e la decisione che stai valutando. Le informazioni personali e amministrative vanno condivise con i soggetti appropriati. La risposta dovrebbe chiarire quali elementi siano già valutabili e quali richiedano documenti o aggiornamenti successivi."
+          },
+          {
+            "type": "p",
+            "text": "Evita di copiare nel preventivo una percentuale o una scadenza letta in una pubblicazione senza identificarne le condizioni. Anche una fonte autorevole può descrivere un caso diverso. Mantieni nel registro un campo per il riferimento e uno per la verifica professionale, distinguendo una notizia consultata da una conclusione applicata al progetto. Questo rende possibile aggiornare il quadro senza riscrivere arbitrariamente i documenti originari."
+          }
+        ]
+      },
+      {
+        "heading": "Preparare una riunione breve con domande complete",
+        "paragraphs": [
+          "Invia in anticipo un elenco ordinato dei documenti disponibili e delle informazioni mancanti. Raggruppa le domande per interlocutore: descrizione dei lavori all'impresa, documentazione tecnica al professionista competente e trattamento amministrativo o fiscale al consulente. Non tutte le risposte devono arrivare dalla stessa persona. Il registro aiuta a vedere quando una valutazione dipenda da un'informazione che deve essere fornita da un altro soggetto.",
+          "Per ogni domanda cita il documento, la riga del lavoro e il fatto da chiarire. Per esempio: questa fattura a quale versione della proposta si riferisce? Il documento tecnico richiesto è già disponibile? Quale informazione serve per valutare il pagamento previsto? Il risultato utile della riunione è un elenco di risposte e prossimi passaggi, con riferimenti verificabili, anziché una promessa generica che “a fine anno sarà tutto a posto”."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Invia in anticipo un elenco ordinato dei documenti disponibili e delle informazioni mancanti. Raggruppa le domande per interlocutore: descrizione dei lavori all'impresa, documentazione tecnica al professionista competente e trattamento amministrativo o fiscale al consulente. Non tutte le risposte devono arrivare dalla stessa persona. Il registro aiuta a vedere quando una valutazione dipenda da un'informazione che deve essere fornita da un altro soggetto."
+          },
+          {
+            "type": "p",
+            "text": "Per ogni domanda cita il documento, la riga del lavoro e il fatto da chiarire. Per esempio: questa fattura a quale versione della proposta si riferisce? Il documento tecnico richiesto è già disponibile? Quale informazione serve per valutare il pagamento previsto? Il risultato utile della riunione è un elenco di risposte e prossimi passaggi, con riferimenti verificabili, anziché una promessa generica che “a fine anno sarà tutto a posto”."
+          }
+        ]
+      },
+      {
+        "heading": "Preparare un indice degli allegati leggibile da altri",
+        "paragraphs": [
+          "La persona che riceve il dossier dovrebbe poter trovare un documento senza conoscere la storia di tutte le email. Assegna quindi un riferimento breve a ciascun allegato e riportalo nella cronologia. Il nome può contenere tipo di documento, soggetto e numero pertinente, evitando dati personali non necessari. Mantieni una corrispondenza stabile fra registro e archivio: se cambi il nome di un file, controlla che i riferimenti continuino a permettere di trovarlo.",
+          "Per i documenti disponibili soltanto in un sistema riservato indica il riferimento e il soggetto autorizzato che può recuperarli, senza copiare credenziali nel registro. Se il consulente chiede un'integrazione, aggiungi una riga con la richiesta e il documento atteso. Il dossier diventa così una mappa delle informazioni, non una raccolta indiscriminata di copie. Chi lo esamina può distinguere un allegato presente da un riferimento ancora da completare."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "La persona che riceve il dossier dovrebbe poter trovare un documento senza conoscere la storia di tutte le email. Assegna quindi un riferimento breve a ciascun allegato e riportalo nella cronologia. Il nome può contenere tipo di documento, soggetto e numero pertinente, evitando dati personali non necessari. Mantieni una corrispondenza stabile fra registro e archivio: se cambi il nome di un file, controlla che i riferimenti continuino a permettere di trovarlo."
+          },
+          {
+            "type": "p",
+            "text": "Per i documenti disponibili soltanto in un sistema riservato indica il riferimento e il soggetto autorizzato che può recuperarli, senza copiare credenziali nel registro. Se il consulente chiede un'integrazione, aggiungi una riga con la richiesta e il documento atteso. Il dossier diventa così una mappa delle informazioni, non una raccolta indiscriminata di copie. Chi lo esamina può distinguere un allegato presente da un riferimento ancora da completare."
+          }
+        ]
+      },
+      {
+        "heading": "Affrontare una discrepanza senza correggere i documenti da soli",
+        "paragraphs": [
+          "Può accadere che il riepilogo commerciale, una descrizione in fattura e il registro interno usino parole differenti. Prima di attribuire un errore identifica precisamente il punto e chiedi chiarimento al soggetto emittente, coinvolgendo il consulente quando pertinente. Non alterare file originali e non costruire una versione “ripulita” che nasconda la discrepanza. La risposta deve permettere di comprendere il rapporto fra le informazioni e gli eventuali passaggi applicabili.",
+          "Nel registro descrivi la differenza con parole neutrali e collega i documenti. Per esempio: la voce nell'offerta ha questo riferimento, mentre il documento amministrativo riporta questa descrizione; quale collegamento va considerato? Quando arriva il chiarimento, conservane autore e data. Questo metodo permette di lavorare su fatti verificabili anche a distanza di tempo e riduce la dipendenza da interpretazioni personali trasmesse oralmente fra più interlocutori."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Può accadere che il riepilogo commerciale, una descrizione in fattura e il registro interno usino parole differenti. Prima di attribuire un errore identifica precisamente il punto e chiedi chiarimento al soggetto emittente, coinvolgendo il consulente quando pertinente. Non alterare file originali e non costruire una versione “ripulita” che nasconda la discrepanza. La risposta deve permettere di comprendere il rapporto fra le informazioni e gli eventuali passaggi applicabili."
+          },
+          {
+            "type": "p",
+            "text": "Nel registro descrivi la differenza con parole neutrali e collega i documenti. Per esempio: la voce nell'offerta ha questo riferimento, mentre il documento amministrativo riporta questa descrizione; quale collegamento va considerato? Quando arriva il chiarimento, conservane autore e data. Questo metodo permette di lavorare su fatti verificabili anche a distanza di tempo e riduce la dipendenza da interpretazioni personali trasmesse oralmente fra più interlocutori."
+          }
+        ]
+      },
+      {
+        "heading": "Usare la scheda e chiudere le informazioni aperte",
+        "paragraphs": [
+          "La [scheda per i lavori a cavallo d'anno](https://www.edilizia24ore.it/downloads/lavori-cavallo-anno-fatture-date-documenti.csv) contiene campi per evento, data, documento, lavorazione, stato e domanda. Non include aliquote, scadenze o formule fiscali precompilate. Compilala con fatti documentati e usa un riferimento per gli allegati conservati nell'archivio appropriato. Puoi poi condividerla con i soggetti incaricati, limitando il contenuto alle informazioni effettivamente necessarie.",
+          "Prima della chiusura amministrativa concordata verifica che ciascuna domanda abbia una risposta oppure un prossimo passaggio esplicito. Non sostituire il controllo del professionista con una spunta nel foglio. Il risultato desiderato è una ricostruzione comprensibile: quali lavori e documenti sono coinvolti, quali eventi risultano documentati e quali informazioni restano da valutare. È questa base che permette di affrontare la fine dell'anno con domande precise e riferimenti disponibili.",
+          "La copertina originale è generata con intelligenza artificiale. Fascicoli, calendario e documenti sono illustrativi e non rappresentano fatture autentiche o documentazione di un intervento reale."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "La [scheda per i lavori a cavallo d'anno](https://www.edilizia24ore.it/downloads/lavori-cavallo-anno-fatture-date-documenti.csv) contiene campi per evento, data, documento, lavorazione, stato e domanda. Non include aliquote, scadenze o formule fiscali precompilate. Compilala con fatti documentati e usa un riferimento per gli allegati conservati nell'archivio appropriato. Puoi poi condividerla con i soggetti incaricati, limitando il contenuto alle informazioni effettivamente necessarie."
+          },
+          {
+            "type": "p",
+            "text": "Prima della chiusura amministrativa concordata verifica che ciascuna domanda abbia una risposta oppure un prossimo passaggio esplicito. Non sostituire il controllo del professionista con una spunta nel foglio. Il risultato desiderato è una ricostruzione comprensibile: quali lavori e documenti sono coinvolti, quali eventi risultano documentati e quali informazioni restano da valutare. È questa base che permette di affrontare la fine dell'anno con domande precise e riferimenti disponibili."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Informazione",
+              "Riferimento da raccogliere"
+            ],
+            "rows": [
+              [
+                "Evento",
+                "Da compilare con il documento o con la domanda pertinente"
+              ],
+              [
+                "Data e significato",
+                "Da compilare con il documento o con la domanda pertinente"
+              ],
+              [
+                "Fonte informazione",
+                "Da compilare con il documento o con la domanda pertinente"
+              ],
+              [
+                "Documento e riferimento",
+                "Da compilare con il documento o con la domanda pertinente"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "La copertina originale è generata con intelligenza artificiale. Fascicoli, calendario e documenti sono illustrativi e non rappresentano fatture autentiche o documentazione di un intervento reale."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "fascicolo-lavori-edilizi-organizzare-documenti",
     "title": "Fascicolo dei lavori edilizi: come collegare preventivi, fatture e documenti",
     "seoTitle": "Fascicolo lavori edilizi: organizzare i documenti",
