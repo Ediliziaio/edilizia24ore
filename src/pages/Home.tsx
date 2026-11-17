@@ -1,4 +1,3 @@
-import { PriorityPaths } from "@/components/PriorityPaths";
 import { useMemo } from 'react';
 import { Link } from 'react-router';
 import SeoHead from '@/components/SeoHead';
@@ -84,7 +83,6 @@ export default function Home() {
         <h1 className="sr-only">
           Edilizia 24 Ore: bonus edilizi, detrazioni e fiscalità della casa
         </h1>
-      <PriorityPaths />
 
 
         {/* ULTIME NOTIZIE — chronological feed */}
