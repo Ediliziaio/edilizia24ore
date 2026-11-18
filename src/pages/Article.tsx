@@ -129,7 +129,7 @@ export default function Article() {
   const article = getArticleBySlug(slug);
 
   const related = useMemo(() => (article ? getRelated(article, 4) : []), [article]);
-  const piuLetti = useMemo(() => articles.slice(0, 5), []);
+  const piuLetti = useMemo(() => articles.filter((item) => item.slug !== slug).slice(0, 5), [slug]);
 
   const jsonLd = useMemo(() => {
     if (!article) return [];

@@ -1,6 +1,339 @@
 import type { Article } from "../types";
 export const editorialNative: Article[] = [
   {
+    "sponsor": "CR Lodi Casa & Design",
+    "slug": "cr-lodi-pavimenti-rivestimenti-installazione",
+    "title": "CR Lodi Casa & Design: pavimenti e rivestimenti, dalla scelta all’installazione",
+    "seoTitle": "CR Lodi: pavimenti e showroom di Giuseppe Cinnirella",
+    "seoDescription": "Pavimenti e rivestimenti da CR Lodi: Giuseppe Cinnirella e lo showroom di Cornegliano Laudense, dalla scelta dei materiali alla posa.",
+    "category": "news",
+    "subcategory": "Mercato",
+    "excerpt": "Pavimenti e rivestimenti da CR Lodi: Giuseppe Cinnirella e lo showroom di Cornegliano Laudense, dalla scelta dei materiali alla posa.",
+    "keywords": [
+      "CR Lodi pavimenti",
+      "Giuseppe Cinnirella",
+      "showroom Cornegliano Laudense"
+    ],
+    "publishedAt": "2026-11-18",
+    "updatedAt": "2026-11-18",
+    "author": {
+      "name": "Redazione Edilizia 24 Ore",
+      "role": "Redazione"
+    },
+    "readingTime": 12,
+    "faq": [
+      {
+        "q": "Dove si trova lo showroom CR Lodi?",
+        "a": "In via Veneto 8 a Cornegliano Laudense, in provincia di Lodi."
+      },
+      {
+        "q": "Chi è il fondatore e titolare di CR Lodi?",
+        "a": "Giuseppe Cinnirella."
+      },
+      {
+        "q": "Come prenotare una visita allo showroom?",
+        "a": "Si può contattare direttamente CR Lodi allo 0371 752990 oppure dalla pagina Contatti del sito ufficiale."
+      }
+    ],
+    "image": {
+      "src": "/editorial-assets/cr-lodi-pavimenti-rivestimenti-installazione.webp",
+      "alt": "Pavimenti e finiture in un ambiente illustrativo. Immagine originale generata con AI a scopo illustrativo: non rappresenta lo showroom o un intervento dell’azienda."
+    },
+    "sections": [
+      {
+        "heading": "L’azienda e lo showroom",
+        "paragraphs": [
+          "CR Lodi Casa & Design propone pavimenti e rivestimenti nel suo showroom di via Veneto 8, a Cornegliano Laudense, vicino a Lodi. Giuseppe Cinnirella, fondatore e titolare, è il riferimento dell’azienda. Chi sta rinnovando casa può vedere i materiali, confrontare le finiture e valutare con CR Lodi anche il lavoro di installazione.",
+          "Il pavimento è una scelta che rimane sotto gli occhi tutti i giorni. Cambia la luce di una stanza, accompagna i mobili e unisce ambienti diversi. Per questo una visita in showroom serve a qualcosa di più che scegliere un colore: permette di osservare le superfici da vicino e di ragionare su come verranno utilizzate nella propria abitazione.",
+          "In questo articolo il centro è proprio lo showroom: come leggere i campioni, quali differenze osservare e come collegare la scelta del materiale alla posa. Gli esempi sono situazioni domestiche ipotetiche, utili per spiegare le decisioni. Non descrivono lavori specifici di CR Lodi e non attribuiscono prestazioni a prodotti non identificati."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CR Lodi Casa & Design propone pavimenti e rivestimenti nel suo showroom di via Veneto 8, a Cornegliano Laudense, vicino a Lodi. Giuseppe Cinnirella, fondatore e titolare, è il riferimento dell’azienda. Chi sta rinnovando casa può vedere i materiali, confrontare le finiture e valutare con CR Lodi anche il lavoro di installazione."
+          },
+          {
+            "type": "p",
+            "text": "Il pavimento è una scelta che rimane sotto gli occhi tutti i giorni. Cambia la luce di una stanza, accompagna i mobili e unisce ambienti diversi. Per questo una visita in showroom serve a qualcosa di più che scegliere un colore: permette di osservare le superfici da vicino e di ragionare su come verranno utilizzate nella propria abitazione."
+          },
+          {
+            "type": "p",
+            "text": "In questo articolo il centro è proprio lo showroom: come leggere i campioni, quali differenze osservare e come collegare la scelta del materiale alla posa. Gli esempi sono situazioni domestiche ipotetiche, utili per spiegare le decisioni. Non descrivono lavori specifici di CR Lodi e non attribuiscono prestazioni a prodotti non identificati."
+          }
+        ]
+      },
+      {
+        "heading": "Lo showroom di Giuseppe Cinnirella a Cornegliano Laudense",
+        "paragraphs": [
+          "Giuseppe Cinnirella ha fondato CR Lodi e ne è il titolare. L’attività unisce vendita di prodotti per la casa e lavori di ristrutturazione. Per il cliente questo significa poter iniziare da una superficie esposta e discutere subito dove andrà posata, quali elementi resteranno nella stanza e come dovranno essere risolti i passaggi.",
+          "Il [sito di Cinnirella Ristrutturazioni](https://www.cinnirellaristrutturazioni.it/) indica uno showroom di 300 metri quadrati. Non occorre arrivare con un progetto già completo per utilizzare bene lo spazio espositivo. Anche una richiesta circoscritta, come cambiare il pavimento del soggiorno mantenendo le porte esistenti, consente di iniziare un confronto concreto su materiali e finiture.",
+          "L’indirizzo da raggiungere per la visita è via Veneto 8, a Cornegliano Laudense. È utile concordare un appuntamento con lo showroom e spiegare quali stanze si vogliono rinnovare. In questo modo si parte dagli ambienti effettivi e si può dedicare più tempo alle alternative pertinenti, invece di osservare indistintamente ogni campione presente."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Giuseppe Cinnirella ha fondato CR Lodi e ne è il titolare. L’attività unisce vendita di prodotti per la casa e lavori di ristrutturazione. Per il cliente questo significa poter iniziare da una superficie esposta e discutere subito dove andrà posata, quali elementi resteranno nella stanza e come dovranno essere risolti i passaggi."
+          },
+          {
+            "type": "p",
+            "text": "Il [sito di Cinnirella Ristrutturazioni](https://www.cinnirellaristrutturazioni.it/) indica uno showroom di 300 metri quadrati. Non occorre arrivare con un progetto già completo per utilizzare bene lo spazio espositivo. Anche una richiesta circoscritta, come cambiare il pavimento del soggiorno mantenendo le porte esistenti, consente di iniziare un confronto concreto su materiali e finiture."
+          },
+          {
+            "type": "p",
+            "text": "L’indirizzo da raggiungere per la visita è via Veneto 8, a Cornegliano Laudense. È utile concordare un appuntamento con lo showroom e spiegare quali stanze si vogliono rinnovare. In questo modo si parte dagli ambienti effettivi e si può dedicare più tempo alle alternative pertinenti, invece di osservare indistintamente ogni campione presente."
+          }
+        ]
+      },
+      {
+        "heading": "Il primo confronto: gres, parquet e laminato",
+        "paragraphs": [
+          "Tra le categorie presentate da CR Lodi ci sono gres porcellanato, parquet e laminato. Non sono nomi intercambiabili: indicano famiglie di prodotti con caratteristiche e modalità di impiego differenti. Prima di esprimere una preferenza conviene chiarire che cosa si cerca nella stanza: una superficie dall’aspetto uniforme, la presenza del legno oppure una particolare facilità di gestione quotidiana.",
+          "Il confronto dal vivo aiuta a distinguere l’effetto visivo dalla sensazione al tatto. Un materiale che richiama il legno può riprodurne alcuni segni senza coincidere con un pavimento in legno. Una superficie fotografata da vicino può sembrare molto marcata, mentre su una stanza intera risulta più discreta. Sono differenze che vale la pena osservare prima di associare un prodotto a un ambiente.",
+          "La scelta non deve partire da una classifica astratta del materiale migliore. Deve partire dalla configurazione concreta proposta, dalla destinazione della stanza e dalle istruzioni del produttore. Nello showroom CR Lodi si può individuare l’aspetto desiderato e collegarlo ai prodotti disponibili, lasciando poi alle verifiche tecniche la compatibilità con il supporto e con gli impianti presenti."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Tra le categorie presentate da CR Lodi ci sono gres porcellanato, parquet e laminato. Non sono nomi intercambiabili: indicano famiglie di prodotti con caratteristiche e modalità di impiego differenti. Prima di esprimere una preferenza conviene chiarire che cosa si cerca nella stanza: una superficie dall’aspetto uniforme, la presenza del legno oppure una particolare facilità di gestione quotidiana."
+          },
+          {
+            "type": "p",
+            "text": "Il confronto dal vivo aiuta a distinguere l’effetto visivo dalla sensazione al tatto. Un materiale che richiama il legno può riprodurne alcuni segni senza coincidere con un pavimento in legno. Una superficie fotografata da vicino può sembrare molto marcata, mentre su una stanza intera risulta più discreta. Sono differenze che vale la pena osservare prima di associare un prodotto a un ambiente."
+          },
+          {
+            "type": "p",
+            "text": "La scelta non deve partire da una classifica astratta del materiale migliore. Deve partire dalla configurazione concreta proposta, dalla destinazione della stanza e dalle istruzioni del produttore. Nello showroom CR Lodi si può individuare l’aspetto desiderato e collegarlo ai prodotti disponibili, lasciando poi alle verifiche tecniche la compatibilità con il supporto e con gli impianti presenti."
+          }
+        ]
+      },
+      {
+        "heading": "Guardare il colore insieme alla luce",
+        "paragraphs": [
+          "Un pavimento chiaro non appare uguale in tutte le case. La luce naturale, l’orientamento della stanza, le pareti e le lampade modificano la percezione del colore. Un beige può sembrare più caldo accanto a un legno scuro e più freddo vicino a un bianco molto luminoso. Anche le fotografie scattate con il telefono possono alterare la resa.",
+          "Durante la visita è utile accostare i campioni dei materiali che dovranno convivere. Se la cucina resta, il colore delle ante diventa un riferimento; se si conservano le porte, bisogna tenerne conto. Il pavimento non viene scelto nel vuoto. Osservarlo accanto alle finiture esistenti aiuta a evitare abbinamenti che funzionano soltanto nella singola immagine di catalogo.",
+          "Quando il colore è decisivo, si può discutere con lo showroom come valutare un campione nella luce dell’abitazione. Questa verifica non sostituisce la scelta del codice corretto: una volta individuata la finitura, servono i riferimenti precisi del prodotto. Il nome generico di un colore non basta a riconoscere una superficie tra collezioni, formati e varianti differenti."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Un pavimento chiaro non appare uguale in tutte le case. La luce naturale, l’orientamento della stanza, le pareti e le lampade modificano la percezione del colore. Un beige può sembrare più caldo accanto a un legno scuro e più freddo vicino a un bianco molto luminoso. Anche le fotografie scattate con il telefono possono alterare la resa."
+          },
+          {
+            "type": "p",
+            "text": "Durante la visita è utile accostare i campioni dei materiali che dovranno convivere. Se la cucina resta, il colore delle ante diventa un riferimento; se si conservano le porte, bisogna tenerne conto. Il pavimento non viene scelto nel vuoto. Osservarlo accanto alle finiture esistenti aiuta a evitare abbinamenti che funzionano soltanto nella singola immagine di catalogo."
+          },
+          {
+            "type": "p",
+            "text": "Quando il colore è decisivo, si può discutere con lo showroom come valutare un campione nella luce dell’abitazione. Questa verifica non sostituisce la scelta del codice corretto: una volta individuata la finitura, servono i riferimenti precisi del prodotto. Il nome generico di un colore non basta a riconoscere una superficie tra collezioni, formati e varianti differenti."
+          }
+        ]
+      },
+      {
+        "heading": "Formato e disegno cambiano il risultato",
+        "paragraphs": [
+          "La dimensione delle piastrelle o delle doghe influenza il modo in cui il pavimento viene letto. Un campione di piccole dimensioni non mostra sempre l’effetto di ripetizione né il rapporto tra i pezzi. Per immaginare il risultato occorre collegare il formato alla forma della stanza, ai passaggi e alla posizione degli arredi.",
+          "In un corridoio stretto, per esempio, la disposizione delle doghe può guidare lo sguardo in modo diverso rispetto a un soggiorno ampio. È un esempio di lettura dello spazio, non una regola valida per ogni casa. Nello showroom si possono confrontare le alternative usando una pianta, così da osservare dove cadranno i tagli e quali zone rimarranno maggiormente visibili.",
+          "Anche le variazioni grafiche meritano attenzione. Una superficie con venature molto evidenti può diventare il tema principale della stanza; una più uniforme lascia maggiore spazio ai mobili e ai tessuti. Prima dell’ordine è utile capire come viene rappresentata la variabilità del prodotto scelto, senza aspettarsi che ogni elemento ripeta esattamente il singolo campione osservato durante la visita."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "La dimensione delle piastrelle o delle doghe influenza il modo in cui il pavimento viene letto. Un campione di piccole dimensioni non mostra sempre l’effetto di ripetizione né il rapporto tra i pezzi. Per immaginare il risultato occorre collegare il formato alla forma della stanza, ai passaggi e alla posizione degli arredi."
+          },
+          {
+            "type": "p",
+            "text": "In un corridoio stretto, per esempio, la disposizione delle doghe può guidare lo sguardo in modo diverso rispetto a un soggiorno ampio. È un esempio di lettura dello spazio, non una regola valida per ogni casa. Nello showroom si possono confrontare le alternative usando una pianta, così da osservare dove cadranno i tagli e quali zone rimarranno maggiormente visibili."
+          },
+          {
+            "type": "p",
+            "text": "Anche le variazioni grafiche meritano attenzione. Una superficie con venature molto evidenti può diventare il tema principale della stanza; una più uniforme lascia maggiore spazio ai mobili e ai tessuti. Prima dell’ordine è utile capire come viene rappresentata la variabilità del prodotto scelto, senza aspettarsi che ogni elemento ripeta esattamente il singolo campione osservato durante la visita."
+          }
+        ]
+      },
+      {
+        "heading": "Pavimento nuovo e materiali che rimangono",
+        "paragraphs": [
+          "Molti interventi non riguardano tutta la casa. Si cambia una stanza, mentre il resto dell’abitazione conserva il pavimento precedente. In questi casi il punto di contatto tra le superfici diventa parte della scelta. La soglia di una porta o il passaggio tra cucina e soggiorno non dovrebbe essere trattato come una soluzione da inventare alla fine.",
+          "Portare fotografie di questi punti permette a CR Lodi di capire il contesto. Sono utili immagini prese sia dall’alto sia dalla distanza di una persona che attraversa la stanza. Una foto generale mostra il rapporto tra gli ambienti; il dettaglio aiuta a riconoscere bordi, dislivelli e materiali. Le misure iniziali restano indicative fino al rilievo.",
+          "Lo stesso ragionamento vale per scale, portefinestre e balconi. Il nuovo spessore deve essere valutato insieme a ciò che incontra, non soltanto al centro della stanza. La visita in showroom consente di scegliere l’aspetto dei raccordi e di discutere le alternative; la verifica sul posto permette di stabilire quali siano concretamente realizzabili nell’abitazione."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Molti interventi non riguardano tutta la casa. Si cambia una stanza, mentre il resto dell’abitazione conserva il pavimento precedente. In questi casi il punto di contatto tra le superfici diventa parte della scelta. La soglia di una porta o il passaggio tra cucina e soggiorno non dovrebbe essere trattato come una soluzione da inventare alla fine."
+          },
+          {
+            "type": "p",
+            "text": "Portare fotografie di questi punti permette a CR Lodi di capire il contesto. Sono utili immagini prese sia dall’alto sia dalla distanza di una persona che attraversa la stanza. Una foto generale mostra il rapporto tra gli ambienti; il dettaglio aiuta a riconoscere bordi, dislivelli e materiali. Le misure iniziali restano indicative fino al rilievo."
+          },
+          {
+            "type": "p",
+            "text": "Lo stesso ragionamento vale per scale, portefinestre e balconi. Il nuovo spessore deve essere valutato insieme a ciò che incontra, non soltanto al centro della stanza. La visita in showroom consente di scegliere l’aspetto dei raccordi e di discutere le alternative; la verifica sul posto permette di stabilire quali siano concretamente realizzabili nell’abitazione."
+          }
+        ]
+      },
+      {
+        "heading": "Rivestimenti per bagno e cucina",
+        "paragraphs": [
+          "I rivestimenti verticali hanno un ruolo diverso dal pavimento. Possono delimitare una zona, proteggere una superficie e dare carattere a una parete. Nella scelta occorre considerare le aperture, gli angoli, i sanitari e la posizione dei mobili. Una composizione gradevole sul pannello espositivo va adattata alle dimensioni reali dell’ambiente.",
+          "Nel bagno, per esempio, il rapporto con il mobile lavabo e con la doccia è centrale. Una decorazione può essere valorizzata su una parete libera e risultare poco leggibile se interrotta da specchio, accessori e rubinetteria. Nello showroom CR Lodi pavimenti, rivestimenti e arredo bagno possono essere osservati insieme, rendendo più facile costruire una combinazione coerente.",
+          "In cucina è utile ragionare anche sui bordi visibili e sui punti in cui il rivestimento termina. Presa elettrica, piano di lavoro e pensili fanno parte della composizione. Definire questi incontri prima della posa aiuta a evitare tagli casuali o dettagli poco curati, soprattutto quando si sceglie un formato importante rispetto alla superficie disponibile."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "I rivestimenti verticali hanno un ruolo diverso dal pavimento. Possono delimitare una zona, proteggere una superficie e dare carattere a una parete. Nella scelta occorre considerare le aperture, gli angoli, i sanitari e la posizione dei mobili. Una composizione gradevole sul pannello espositivo va adattata alle dimensioni reali dell’ambiente."
+          },
+          {
+            "type": "p",
+            "text": "Nel bagno, per esempio, il rapporto con il mobile lavabo e con la doccia è centrale. Una decorazione può essere valorizzata su una parete libera e risultare poco leggibile se interrotta da specchio, accessori e rubinetteria. Nello showroom CR Lodi pavimenti, rivestimenti e arredo bagno possono essere osservati insieme, rendendo più facile costruire una combinazione coerente."
+          },
+          {
+            "type": "p",
+            "text": "In cucina è utile ragionare anche sui bordi visibili e sui punti in cui il rivestimento termina. Presa elettrica, piano di lavoro e pensili fanno parte della composizione. Definire questi incontri prima della posa aiuta a evitare tagli casuali o dettagli poco curati, soprattutto quando si sceglie un formato importante rispetto alla superficie disponibile."
+          }
+        ]
+      },
+      {
+        "heading": "La posa comincia prima di stendere il materiale",
+        "paragraphs": [
+          "CR Lodi presenta tra i propri servizi l’installazione e la ristrutturazione. La qualità della scelta dipende anche dal collegamento con il lavoro da eseguire: un materiale selezionato nello showroom deve essere adatto alla superficie su cui verrà posato e alle condizioni di utilizzo previste per la stanza.",
+          "Prima di definire la soluzione occorre quindi esaminare il supporto. La presenza di un pavimento esistente, lo stato delle superfici e le quote disponibili possono cambiare il tipo di intervento. Non è corretto stabilire dalla sola fotografia che un nuovo materiale possa essere applicato sopra quello precedente. Servono verifiche coerenti con il sistema proposto e con le istruzioni dei prodotti coinvolti.",
+          "Anche i collegamenti con porte e serramenti vanno considerati in anticipo. Se cambia la quota del pavimento, alcuni particolari possono richiedere interventi aggiuntivi. Discuterli durante la definizione del lavoro permette di valutare la proposta nel suo insieme, invece di confrontare soltanto il prezzo del materiale al metro quadrato e scoprire le altre attività quando il cantiere è già avviato."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CR Lodi presenta tra i propri servizi l’installazione e la ristrutturazione. La qualità della scelta dipende anche dal collegamento con il lavoro da eseguire: un materiale selezionato nello showroom deve essere adatto alla superficie su cui verrà posato e alle condizioni di utilizzo previste per la stanza."
+          },
+          {
+            "type": "p",
+            "text": "Prima di definire la soluzione occorre quindi esaminare il supporto. La presenza di un pavimento esistente, lo stato delle superfici e le quote disponibili possono cambiare il tipo di intervento. Non è corretto stabilire dalla sola fotografia che un nuovo materiale possa essere applicato sopra quello precedente. Servono verifiche coerenti con il sistema proposto e con le istruzioni dei prodotti coinvolti."
+          },
+          {
+            "type": "p",
+            "text": "Anche i collegamenti con porte e serramenti vanno considerati in anticipo. Se cambia la quota del pavimento, alcuni particolari possono richiedere interventi aggiuntivi. Discuterli durante la definizione del lavoro permette di valutare la proposta nel suo insieme, invece di confrontare soltanto il prezzo del materiale al metro quadrato e scoprire le altre attività quando il cantiere è già avviato."
+          }
+        ]
+      },
+      {
+        "heading": "Battiscopa, fughe e bordi: dettagli da vedere in showroom",
+        "paragraphs": [
+          "Il pavimento comprende più della superficie centrale. Il battiscopa chiude il rapporto con la parete, le fughe influenzano il disegno e i profili risolvono alcuni punti di incontro. Questi elementi possono essere discreti oppure molto evidenti, a seconda dei colori e delle dimensioni scelti.",
+          "Una visita utile dedica tempo anche a questi particolari. Accostare il battiscopa al campione del pavimento permette di capire se si desidera continuità o un contrasto controllato. Guardare una fuga su una composizione esposta aiuta a immaginarne il peso visivo. I dettagli tecnici e le dimensioni compatibili vanno poi definiti secondo il prodotto e la posa effettiva.",
+          "Per chi rinnova una casa arredata è importante anche il rapporto con gli elementi esistenti. Una libreria su misura, una cucina o un armadio possono limitare alcune soluzioni. Segnalare subito questi vincoli aiuta a scegliere un bordo o un raccordo coerente, senza immaginare una stanza vuota che non corrisponde alle condizioni reali del lavoro."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Il pavimento comprende più della superficie centrale. Il battiscopa chiude il rapporto con la parete, le fughe influenzano il disegno e i profili risolvono alcuni punti di incontro. Questi elementi possono essere discreti oppure molto evidenti, a seconda dei colori e delle dimensioni scelti."
+          },
+          {
+            "type": "p",
+            "text": "Una visita utile dedica tempo anche a questi particolari. Accostare il battiscopa al campione del pavimento permette di capire se si desidera continuità o un contrasto controllato. Guardare una fuga su una composizione esposta aiuta a immaginarne il peso visivo. I dettagli tecnici e le dimensioni compatibili vanno poi definiti secondo il prodotto e la posa effettiva."
+          },
+          {
+            "type": "p",
+            "text": "Per chi rinnova una casa arredata è importante anche il rapporto con gli elementi esistenti. Una libreria su misura, una cucina o un armadio possono limitare alcune soluzioni. Segnalare subito questi vincoli aiuta a scegliere un bordo o un raccordo coerente, senza immaginare una stanza vuota che non corrisponde alle condizioni reali del lavoro."
+          }
+        ]
+      },
+      {
+        "heading": "Un esempio di visita dedicata al soggiorno",
+        "paragraphs": [
+          "Si può immaginare una coppia che voglia rinnovare il soggiorno conservando cucina e porte. È un esempio ipotetico. Il primo passo nello showroom di CR Lodi può essere confrontare tre superfici vicine per colore, ma diverse per trama. La pianta aiuta a capire il formato, mentre le fotografie mostrano quali mobili resteranno.",
+          "La scelta può restringersi dopo aver accostato i materiali alle finiture della cucina. Una superficie molto segnata potrebbe competere con il disegno delle ante; una più tranquilla potrebbe lasciare maggiore libertà ai tessuti. Non esiste una risposta prestabilita: il confronto serve proprio a riconoscere quale combinazione risponde al gusto e all’uso della stanza.",
+          "Prima di passare all’ordine si valutano il raccordo con il corridoio, il battiscopa e l’eventuale intervento sulle porte. Il vantaggio della visita è aver portato alla luce questi punti quando è ancora possibile scegliere. Il materiale viene così selezionato insieme alle condizioni che ne determinano l’inserimento nella casa."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Si può immaginare una coppia che voglia rinnovare il soggiorno conservando cucina e porte. È un esempio ipotetico. Il primo passo nello showroom di CR Lodi può essere confrontare tre superfici vicine per colore, ma diverse per trama. La pianta aiuta a capire il formato, mentre le fotografie mostrano quali mobili resteranno."
+          },
+          {
+            "type": "p",
+            "text": "La scelta può restringersi dopo aver accostato i materiali alle finiture della cucina. Una superficie molto segnata potrebbe competere con il disegno delle ante; una più tranquilla potrebbe lasciare maggiore libertà ai tessuti. Non esiste una risposta prestabilita: il confronto serve proprio a riconoscere quale combinazione risponde al gusto e all’uso della stanza."
+          },
+          {
+            "type": "p",
+            "text": "Prima di passare all’ordine si valutano il raccordo con il corridoio, il battiscopa e l’eventuale intervento sulle porte. Il vantaggio della visita è aver portato alla luce questi punti quando è ancora possibile scegliere. Il materiale viene così selezionato insieme alle condizioni che ne determinano l’inserimento nella casa."
+          }
+        ]
+      },
+      {
+        "heading": "Organizzare acquisto e lavori senza perdere le scelte fatte",
+        "paragraphs": [
+          "Una volta individuata la soluzione, conviene conservarne i riferimenti: collezione, formato, finitura e variante. Le fotografie dello showroom sono utili come memoria, ma devono accompagnare i codici e non sostituirli. Anche i materiali secondari, come battiscopa e profili, fanno parte della scelta e meritano un riferimento riconoscibile.",
+          "Il preventivo dovrebbe collegare questi prodotti alle lavorazioni comprese. Rimozione, preparazione del supporto, posa e completamenti possono avere un peso importante nell’intervento. Leggere la proposta nel suo insieme consente di capire che cosa verrà realizzato e di valutare eventuali alternative senza confondere una modifica del materiale con una modifica del lavoro.",
+          "Se la casa resta abitata, bisogna inoltre discutere l’accesso agli ambienti e lo spostamento degli arredi. È un’esigenza organizzativa concreta che può influire sulla sequenza delle attività. Spiegarla a CR Lodi durante la definizione dell’intervento aiuta a costruire un programma compatibile con la vita domestica e con gli spazi disponibili."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Una volta individuata la soluzione, conviene conservarne i riferimenti: collezione, formato, finitura e variante. Le fotografie dello showroom sono utili come memoria, ma devono accompagnare i codici e non sostituirli. Anche i materiali secondari, come battiscopa e profili, fanno parte della scelta e meritano un riferimento riconoscibile."
+          },
+          {
+            "type": "p",
+            "text": "Il preventivo dovrebbe collegare questi prodotti alle lavorazioni comprese. Rimozione, preparazione del supporto, posa e completamenti possono avere un peso importante nell’intervento. Leggere la proposta nel suo insieme consente di capire che cosa verrà realizzato e di valutare eventuali alternative senza confondere una modifica del materiale con una modifica del lavoro."
+          },
+          {
+            "type": "p",
+            "text": "Se la casa resta abitata, bisogna inoltre discutere l’accesso agli ambienti e lo spostamento degli arredi. È un’esigenza organizzativa concreta che può influire sulla sequenza delle attività. Spiegarla a CR Lodi durante la definizione dell’intervento aiuta a costruire un programma compatibile con la vita domestica e con gli spazi disponibili."
+          }
+        ]
+      },
+      {
+        "heading": "Pensare alla manutenzione prima dell’acquisto",
+        "paragraphs": [
+          "Il pavimento entra nelle abitudini di tutta la famiglia. Prima di sceglierlo vale la pena raccontare come viene usata la stanza: se si entra direttamente dal giardino, se ci sono animali domestici o se il soggiorno ospita anche una postazione di lavoro. Sono informazioni utili per discutere con lo showroom la configurazione proposta e le indicazioni di cura del produttore.",
+          "Una superficie va pulita con prodotti e metodi compatibili, senza presumere che ciò che funzionava sul vecchio pavimento sia adatto anche al nuovo. Nello showroom si può chiedere come mantenere la finitura scelta e quali abitudini evitare. Le istruzioni riferite al materiale effettivo sono più utili di una promessa generica di assenza di manutenzione.",
+          "Anche gli arredi partecipano alla durata dell’insieme. Sedie che vengono spostate di continuo, tappeti, ruote e appoggi concentrano l’uso in alcuni punti. Segnalarli durante la scelta permette di affrontare questi aspetti in anticipo e di organizzare la stanza con attenzione. L’obiettivo è avere un pavimento piacevole da vedere e ragionevole da gestire nella propria vita quotidiana.",
+          "Quando il lavoro è concluso, conservare una piccola scorta concordata e i riferimenti del prodotto può risultare utile per interventi futuri. Quantità e modalità vanno valutate in rapporto alla fornitura reale. È un dettaglio pratico da discutere prima dell’ordine, soprattutto quando il materiale viene utilizzato in più stanze o in punti soggetti a modifiche degli arredi."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Il pavimento entra nelle abitudini di tutta la famiglia. Prima di sceglierlo vale la pena raccontare come viene usata la stanza: se si entra direttamente dal giardino, se ci sono animali domestici o se il soggiorno ospita anche una postazione di lavoro. Sono informazioni utili per discutere con lo showroom la configurazione proposta e le indicazioni di cura del produttore."
+          },
+          {
+            "type": "p",
+            "text": "Una superficie va pulita con prodotti e metodi compatibili, senza presumere che ciò che funzionava sul vecchio pavimento sia adatto anche al nuovo. Nello showroom si può chiedere come mantenere la finitura scelta e quali abitudini evitare. Le istruzioni riferite al materiale effettivo sono più utili di una promessa generica di assenza di manutenzione."
+          },
+          {
+            "type": "p",
+            "text": "Anche gli arredi partecipano alla durata dell’insieme. Sedie che vengono spostate di continuo, tappeti, ruote e appoggi concentrano l’uso in alcuni punti. Segnalarli durante la scelta permette di affrontare questi aspetti in anticipo e di organizzare la stanza con attenzione. L’obiettivo è avere un pavimento piacevole da vedere e ragionevole da gestire nella propria vita quotidiana."
+          },
+          {
+            "type": "p",
+            "text": "Quando il lavoro è concluso, conservare una piccola scorta concordata e i riferimenti del prodotto può risultare utile per interventi futuri. Quantità e modalità vanno valutate in rapporto alla fornitura reale. È un dettaglio pratico da discutere prima dell’ordine, soprattutto quando il materiale viene utilizzato in più stanze o in punti soggetti a modifiche degli arredi."
+          }
+        ]
+      },
+      {
+        "heading": "Prenotare una visita da CR Lodi",
+        "paragraphs": [
+          "Lo showroom di CR Lodi Casa & Design è in via Veneto 8, a Cornegliano Laudense, in provincia di Lodi. Giuseppe Cinnirella, fondatore e titolare, è il riferimento dell’attività. Il [sito ufficiale](https://crlodicasaedesign.it/) presenta le categorie di prodotti e i servizi disponibili, insieme ai recapiti per organizzare l’incontro.",
+          "Per scegliere pavimenti e rivestimenti conviene arrivare con fotografie, una pianta e un’idea degli elementi che si desidera conservare. Non serve aver già deciso tutto. Lo scopo della visita è proprio vedere i materiali da vicino e collegarli alla propria casa, comprendendo quali abbinamenti e quali lavorazioni approfondire.",
+          "[Contatta CR Lodi per visitare lo showroom e valutare pavimenti e rivestimenti](https://crlodicasaedesign.it/contatti/ \"sponsored\"). Si può chiamare anche lo 0371 752990: la richiesta viene rivolta direttamente all’azienda, indicando gli ambienti da rinnovare e le esigenze principali da affrontare durante l’appuntamento."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Lo showroom di CR Lodi Casa & Design è in via Veneto 8, a Cornegliano Laudense, in provincia di Lodi. Giuseppe Cinnirella, fondatore e titolare, è il riferimento dell’attività. Il [sito ufficiale](https://crlodicasaedesign.it/) presenta le categorie di prodotti e i servizi disponibili, insieme ai recapiti per organizzare l’incontro."
+          },
+          {
+            "type": "p",
+            "text": "Per scegliere pavimenti e rivestimenti conviene arrivare con fotografie, una pianta e un’idea degli elementi che si desidera conservare. Non serve aver già deciso tutto. Lo scopo della visita è proprio vedere i materiali da vicino e collegarli alla propria casa, comprendendo quali abbinamenti e quali lavorazioni approfondire."
+          },
+          {
+            "type": "p",
+            "text": "[Contatta CR Lodi per visitare lo showroom e valutare pavimenti e rivestimenti](https://crlodicasaedesign.it/contatti/ \"sponsored\"). Si può chiamare anche lo 0371 752990: la richiesta viene rivolta direttamente all’azienda, indicando gli ambienti da rinnovare e le esigenze principali da affrontare durante l’appuntamento."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "lavori-cavallo-anno-fatture-date-documenti",
     "title": "Lavori a cavallo d'anno: fatture, date e documenti da preparare",
     "seoTitle": "Lavori a cavallo d’anno: fatture, date e documenti",
@@ -1279,7 +1612,7 @@ export const editorialNative: Article[] = [
     "title": "Renova Solution: una scheda di progetto per la ristrutturazione",
     "category": "news",
     "subcategory": "Mercato",
-    "excerpt": "Contenuto sponsorizzato · Renova Solution. Decisioni, referenti e revisioni: come organizzare la richiesta di ristrutturazione e conoscere l’offerta Renova Solution.",
+    "excerpt": "Decisioni, referenti e revisioni: come organizzare la richiesta di ristrutturazione e conoscere l’offerta Renova Solution.",
     "keywords": [
       "Renova Solution: una scheda di progetto per la ristrutturazione"
     ],
@@ -1315,15 +1648,10 @@ export const editorialNative: Article[] = [
       {
         "heading": "Il punto di partenza",
         "paragraphs": [
-          "**Contenuto sponsorizzato · Renova Solution**. Articolo pubblicitario realizzato per presentare i servizi dell’azienda.",
           "Prima del calendario di cantiere serve un quadro condiviso. Una scheda sintetica aiuta proprietario e interlocutori a parlare della stessa versione del progetto.",
           "Una ristrutturazione si complica quando le decisioni restano distribuite tra messaggi, fotografie e appunti. Per conoscere l'offerta Renova Solution, che comprende servizi di rinnovo della casa, si può partire da una scheda capace di riunire le informazioni del primo contatto. Non deve contenere già tutte le soluzioni: deve chiarire ciò che vuoi realizzare."
         ],
         "blocks": [
-          {
-            "type": "p",
-            "text": "**Contenuto sponsorizzato · Renova Solution**. Articolo pubblicitario realizzato per presentare i servizi dell’azienda."
-          },
           {
             "type": "p",
             "text": "Prima del calendario di cantiere serve un quadro condiviso. Una scheda sintetica aiuta proprietario e interlocutori a parlare della stessa versione del progetto."
@@ -1461,12 +1789,12 @@ export const editorialNative: Article[] = [
       {
         "heading": "Informazioni e contatti",
         "paragraphs": [
-          "[Presenta il tuo progetto a Renova Solution](https://www.renovasolution.it/ \"sponsored\")"
+          "[Richiedi informazioni a Renova Solution](https://www.renovasolution.it/contatti \"sponsored\")"
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "[Presenta il tuo progetto a Renova Solution](https://www.renovasolution.it/ \"sponsored\")"
+            "text": "[Richiedi informazioni a Renova Solution](https://www.renovasolution.it/contatti \"sponsored\")"
           }
         ]
       },
@@ -1493,7 +1821,7 @@ export const editorialNative: Article[] = [
     "title": "Innovasol: dal primo contatto a una richiesta di impianto più chiara",
     "category": "news",
     "subcategory": "Sostenibilità",
-    "excerpt": "Contenuto sponsorizzato · Innovasol. Obiettivo, documenti e sopralluogo: un percorso pratico per chiedere a Innovasol una proposta riferita al proprio immobile.",
+    "excerpt": "Obiettivo, documenti e sopralluogo: un percorso pratico per chiedere a Innovasol una proposta riferita al proprio immobile.",
     "keywords": [
       "Innovasol: dal primo contatto a una richiesta di impianto più chiara"
     ],
@@ -1529,15 +1857,10 @@ export const editorialNative: Article[] = [
       {
         "heading": "Il punto di partenza",
         "paragraphs": [
-          "**Contenuto sponsorizzato · Innovasol**. Articolo pubblicitario realizzato per presentare i servizi dell’azienda.",
           "Una richiesta iniziale ben preparata non deve essere lunga. Deve far capire quale decisione vuoi prendere e quali informazioni sono già disponibili.",
           "«Vorrei un preventivo» è un buon inizio, ma racconta poco del progetto. Per un nuovo impianto può essere utile aggiungere il tipo di immobile, la località e il risultato desiderato. Innovasol presenta servizi energetici e un percorso di contatto che comprende la possibilità di richiedere una proposta."
         ],
         "blocks": [
-          {
-            "type": "p",
-            "text": "**Contenuto sponsorizzato · Innovasol**. Articolo pubblicitario realizzato per presentare i servizi dell’azienda."
-          },
           {
             "type": "p",
             "text": "Una richiesta iniziale ben preparata non deve essere lunga. Deve far capire quale decisione vuoi prendere e quali informazioni sono già disponibili."
@@ -1671,12 +1994,12 @@ export const editorialNative: Article[] = [
       {
         "heading": "Informazioni e contatti",
         "paragraphs": [
-          "[Avvia una richiesta con Innovasol](https://innovasol.it/preventivo-gratuito/ \"sponsored\")"
+          "[Richiedi informazioni a Innovasol](https://innovasol.it/contatti/ \"sponsored\")"
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "[Avvia una richiesta con Innovasol](https://innovasol.it/preventivo-gratuito/ \"sponsored\")"
+            "text": "[Richiedi informazioni a Innovasol](https://innovasol.it/contatti/ \"sponsored\")"
           }
         ]
       },
@@ -1703,7 +2026,7 @@ export const editorialNative: Article[] = [
     "title": "Green Energy Group e le CER: le domande per iniziare il confronto",
     "category": "news",
     "subcategory": "Sostenibilità",
-    "excerpt": "Contenuto sponsorizzato · Green Energy Group. Ruolo dei partecipanti, documenti e progetto locale: come avvicinarsi alla proposta sulle comunità energetiche presentata da Green Energy Group.",
+    "excerpt": "Ruolo dei partecipanti, documenti e progetto locale: come avvicinarsi alla proposta sulle comunità energetiche presentata da Green Energy Group.",
     "keywords": [
       "Green Energy Group e le CER: le domande per iniziare il confronto"
     ],
@@ -1739,15 +2062,10 @@ export const editorialNative: Article[] = [
       {
         "heading": "Il punto di partenza",
         "paragraphs": [
-          "**Contenuto sponsorizzato · Green Energy Group**. Articolo pubblicitario realizzato per presentare i servizi dell’azienda.",
           "L’interesse per una comunità energetica diventa concreto quando sono chiari partecipanti, obiettivi e passaggi di valutazione. Prima dei benefici attesi viene la comprensione del progetto.",
           "Una comunità energetica viene spesso raccontata attraverso un vantaggio economico. Per chi vuole approfondire, il primo passo è capire quale progetto viene presentato e come potrebbe parteciparvi. Green Energy Group dedica una pagina alla propria proposta sulle CER e vi presenta la comunità La Specola."
         ],
         "blocks": [
-          {
-            "type": "p",
-            "text": "**Contenuto sponsorizzato · Green Energy Group**. Articolo pubblicitario realizzato per presentare i servizi dell’azienda."
-          },
           {
             "type": "p",
             "text": "L’interesse per una comunità energetica diventa concreto quando sono chiari partecipanti, obiettivi e passaggi di valutazione. Prima dei benefici attesi viene la comprensione del progetto."
@@ -1881,12 +2199,12 @@ export const editorialNative: Article[] = [
       {
         "heading": "Informazioni e contatti",
         "paragraphs": [
-          "[Approfondisci la proposta CER di Green Energy Group](https://greenenergygroup.it/comunita-energetica-contributo/ \"sponsored\")"
+          "[Richiedi informazioni a Green Energy Group](https://greenenergygroup.it/contatti/ \"sponsored\")"
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "[Approfondisci la proposta CER di Green Energy Group](https://greenenergygroup.it/comunita-energetica-contributo/ \"sponsored\")"
+            "text": "[Richiedi informazioni a Green Energy Group](https://greenenergygroup.it/contatti/ \"sponsored\")"
           }
         ]
       },
