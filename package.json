@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node scripts/generate-image-manifest.mjs",
     "build": "tsc -b && vite build && vite build --ssr src/entry-prerender.tsx --outDir dist-ssr && node scripts/prerender.mjs && node scripts/generate-feeds.mjs && node scripts/check-editorial-length.mjs dist",
     "lint": "eslint .",
     "preview": "vite preview"

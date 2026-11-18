@@ -1,4 +1,7 @@
 import type { Article } from '@/data/types';
+import webpImages from '@/data/webp-images.json';
+
+const availableWebpImages = new Set(webpImages);
 
 interface Props {
   article: Article;
@@ -28,13 +31,16 @@ const CATEGORY_PATTERNS: Record<Article['category'], string> = {
   news: 'M0 10 H20',
 };
 
-/** /images/articoli/<slug>.jpg -> /images/articoli/r/<slug>-<w>.webp */
+/** Include soltanto le varianti responsive presenti, mantenendo il JPEG originale. */
 function webpSrcSet(src: string): string | undefined {
   const m = src.match(/^\/images\/articoli\/(.+)\.jpg$/);
   if (!m) return undefined;
-  return [400, 800, 1200]
-    .map((w) => `/images/articoli/r/${m[1]}-${w}.webp ${w}w`)
+  const srcSet = [400, 800, 1200]
+    .map((width) => ({ src: `/images/articoli/r/${m[1]}-${width}.webp`, width }))
+    .filter(({ src }) => availableWebpImages.has(src))
+    .map(({ src, width }) => `${src} ${width}w`)
     .join(', ');
+  return srcSet || undefined;
 }
 
 /**
