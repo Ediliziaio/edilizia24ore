@@ -1,6 +1,334 @@
 import type { Article } from "../types";
 export const editorialNative: Article[] = [
   {
+    "sponsor": "Panorama Infissi",
+    "slug": "panorama-infissi-finestre-tetti-accessori",
+    "title": "Panorama Infissi: finestre per tetti, porte e accessori per la casa",
+    "seoTitle": "Panorama Infissi: finestre per tetti, porte e accessori",
+    "seoDescription": "Finestre per tetti, porte e complementi Panorama Infissi: prodotti e utilizzo degli ambienti, con showroom a Paderno Dugnano.",
+    "category": "news",
+    "subcategory": "Mercato",
+    "excerpt": "Finestre per tetti, porte e complementi Panorama Infissi: prodotti e utilizzo degli ambienti, con showroom a Paderno Dugnano.",
+    "keywords": [
+      "Panorama Infissi",
+      "news",
+      "Paderno Dugnano"
+    ],
+    "publishedAt": "2026-11-18",
+    "updatedAt": "2026-11-18",
+    "author": {
+      "name": "Redazione Edilizia 24 Ore",
+      "role": "Redazione"
+    },
+    "readingTime": 14,
+    "faq": [
+      {
+        "q": "Panorama Infissi propone finestre per tetti?",
+        "a": "Sì. Le finestre per tetti sono una delle categorie presentate nella gamma ufficiale dell’azienda."
+      },
+      {
+        "q": "Sono disponibili anche porte e accessori?",
+        "a": "L’offerta comprende porte interne e blindate, persiane, tapparelle e zanzariere, da valutare nella configurazione pertinente all’apertura."
+      },
+      {
+        "q": "Come iniziare una richiesta per una mansarda?",
+        "a": "Si può contattare l’azienda indicando il tipo di intervento, l’uso della stanza e gli elementi da conservare. Il rilievo serve poi a definire la fornitura effettiva."
+      }
+    ],
+    "image": {
+      "src": "/editorial-assets/panorama-infissi-finestre-tetti-accessori.webp",
+      "alt": "Mansarda con finestra per tetti e porta interna in una scena illustrativa AI: non è una realizzazione Panorama Infissi."
+    },
+    "sections": [
+      {
+        "heading": "L’azienda e le soluzioni per la casa",
+        "paragraphs": [
+          "Panorama Infissi propone finestre per tetti, porte interne e blindate, persiane, tapparelle e zanzariere, oltre ai serramenti per le aperture delle pareti. Lo showroom è in via Castelletto 22 a Paderno Dugnano. L’azienda segue sopralluogo, fornitura, posa e assistenza, per collegare la scelta dei prodotti alla configurazione reale della casa e alle esigenze di chi la utilizza.",
+          "Quando si rinnova una mansarda o un ambiente con aperture differenti, i singoli prodotti devono essere ragionati insieme. La finestra nel tetto, la porta che separa una camera e i complementi per gestire luce e insetti svolgono ruoli distinti. La scelta diventa più concreta quando si parte dai movimenti quotidiani e dalla disposizione degli arredi, prima di concentrarsi sui colori e sui dettagli delle finiture.",
+          "Il [sito ufficiale di Panorama Infissi](https://www.panoramainfissi.it/) presenta le categorie disponibili e i recapiti per il contatto. In questo articolo il confronto riguarda soprattutto il modo di utilizzare gli ambienti. Gli esempi sono ipotetici e non descrivono progetti attribuiti all’azienda; la configurazione effettiva dipende dai prodotti proposti e dalle verifiche pertinenti sull’immobile in cui devono essere installati."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Panorama Infissi propone finestre per tetti, porte interne e blindate, persiane, tapparelle e zanzariere, oltre ai serramenti per le aperture delle pareti. Lo showroom è in via Castelletto 22 a Paderno Dugnano. L’azienda segue sopralluogo, fornitura, posa e assistenza, per collegare la scelta dei prodotti alla configurazione reale della casa e alle esigenze di chi la utilizza."
+          },
+          {
+            "type": "p",
+            "text": "Quando si rinnova una mansarda o un ambiente con aperture differenti, i singoli prodotti devono essere ragionati insieme. La finestra nel tetto, la porta che separa una camera e i complementi per gestire luce e insetti svolgono ruoli distinti. La scelta diventa più concreta quando si parte dai movimenti quotidiani e dalla disposizione degli arredi, prima di concentrarsi sui colori e sui dettagli delle finiture."
+          },
+          {
+            "type": "p",
+            "text": "Il [sito ufficiale di Panorama Infissi](https://www.panoramainfissi.it/) presenta le categorie disponibili e i recapiti per il contatto. In questo articolo il confronto riguarda soprattutto il modo di utilizzare gli ambienti. Gli esempi sono ipotetici e non descrivono progetti attribuiti all’azienda; la configurazione effettiva dipende dai prodotti proposti e dalle verifiche pertinenti sull’immobile in cui devono essere installati."
+          }
+        ]
+      },
+      {
+        "heading": "Finestre per tetti: partire dall’ambiente sottostante",
+        "paragraphs": [
+          "Una finestra per tetti viene scelta per una stanza che ha già un proprio utilizzo o che si desidera trasformare. Può essere una camera, uno studio o un ambiente di servizio. Prima di confrontare i prodotti è utile capire dove si trovano i punti di attività, come si distribuiscono gli arredi e quali movimenti si compiono vicino all’apertura durante la giornata.",
+          "L’altezza e la posizione della finestra influiscono sul modo in cui la si raggiunge e la si osserva. Il cliente non deve definire da solo la soluzione tecnica, ma può presentare l’esperienza desiderata: utilizzare più comodamente un comando, ragionare sulla luce o rinnovare un’apertura esistente. Il confronto con Panorama Infissi permette di collegare queste richieste al prodotto e alle condizioni da verificare nell’immobile.",
+          "È importante distinguere una sostituzione da un progetto che modifica l’apertura. Sono richieste che possono comportare valutazioni e attività differenti, da affrontare con i soggetti competenti per il caso reale. La scelta non dovrebbe quindi ridursi alla sola dimensione vista in un catalogo, senza conoscere il punto in cui la finestra verrà inserita e il contesto del lavoro previsto."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Una finestra per tetti viene scelta per una stanza che ha già un proprio utilizzo o che si desidera trasformare. Può essere una camera, uno studio o un ambiente di servizio. Prima di confrontare i prodotti è utile capire dove si trovano i punti di attività, come si distribuiscono gli arredi e quali movimenti si compiono vicino all’apertura durante la giornata."
+          },
+          {
+            "type": "p",
+            "text": "L’altezza e la posizione della finestra influiscono sul modo in cui la si raggiunge e la si osserva. Il cliente non deve definire da solo la soluzione tecnica, ma può presentare l’esperienza desiderata: utilizzare più comodamente un comando, ragionare sulla luce o rinnovare un’apertura esistente. Il confronto con Panorama Infissi permette di collegare queste richieste al prodotto e alle condizioni da verificare nell’immobile."
+          },
+          {
+            "type": "p",
+            "text": "È importante distinguere una sostituzione da un progetto che modifica l’apertura. Sono richieste che possono comportare valutazioni e attività differenti, da affrontare con i soggetti competenti per il caso reale. La scelta non dovrebbe quindi ridursi alla sola dimensione vista in un catalogo, senza conoscere il punto in cui la finestra verrà inserita e il contesto del lavoro previsto."
+          }
+        ]
+      },
+      {
+        "heading": "La luce cambia con il punto da cui si vive la stanza",
+        "paragraphs": [
+          "Per comprendere la richiesta è utile mostrare l’ambiente dal punto di vista di chi lo utilizza. Una scrivania, un tavolo o un letto determinano posizioni di osservazione differenti. Le fotografie dovrebbero includere questi elementi, non soltanto il dettaglio della finestra. La luce viene vissuta insieme alle superfici della stanza e alle attività che vi si svolgono, quindi il contesto aiuta a scegliere.",
+          "Il desiderio di una stanza più luminosa va collegato alla configurazione del prodotto e alle altre condizioni dell’ambiente. Non è corretto attribuire a qualsiasi finestra lo stesso risultato. Nel confronto si possono distinguere le priorità e osservare le alternative reali, lasciando alle verifiche pertinenti la definizione della soluzione compatibile con l’apertura e con il lavoro effettivamente previsto nell’immobile.",
+          "Anche i complementi partecipano alla gestione della luce. Se si desidera poterla modulare in determinati momenti della giornata, questa esigenza dovrebbe essere espressa già nella scelta iniziale. In questo modo finestra e accessori possono essere valutati come un insieme, evitando di definire prima il prodotto principale e considerare soltanto dopo le funzioni che si vorrebbero ottenere nell’uso quotidiano."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Per comprendere la richiesta è utile mostrare l’ambiente dal punto di vista di chi lo utilizza. Una scrivania, un tavolo o un letto determinano posizioni di osservazione differenti. Le fotografie dovrebbero includere questi elementi, non soltanto il dettaglio della finestra. La luce viene vissuta insieme alle superfici della stanza e alle attività che vi si svolgono, quindi il contesto aiuta a scegliere."
+          },
+          {
+            "type": "p",
+            "text": "Il desiderio di una stanza più luminosa va collegato alla configurazione del prodotto e alle altre condizioni dell’ambiente. Non è corretto attribuire a qualsiasi finestra lo stesso risultato. Nel confronto si possono distinguere le priorità e osservare le alternative reali, lasciando alle verifiche pertinenti la definizione della soluzione compatibile con l’apertura e con il lavoro effettivamente previsto nell’immobile."
+          },
+          {
+            "type": "p",
+            "text": "Anche i complementi partecipano alla gestione della luce. Se si desidera poterla modulare in determinati momenti della giornata, questa esigenza dovrebbe essere espressa già nella scelta iniziale. In questo modo finestra e accessori possono essere valutati come un insieme, evitando di definire prima il prodotto principale e considerare soltanto dopo le funzioni che si vorrebbero ottenere nell’uso quotidiano."
+          }
+        ]
+      },
+      {
+        "heading": "Comandi e apertura devono essere comodi da raggiungere",
+        "paragraphs": [
+          "Una finestra per tetti può trovarsi in una posizione diversa da quella di un serramento verticale. È quindi importante spiegare come la si raggiunge e quali ostacoli si trovano nell’ambiente. Un arredo collocato sotto l’apertura può influenzare l’accesso, anche se non appare nella fotografia ravvicinata del vetro o nel disegno semplificato della stanza utilizzato per la prima richiesta.",
+          "Il modello proposto va osservato nelle sue modalità di utilizzo, senza presumere che tutte le configurazioni funzionino nello stesso modo. Il cliente può confrontare la posizione dei comandi e la manovra prevista, collegandole alle abitudini di chi abita la casa. La visita in showroom è utile per comprendere questi aspetti, mentre il rilievo permette di valutarli nelle condizioni effettive del vano.",
+          "Anche la pulizia merita attenzione prima dell’ordine. Le parti devono poter essere gestite secondo le indicazioni del prodotto e nelle condizioni previste, senza operazioni improvvisate. Conoscere in anticipo l’uso e la cura della configurazione scelta aiuta a valutare una finestra come elemento da vivere nel tempo, non soltanto come immagine gradevole o come superficie inserita in una composizione di arredo."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Una finestra per tetti può trovarsi in una posizione diversa da quella di un serramento verticale. È quindi importante spiegare come la si raggiunge e quali ostacoli si trovano nell’ambiente. Un arredo collocato sotto l’apertura può influenzare l’accesso, anche se non appare nella fotografia ravvicinata del vetro o nel disegno semplificato della stanza utilizzato per la prima richiesta."
+          },
+          {
+            "type": "p",
+            "text": "Il modello proposto va osservato nelle sue modalità di utilizzo, senza presumere che tutte le configurazioni funzionino nello stesso modo. Il cliente può confrontare la posizione dei comandi e la manovra prevista, collegandole alle abitudini di chi abita la casa. La visita in showroom è utile per comprendere questi aspetti, mentre il rilievo permette di valutarli nelle condizioni effettive del vano."
+          },
+          {
+            "type": "p",
+            "text": "Anche la pulizia merita attenzione prima dell’ordine. Le parti devono poter essere gestite secondo le indicazioni del prodotto e nelle condizioni previste, senza operazioni improvvisate. Conoscere in anticipo l’uso e la cura della configurazione scelta aiuta a valutare una finestra come elemento da vivere nel tempo, non soltanto come immagine gradevole o come superficie inserita in una composizione di arredo."
+          }
+        ]
+      },
+      {
+        "heading": "Gli accessori vanno scelti insieme alla finestra",
+        "paragraphs": [
+          "La presenza di complementi può cambiare il modo in cui viene utilizzata un’apertura. Una richiesta legata alla luce, alla riservatezza o agli insetti deve essere presentata per la funzione che si cerca. Non basta aggiungere il nome di un accessorio all’ordine: il sistema va valutato rispetto alla finestra e alla posizione in cui dovrà trovare spazio nella stanza.",
+          "È utile individuare ciò che esiste già e ciò che si vuole conservare. Un componente precedente non è automaticamente compatibile con una nuova finestra soltanto perché l’apertura sembra simile. Il confronto con l’azienda permette di leggere l’insieme, mantenendo riconoscibili modello, collegamenti e modalità di utilizzo della configurazione effettivamente proposta per il rinnovo dell’immobile e non per un esempio generico di catalogo.",
+          "Questa attenzione aiuta anche a comprendere la proposta economica. Il cliente dovrebbe poter riconoscere quali prodotti e accessori sono inclusi e quali funzioni sono state considerate. Una descrizione chiara rende più semplice valutare un’alternativa, perché consente di capire se cambia una finitura, un componente oppure una parte del lavoro necessario per inserire l’insieme nell’apertura e renderlo utilizzabile nelle condizioni previste."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "La presenza di complementi può cambiare il modo in cui viene utilizzata un’apertura. Una richiesta legata alla luce, alla riservatezza o agli insetti deve essere presentata per la funzione che si cerca. Non basta aggiungere il nome di un accessorio all’ordine: il sistema va valutato rispetto alla finestra e alla posizione in cui dovrà trovare spazio nella stanza."
+          },
+          {
+            "type": "p",
+            "text": "È utile individuare ciò che esiste già e ciò che si vuole conservare. Un componente precedente non è automaticamente compatibile con una nuova finestra soltanto perché l’apertura sembra simile. Il confronto con l’azienda permette di leggere l’insieme, mantenendo riconoscibili modello, collegamenti e modalità di utilizzo della configurazione effettivamente proposta per il rinnovo dell’immobile e non per un esempio generico di catalogo."
+          },
+          {
+            "type": "p",
+            "text": "Questa attenzione aiuta anche a comprendere la proposta economica. Il cliente dovrebbe poter riconoscere quali prodotti e accessori sono inclusi e quali funzioni sono state considerate. Una descrizione chiara rende più semplice valutare un’alternativa, perché consente di capire se cambia una finitura, un componente oppure una parte del lavoro necessario per inserire l’insieme nell’apertura e renderlo utilizzabile nelle condizioni previste."
+          }
+        ]
+      },
+      {
+        "heading": "Porte interne per collegare gli ambienti della mansarda",
+        "paragraphs": [
+          "Panorama Infissi propone porte interne che possono entrare nel confronto quando si rinnova una mansarda o una stanza collegata ad altri spazi. La porta deve essere valutata per il movimento e per il rapporto con gli arredi. La forma della stanza e la disposizione delle pareti rendono utile osservare il passaggio completo, senza limitare la scelta all’aspetto del pannello visto frontalmente da chiuso.",
+          "Un’anta può occupare lo spazio davanti a un mobile oppure incontrare un’altra apertura. Queste condizioni vanno mostrate durante il primo confronto, insieme alle parti che si desidera mantenere nell’ambiente. Non serve ricavare da soli una soluzione definitiva: fotografie e pianta indicativa aiutano a presentare l’esigenza, mentre il rilievo pertinente permette di definire la configurazione e le attività previste per il vano reale.",
+          "Il colore può collegare la porta al pavimento o alle pareti senza rendere tutti gli elementi identici. Una finitura discreta può lasciare maggiore presenza agli arredi; una scelta più evidente può caratterizzare il passaggio. L’importante è osservare l’insieme della stanza e riconoscere i riferimenti del prodotto scelto, evitando che l’abbinamento si basi soltanto su immagini separate viste su schermi differenti."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Panorama Infissi propone porte interne che possono entrare nel confronto quando si rinnova una mansarda o una stanza collegata ad altri spazi. La porta deve essere valutata per il movimento e per il rapporto con gli arredi. La forma della stanza e la disposizione delle pareti rendono utile osservare il passaggio completo, senza limitare la scelta all’aspetto del pannello visto frontalmente da chiuso."
+          },
+          {
+            "type": "p",
+            "text": "Un’anta può occupare lo spazio davanti a un mobile oppure incontrare un’altra apertura. Queste condizioni vanno mostrate durante il primo confronto, insieme alle parti che si desidera mantenere nell’ambiente. Non serve ricavare da soli una soluzione definitiva: fotografie e pianta indicativa aiutano a presentare l’esigenza, mentre il rilievo pertinente permette di definire la configurazione e le attività previste per il vano reale."
+          },
+          {
+            "type": "p",
+            "text": "Il colore può collegare la porta al pavimento o alle pareti senza rendere tutti gli elementi identici. Una finitura discreta può lasciare maggiore presenza agli arredi; una scelta più evidente può caratterizzare il passaggio. L’importante è osservare l’insieme della stanza e riconoscere i riferimenti del prodotto scelto, evitando che l’abbinamento si basi soltanto su immagini separate viste su schermi differenti."
+          }
+        ]
+      },
+      {
+        "heading": "Porte blindate e ingresso della casa",
+        "paragraphs": [
+          "Le porte blindate fanno parte della gamma Panorama Infissi e rispondono a una funzione diversa rispetto alle porte interne. Per valutarle occorre considerare il modello e la configurazione effettiva, con i riferimenti pertinenti del prodotto. Il nome della categoria non descrive ogni caratteristica e non può essere trasformato in una promessa di protezione assoluta, indipendente da installazione, accessori e condizioni dell’immobile.",
+          "Anche l’aspetto interno dell’ingresso merita attenzione se si stanno rinnovando altre aperture. Il pannello, la maniglia e le finiture visibili entrano nella stessa vista di pareti, pavimenti e arredi. Una richiesta può quindi riguardare sia la chiusura sia il desiderio di rendere più coerente l’insieme della casa, mantenendo però distinte le preferenze estetiche dalle caratteristiche tecniche del prodotto effettivamente proposto al cliente.",
+          "Per avviare il confronto sono utili immagini dell’ingresso dai due lati. La vista esterna racconta il contesto dell’edificio, quella interna mostra lo spazio di utilizzo e i mobili vicini. Questi riferimenti permettono di discutere il passaggio in modo concreto e di collegare la scelta alle verifiche pertinenti, invece di considerare la porta come un elemento isolato privo di relazione con il vano e con l’abitazione."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Le porte blindate fanno parte della gamma Panorama Infissi e rispondono a una funzione diversa rispetto alle porte interne. Per valutarle occorre considerare il modello e la configurazione effettiva, con i riferimenti pertinenti del prodotto. Il nome della categoria non descrive ogni caratteristica e non può essere trasformato in una promessa di protezione assoluta, indipendente da installazione, accessori e condizioni dell’immobile."
+          },
+          {
+            "type": "p",
+            "text": "Anche l’aspetto interno dell’ingresso merita attenzione se si stanno rinnovando altre aperture. Il pannello, la maniglia e le finiture visibili entrano nella stessa vista di pareti, pavimenti e arredi. Una richiesta può quindi riguardare sia la chiusura sia il desiderio di rendere più coerente l’insieme della casa, mantenendo però distinte le preferenze estetiche dalle caratteristiche tecniche del prodotto effettivamente proposto al cliente."
+          },
+          {
+            "type": "p",
+            "text": "Per avviare il confronto sono utili immagini dell’ingresso dai due lati. La vista esterna racconta il contesto dell’edificio, quella interna mostra lo spazio di utilizzo e i mobili vicini. Questi riferimenti permettono di discutere il passaggio in modo concreto e di collegare la scelta alle verifiche pertinenti, invece di considerare la porta come un elemento isolato privo di relazione con il vano e con l’abitazione."
+          }
+        ]
+      },
+      {
+        "heading": "Persiane e tapparelle sulle altre aperture della casa",
+        "paragraphs": [
+          "Quando l’intervento comprende anche finestre verticali, persiane e tapparelle possono essere valutate insieme agli altri prodotti. È utile spiegare quali componenti si vogliono cambiare e quali resteranno. Il nuovo serramento e il sistema oscurante devono trovare una configurazione coerente per il vano effettivo, senza presumere che un elemento precedente sia sempre compatibile con ciò che verrà installato durante il rinnovo dell’apertura.",
+          "La scelta riguarda anche i comandi e gli ingombri nella stanza. Una finestra vicina a un mobile o a un piano di lavoro viene utilizzata in condizioni particolari, che non sempre emergono da una pianta generale. Fotografie ampie e dettagli dei punti di accesso aiutano a discutere l’uso quotidiano, prima di concentrarsi sul solo colore o su una preferenza generica per il materiale dell’oscurante.",
+          "Per l’aspetto esterno è utile considerare il rapporto con le altre aperture dell’edificio e le condizioni pertinenti dell’intervento. La coerenza visiva nasce dal confronto tra finiture reali, non dalla semplice somiglianza di due immagini online. La consulenza può quindi collegare gusti personali, prodotto disponibile e contesto dell’immobile, mantenendo il confronto centrato sulle funzioni che la casa richiede nelle diverse stanze e nei diversi punti di passaggio."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Quando l’intervento comprende anche finestre verticali, persiane e tapparelle possono essere valutate insieme agli altri prodotti. È utile spiegare quali componenti si vogliono cambiare e quali resteranno. Il nuovo serramento e il sistema oscurante devono trovare una configurazione coerente per il vano effettivo, senza presumere che un elemento precedente sia sempre compatibile con ciò che verrà installato durante il rinnovo dell’apertura."
+          },
+          {
+            "type": "p",
+            "text": "La scelta riguarda anche i comandi e gli ingombri nella stanza. Una finestra vicina a un mobile o a un piano di lavoro viene utilizzata in condizioni particolari, che non sempre emergono da una pianta generale. Fotografie ampie e dettagli dei punti di accesso aiutano a discutere l’uso quotidiano, prima di concentrarsi sul solo colore o su una preferenza generica per il materiale dell’oscurante."
+          },
+          {
+            "type": "p",
+            "text": "Per l’aspetto esterno è utile considerare il rapporto con le altre aperture dell’edificio e le condizioni pertinenti dell’intervento. La coerenza visiva nasce dal confronto tra finiture reali, non dalla semplice somiglianza di due immagini online. La consulenza può quindi collegare gusti personali, prodotto disponibile e contesto dell’immobile, mantenendo il confronto centrato sulle funzioni che la casa richiede nelle diverse stanze e nei diversi punti di passaggio."
+          }
+        ]
+      },
+      {
+        "heading": "Zanzariere: valutare il modo in cui si passa e si arieggia",
+        "paragraphs": [
+          "Panorama Infissi tratta zanzariere per completare le aperture della casa. La richiesta dovrebbe distinguere una finestra usata principalmente per arieggiare da una portafinestra attraversata spesso. I gesti e gli ingombri cambiano: vicino a un balcone possono esserci sedie e vasi, mentre davanti a una finestra possono trovarsi una scrivania o un mobile che limitano il modo in cui si raggiungono i comandi.",
+          "Il prodotto deve essere scelto considerando la configurazione completa dell’apertura. Maniglie, ante, oscuranti e protezioni presenti vanno osservati insieme, senza trattare la zanzariera come un’aggiunta automaticamente compatibile con qualunque vano. Il confronto iniziale può partire dalle fotografie, ma la definizione della fornitura richiede i riferimenti e il rilievo pertinenti al sistema effettivamente proposto e al punto in cui sarà utilizzato nell’abitazione.",
+          "Anche la cura ordinaria partecipa alla decisione. La possibilità di raggiungere le superfici e di manovrare le parti deve essere valutata nelle condizioni reali della stanza. Dopo l’acquisto occorre seguire le indicazioni del prodotto installato, evitando di applicare indistintamente abitudini maturate con un sistema precedente o suggerimenti che non si riferiscono alla configurazione effettiva della finestra e degli accessori presenti."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Panorama Infissi tratta zanzariere per completare le aperture della casa. La richiesta dovrebbe distinguere una finestra usata principalmente per arieggiare da una portafinestra attraversata spesso. I gesti e gli ingombri cambiano: vicino a un balcone possono esserci sedie e vasi, mentre davanti a una finestra possono trovarsi una scrivania o un mobile che limitano il modo in cui si raggiungono i comandi."
+          },
+          {
+            "type": "p",
+            "text": "Il prodotto deve essere scelto considerando la configurazione completa dell’apertura. Maniglie, ante, oscuranti e protezioni presenti vanno osservati insieme, senza trattare la zanzariera come un’aggiunta automaticamente compatibile con qualunque vano. Il confronto iniziale può partire dalle fotografie, ma la definizione della fornitura richiede i riferimenti e il rilievo pertinenti al sistema effettivamente proposto e al punto in cui sarà utilizzato nell’abitazione."
+          },
+          {
+            "type": "p",
+            "text": "Anche la cura ordinaria partecipa alla decisione. La possibilità di raggiungere le superfici e di manovrare le parti deve essere valutata nelle condizioni reali della stanza. Dopo l’acquisto occorre seguire le indicazioni del prodotto installato, evitando di applicare indistintamente abitudini maturate con un sistema precedente o suggerimenti che non si riferiscono alla configurazione effettiva della finestra e degli accessori presenti."
+          }
+        ]
+      },
+      {
+        "heading": "Un insieme coerente non richiede prodotti identici ovunque",
+        "paragraphs": [
+          "Una casa può comprendere finestre per tetti, aperture verticali e porte con funzioni diverse. La coerenza dell’insieme può essere cercata nelle finiture o in alcuni riferimenti visivi, lasciando che ogni prodotto risponda al proprio uso. Non è necessario imporre lo stesso schema a tutte le aperture per ottenere ambienti ordinati e collegati tra loro dal punto di vista dell’aspetto e dell’esperienza quotidiana.",
+          "Il confronto in showroom permette di osservare campioni e proporzioni insieme alle fotografie della casa. È utile individuare pochi riferimenti chiari: il pavimento che rimane, una porta già presente o un colore scelto per le pareti. Questa base concreta aiuta a discutere le alternative senza sommare prodotti che piacciono singolarmente ma che non sono stati immaginati nella stessa stanza o nello stesso campo visivo dell’abitazione.",
+          "La proposta finale dovrebbe rendere comprensibili anche le differenze. Se una camera e un soggiorno ricevono configurazioni differenti, il cliente deve poterle riconoscere rispetto agli usi discussi. In questo modo la scelta non diventa una lista di componenti uguali per convenienza di descrizione, ma un insieme di prodotti collegati alle condizioni dei vani e alle priorità reali di chi utilizzerà gli ambienti una volta concluso il lavoro."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Una casa può comprendere finestre per tetti, aperture verticali e porte con funzioni diverse. La coerenza dell’insieme può essere cercata nelle finiture o in alcuni riferimenti visivi, lasciando che ogni prodotto risponda al proprio uso. Non è necessario imporre lo stesso schema a tutte le aperture per ottenere ambienti ordinati e collegati tra loro dal punto di vista dell’aspetto e dell’esperienza quotidiana."
+          },
+          {
+            "type": "p",
+            "text": "Il confronto in showroom permette di osservare campioni e proporzioni insieme alle fotografie della casa. È utile individuare pochi riferimenti chiari: il pavimento che rimane, una porta già presente o un colore scelto per le pareti. Questa base concreta aiuta a discutere le alternative senza sommare prodotti che piacciono singolarmente ma che non sono stati immaginati nella stessa stanza o nello stesso campo visivo dell’abitazione."
+          },
+          {
+            "type": "p",
+            "text": "La proposta finale dovrebbe rendere comprensibili anche le differenze. Se una camera e un soggiorno ricevono configurazioni differenti, il cliente deve poterle riconoscere rispetto agli usi discussi. In questo modo la scelta non diventa una lista di componenti uguali per convenienza di descrizione, ma un insieme di prodotti collegati alle condizioni dei vani e alle priorità reali di chi utilizzerà gli ambienti una volta concluso il lavoro."
+          }
+        ]
+      },
+      {
+        "heading": "Un esempio: rinnovare una mansarda e il passaggio verso lo studio",
+        "paragraphs": [
+          "Immaginiamo una casa nel Nord Milano con una finestra per tetti da sostituire e una porta interna verso uno studio da rinnovare. È un esempio ipotetico, non un intervento attribuito a Panorama Infissi. Il proprietario vuole mantenere gli arredi e desidera valutare l’apertura superiore insieme ai complementi necessari per utilizzare meglio la stanza, senza cambiare indiscriminatamente ogni elemento della casa.",
+          "La richiesta sulla finestra parte dalla posizione dei comandi e dall’uso dello spazio sottostante. Quella sulla porta considera invece il movimento dell’anta e il rapporto con la scrivania. La visita in showroom aiuta a confrontare i prodotti, mentre il rilievo permette di approfondire i vani. Le preferenze di finitura possono essere collegate tra loro, lasciando distinti i requisiti d’uso delle due aperture e le attività pertinenti per ciascuna sostituzione.",
+          "Il risultato utile è una proposta in cui si ritrovano le esigenze espresse. Il cliente può capire quali prodotti sono stati selezionati, quali componenti li completano e che cosa comprende il lavoro. Non occorre arrivare al primo incontro con ogni scelta già decisa: è più importante descrivere bene la stanza e gli elementi da conservare, così da orientare il confronto sulle alternative che hanno un rapporto concreto con l’immobile."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Immaginiamo una casa nel Nord Milano con una finestra per tetti da sostituire e una porta interna verso uno studio da rinnovare. È un esempio ipotetico, non un intervento attribuito a Panorama Infissi. Il proprietario vuole mantenere gli arredi e desidera valutare l’apertura superiore insieme ai complementi necessari per utilizzare meglio la stanza, senza cambiare indiscriminatamente ogni elemento della casa."
+          },
+          {
+            "type": "p",
+            "text": "La richiesta sulla finestra parte dalla posizione dei comandi e dall’uso dello spazio sottostante. Quella sulla porta considera invece il movimento dell’anta e il rapporto con la scrivania. La visita in showroom aiuta a confrontare i prodotti, mentre il rilievo permette di approfondire i vani. Le preferenze di finitura possono essere collegate tra loro, lasciando distinti i requisiti d’uso delle due aperture e le attività pertinenti per ciascuna sostituzione."
+          },
+          {
+            "type": "p",
+            "text": "Il risultato utile è una proposta in cui si ritrovano le esigenze espresse. Il cliente può capire quali prodotti sono stati selezionati, quali componenti li completano e che cosa comprende il lavoro. Non occorre arrivare al primo incontro con ogni scelta già decisa: è più importante descrivere bene la stanza e gli elementi da conservare, così da orientare il confronto sulle alternative che hanno un rapporto concreto con l’immobile."
+          }
+        ]
+      },
+      {
+        "heading": "Sopralluogo, posa e assistenza per la fornitura scelta",
+        "paragraphs": [
+          "Panorama Infissi presenta un servizio che comprende sopralluogo, fornitura, posa e assistenza. La verifica sul posto collega le preferenze iniziali alle aperture reali, mentre l’organizzazione dell’intervento deve considerare accessi, arredi e uso degli ambienti. Una casa abitata presenta esigenze pratiche da discutere prima del lavoro, evitando di immaginarla come uno spazio completamente libero se le persone continueranno a utilizzarla durante la sostituzione.",
+          "La proposta economica dovrebbe mantenere riconoscibili prodotti e attività. Una finestra, una porta o un accessorio vanno identificati nella loro configurazione, senza limitarsi al nome generico della categoria. La descrizione del lavoro aiuta invece a capire ciò che verrà eseguito nel vano. Leggere entrambi gli aspetti rende più concreto il confronto e permette di valutare eventuali alternative senza confondere una variazione estetica con una modifica dell’intervento previsto nell’immobile.",
+          "Dopo la posa è utile conservare i riferimenti della fornitura e le indicazioni d’uso. Se nasce una richiesta di assistenza, la descrizione del punto interessato può essere accompagnata da immagini, evitando manovre improvvisate sui meccanismi. Il contatto diretto con l’azienda permette di discutere il caso sulla base dei prodotti effettivamente installati, mantenendo un collegamento tra ciò che è stato scelto e il modo in cui verrà utilizzato e curato nel tempo."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Panorama Infissi presenta un servizio che comprende sopralluogo, fornitura, posa e assistenza. La verifica sul posto collega le preferenze iniziali alle aperture reali, mentre l’organizzazione dell’intervento deve considerare accessi, arredi e uso degli ambienti. Una casa abitata presenta esigenze pratiche da discutere prima del lavoro, evitando di immaginarla come uno spazio completamente libero se le persone continueranno a utilizzarla durante la sostituzione."
+          },
+          {
+            "type": "p",
+            "text": "La proposta economica dovrebbe mantenere riconoscibili prodotti e attività. Una finestra, una porta o un accessorio vanno identificati nella loro configurazione, senza limitarsi al nome generico della categoria. La descrizione del lavoro aiuta invece a capire ciò che verrà eseguito nel vano. Leggere entrambi gli aspetti rende più concreto il confronto e permette di valutare eventuali alternative senza confondere una variazione estetica con una modifica dell’intervento previsto nell’immobile."
+          },
+          {
+            "type": "p",
+            "text": "Dopo la posa è utile conservare i riferimenti della fornitura e le indicazioni d’uso. Se nasce una richiesta di assistenza, la descrizione del punto interessato può essere accompagnata da immagini, evitando manovre improvvisate sui meccanismi. Il contatto diretto con l’azienda permette di discutere il caso sulla base dei prodotti effettivamente installati, mantenendo un collegamento tra ciò che è stato scelto e il modo in cui verrà utilizzato e curato nel tempo."
+          }
+        ]
+      },
+      {
+        "heading": "Contattare Panorama Infissi per finestre per tetti e porte",
+        "paragraphs": [
+          "Lo showroom Panorama Infissi si trova in via Castelletto 22 a Paderno Dugnano. Per informazioni si può chiamare lo 02 8724 9949 oppure scrivere a info@panoramainfissi.com. La richiesta può riguardare una finestra per tetti, una porta o più aperture della casa, da valutare in base al tipo di intervento e alle condizioni effettive dell’immobile, con le verifiche pertinenti prima della definizione della fornitura.",
+          "Per iniziare il confronto sono utili fotografie delle stanze, indicazioni sugli arredi che rimarranno e una descrizione di ciò che si desidera migliorare nell’uso quotidiano. Le misure iniziali restano indicative fino al rilievo. Questa base permette di parlare dei prodotti in modo concreto, senza trasformare la prima raccolta di idee in un ordine definito sulla sola immagine di un catalogo o su una somiglianza con la chiusura precedente.",
+          "[Richiedi informazioni a Panorama Infissi](https://www.panoramainfissi.it/#contatti \"sponsored\"). Il collegamento porta direttamente all’azienda per presentare l’intervento desiderato e valutare finestre per tetti, porte e complementi in relazione alla propria casa. Il confronto può così mantenere insieme prodotti, utilizzo delle stanze e lavoro necessario, con scelte riconoscibili prima della conferma definitiva della configurazione da fornire e installare."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Lo showroom Panorama Infissi si trova in via Castelletto 22 a Paderno Dugnano. Per informazioni si può chiamare lo 02 8724 9949 oppure scrivere a info@panoramainfissi.com. La richiesta può riguardare una finestra per tetti, una porta o più aperture della casa, da valutare in base al tipo di intervento e alle condizioni effettive dell’immobile, con le verifiche pertinenti prima della definizione della fornitura."
+          },
+          {
+            "type": "p",
+            "text": "Per iniziare il confronto sono utili fotografie delle stanze, indicazioni sugli arredi che rimarranno e una descrizione di ciò che si desidera migliorare nell’uso quotidiano. Le misure iniziali restano indicative fino al rilievo. Questa base permette di parlare dei prodotti in modo concreto, senza trasformare la prima raccolta di idee in un ordine definito sulla sola immagine di un catalogo o su una somiglianza con la chiusura precedente."
+          },
+          {
+            "type": "p",
+            "text": "[Richiedi informazioni a Panorama Infissi](https://www.panoramainfissi.it/#contatti \"sponsored\"). Il collegamento porta direttamente all’azienda per presentare l’intervento desiderato e valutare finestre per tetti, porte e complementi in relazione alla propria casa. Il confronto può così mantenere insieme prodotti, utilizzo delle stanze e lavoro necessario, con scelte riconoscibili prima della conferma definitiva della configurazione da fornire e installare."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "sponsor": "CR Lodi Casa & Design",
     "slug": "cr-lodi-pavimenti-rivestimenti-installazione",
     "title": "CR Lodi Casa & Design: pavimenti e rivestimenti, dalla scelta all’installazione",

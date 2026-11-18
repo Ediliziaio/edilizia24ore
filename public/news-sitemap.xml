@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.edilizia24ore.it/articolo/panorama-infissi-finestre-tetti-accessori</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Edilizia 24 Ore</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-18T00:00:00.000Z</news:publication_date>
+      <news:title>Panorama Infissi: finestre per tetti, porte e accessori per la casa</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.edilizia24ore.it/articolo/cr-lodi-pavimenti-rivestimenti-installazione</loc>
     <news:news>
       <news:publication>
