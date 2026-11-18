@@ -52,13 +52,8 @@ export function saveConsent(prefs: { analytics: boolean; marketing: boolean }): 
   return consent;
 }
 
-/** Clears the stored consent and asks the banner to re-open (footer "Gestione cookie"). */
+/** Opens preferences without changing the current choice. Only saving changes consent. */
 export function resetConsent(): void {
   if (typeof window === 'undefined') return;
-  try {
-    window.localStorage.removeItem(CONSENT_KEY);
-  } catch {
-    /* storage unavailable */
-  }
   window.dispatchEvent(new Event(CONSENT_OPEN_EVENT));
 }
