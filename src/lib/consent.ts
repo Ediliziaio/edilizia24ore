@@ -1,25 +1,6 @@
-/**
- * GDPR cookie-consent helpers (client-side only).
- *
- * Storage: localStorage key `e24-consent`, JSON:
- *   { necessary: true, analytics: boolean, marketing: boolean, ts: number, v: 1 }
- *
- * Events (dispatched on window):
- *   - `e24:consent` (CustomEvent<Consent>) — fired every time the user makes a
- *     choice. Hook analytics/ad loaders here:
- *
- *       // ESEMPIO — dove collegare Google Analytics / Google AdSense:
- *       window.addEventListener('e24:consent', (e) => {
- *         const c = (e as CustomEvent).detail;
- *         if (c.analytics) loadGoogleAnalytics('G-XXXXXXX');   // solo dopo consenso
- *         if (c.marketing) loadAdSense('ca-pub-XXXXXXXX');     // solo dopo consenso
- *       });
- *
- *     Oppure, per script caricati dopo il banner, leggere lo stato con
- *     `getConsent()` e caricare gli script solo se la categoria è true.
- *
- *   - `e24:consent-open` (Event) — dispatched by the "Gestione cookie" footer
- *     entry to clear the stored choice and re-open the banner.
+/** Persisted consent for the existing banner.
+ * The local public/analytics-consent.js adapter forwards the saved choice to
+ * the single GTM runtime. No standalone GA4 or ad SDK is loaded here.
  */
 
 export const CONSENT_KEY = 'e24-consent';
@@ -62,7 +43,11 @@ export function saveConsent(prefs: { analytics: boolean; marketing: boolean }): 
     ts: Date.now(),
     v: CONSENT_VERSION,
   };
-  window.localStorage.setItem(CONSENT_KEY, JSON.stringify(consent));
+  try {
+    window.localStorage.setItem(CONSENT_KEY, JSON.stringify(consent));
+  } catch {
+    // The explicit choice still reaches the adapter for this page.
+  }
   window.dispatchEvent(new CustomEvent<Consent>(CONSENT_EVENT, { detail: consent }));
   return consent;
 }

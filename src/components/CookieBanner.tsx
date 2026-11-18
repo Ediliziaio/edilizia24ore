@@ -97,7 +97,7 @@ export default function CookieBanner() {
             <ToggleRow
               id="cookie-analytics"
               label="Analytics"
-              description="Statistiche di utilizzo anonime/aggregate (es. Google Analytics)."
+              description="Statistiche sull’uso del sito (Google Analytics)."
               checked={analytics}
               onChange={setAnalytics}
             />
