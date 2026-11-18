@@ -397,7 +397,7 @@ export const editorialNative: Article[] = [
         "paragraphs": [
           "CR Lodi Casa & Design propone pavimenti e rivestimenti nel suo showroom di via Veneto 8, a Cornegliano Laudense, vicino a Lodi. Giuseppe Cinnirella, fondatore e titolare, è il riferimento dell’azienda. Chi sta rinnovando casa può vedere i materiali, confrontare le finiture e valutare con CR Lodi anche il lavoro di installazione.",
           "Il pavimento è una scelta che rimane sotto gli occhi tutti i giorni. Cambia la luce di una stanza, accompagna i mobili e unisce ambienti diversi. Per questo una visita in showroom serve a qualcosa di più che scegliere un colore: permette di osservare le superfici da vicino e di ragionare su come verranno utilizzate nella propria abitazione.",
-          "In questo articolo il centro è proprio lo showroom: come leggere i campioni, quali differenze osservare e come collegare la scelta del materiale alla posa. Gli esempi sono situazioni domestiche ipotetiche, utili per spiegare le decisioni. Non descrivono lavori specifici di CR Lodi e non attribuiscono prestazioni a prodotti non identificati."
+          "Nello showroom si possono confrontare i campioni e collegare ogni superficie all’ambiente che si vuole rinnovare. Una pianta, qualche fotografia e i riferimenti degli arredi da conservare aiutano a osservare le alternative con un obiettivo preciso. Il percorso può partire dal soggiorno, dalla cucina o dal bagno e comprendere anche battiscopa, profili e raccordi che completano la posa."
         ],
         "blocks": [
           {
@@ -410,7 +410,7 @@ export const editorialNative: Article[] = [
           },
           {
             "type": "p",
-            "text": "In questo articolo il centro è proprio lo showroom: come leggere i campioni, quali differenze osservare e come collegare la scelta del materiale alla posa. Gli esempi sono situazioni domestiche ipotetiche, utili per spiegare le decisioni. Non descrivono lavori specifici di CR Lodi e non attribuiscono prestazioni a prodotti non identificati."
+            "text": "Nello showroom si possono confrontare i campioni e collegare ogni superficie all’ambiente che si vuole rinnovare. Una pianta, qualche fotografia e i riferimenti degli arredi da conservare aiutano a osservare le alternative con un obiettivo preciso. Il percorso può partire dal soggiorno, dalla cucina o dal bagno e comprendere anche battiscopa, profili e raccordi che completano la posa."
           }
         ]
       },
@@ -418,7 +418,7 @@ export const editorialNative: Article[] = [
         "heading": "Lo showroom di Giuseppe Cinnirella a Cornegliano Laudense",
         "paragraphs": [
           "Giuseppe Cinnirella ha fondato CR Lodi e ne è il titolare. L’attività unisce vendita di prodotti per la casa e lavori di ristrutturazione. Per il cliente questo significa poter iniziare da una superficie esposta e discutere subito dove andrà posata, quali elementi resteranno nella stanza e come dovranno essere risolti i passaggi.",
-          "Il [sito di Cinnirella Ristrutturazioni](https://www.cinnirellaristrutturazioni.it/) indica uno showroom di 300 metri quadrati. Non occorre arrivare con un progetto già completo per utilizzare bene lo spazio espositivo. Anche una richiesta circoscritta, come cambiare il pavimento del soggiorno mantenendo le porte esistenti, consente di iniziare un confronto concreto su materiali e finiture.",
+          "Lo [showroom di 300 metri quadrati](https://www.cinnirellaristrutturazioni.it/) offre spazio per confrontare i prodotti per la casa. Non occorre arrivare con un progetto già completo per utilizzare bene lo spazio espositivo. Anche una richiesta circoscritta, come cambiare il pavimento del soggiorno mantenendo le porte esistenti, consente di iniziare un confronto concreto su materiali e finiture.",
           "L’indirizzo da raggiungere per la visita è via Veneto 8, a Cornegliano Laudense. È utile concordare un appuntamento con lo showroom e spiegare quali stanze si vogliono rinnovare. In questo modo si parte dagli ambienti effettivi e si può dedicare più tempo alle alternative pertinenti, invece di osservare indistintamente ogni campione presente."
         ],
         "blocks": [
@@ -428,7 +428,7 @@ export const editorialNative: Article[] = [
           },
           {
             "type": "p",
-            "text": "Il [sito di Cinnirella Ristrutturazioni](https://www.cinnirellaristrutturazioni.it/) indica uno showroom di 300 metri quadrati. Non occorre arrivare con un progetto già completo per utilizzare bene lo spazio espositivo. Anche una richiesta circoscritta, come cambiare il pavimento del soggiorno mantenendo le porte esistenti, consente di iniziare un confronto concreto su materiali e finiture."
+            "text": "Lo [showroom di 300 metri quadrati](https://www.cinnirellaristrutturazioni.it/) offre spazio per confrontare i prodotti per la casa. Non occorre arrivare con un progetto già completo per utilizzare bene lo spazio espositivo. Anche una richiesta circoscritta, come cambiare il pavimento del soggiorno mantenendo le porte esistenti, consente di iniziare un confronto concreto su materiali e finiture."
           },
           {
             "type": "p",
@@ -439,14 +439,14 @@ export const editorialNative: Article[] = [
       {
         "heading": "Il primo confronto: gres, parquet e laminato",
         "paragraphs": [
-          "Tra le categorie presentate da CR Lodi ci sono gres porcellanato, parquet e laminato. Non sono nomi intercambiabili: indicano famiglie di prodotti con caratteristiche e modalità di impiego differenti. Prima di esprimere una preferenza conviene chiarire che cosa si cerca nella stanza: una superficie dall’aspetto uniforme, la presenza del legno oppure una particolare facilità di gestione quotidiana.",
+          "CR Lodi vende gres porcellanato, parquet e laminato. Non sono nomi intercambiabili: indicano famiglie di prodotti con caratteristiche e modalità di impiego differenti. Prima di esprimere una preferenza conviene chiarire che cosa si cerca nella stanza: una superficie dall’aspetto uniforme, la presenza del legno oppure una particolare facilità di gestione quotidiana.",
           "Il confronto dal vivo aiuta a distinguere l’effetto visivo dalla sensazione al tatto. Un materiale che richiama il legno può riprodurne alcuni segni senza coincidere con un pavimento in legno. Una superficie fotografata da vicino può sembrare molto marcata, mentre su una stanza intera risulta più discreta. Sono differenze che vale la pena osservare prima di associare un prodotto a un ambiente.",
           "La scelta non deve partire da una classifica astratta del materiale migliore. Deve partire dalla configurazione concreta proposta, dalla destinazione della stanza e dalle istruzioni del produttore. Nello showroom CR Lodi si può individuare l’aspetto desiderato e collegarlo ai prodotti disponibili, lasciando poi alle verifiche tecniche la compatibilità con il supporto e con gli impianti presenti."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Tra le categorie presentate da CR Lodi ci sono gres porcellanato, parquet e laminato. Non sono nomi intercambiabili: indicano famiglie di prodotti con caratteristiche e modalità di impiego differenti. Prima di esprimere una preferenza conviene chiarire che cosa si cerca nella stanza: una superficie dall’aspetto uniforme, la presenza del legno oppure una particolare facilità di gestione quotidiana."
+            "text": "CR Lodi vende gres porcellanato, parquet e laminato. Non sono nomi intercambiabili: indicano famiglie di prodotti con caratteristiche e modalità di impiego differenti. Prima di esprimere una preferenza conviene chiarire che cosa si cerca nella stanza: una superficie dall’aspetto uniforme, la presenza del legno oppure una particolare facilità di gestione quotidiana."
           },
           {
             "type": "p",
@@ -549,14 +549,14 @@ export const editorialNative: Article[] = [
       {
         "heading": "La posa comincia prima di stendere il materiale",
         "paragraphs": [
-          "CR Lodi presenta tra i propri servizi l’installazione e la ristrutturazione. La qualità della scelta dipende anche dal collegamento con il lavoro da eseguire: un materiale selezionato nello showroom deve essere adatto alla superficie su cui verrà posato e alle condizioni di utilizzo previste per la stanza.",
+          "CR Lodi esegue anche installazione e ristrutturazione. La qualità della scelta dipende anche dal collegamento con il lavoro da eseguire: un materiale selezionato nello showroom deve essere adatto alla superficie su cui verrà posato e alle condizioni di utilizzo previste per la stanza.",
           "Prima di definire la soluzione occorre quindi esaminare il supporto. La presenza di un pavimento esistente, lo stato delle superfici e le quote disponibili possono cambiare il tipo di intervento. Non è corretto stabilire dalla sola fotografia che un nuovo materiale possa essere applicato sopra quello precedente. Servono verifiche coerenti con il sistema proposto e con le istruzioni dei prodotti coinvolti.",
           "Anche i collegamenti con porte e serramenti vanno considerati in anticipo. Se cambia la quota del pavimento, alcuni particolari possono richiedere interventi aggiuntivi. Discuterli durante la definizione del lavoro permette di valutare la proposta nel suo insieme, invece di confrontare soltanto il prezzo del materiale al metro quadrato e scoprire le altre attività quando il cantiere è già avviato."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "CR Lodi presenta tra i propri servizi l’installazione e la ristrutturazione. La qualità della scelta dipende anche dal collegamento con il lavoro da eseguire: un materiale selezionato nello showroom deve essere adatto alla superficie su cui verrà posato e alle condizioni di utilizzo previste per la stanza."
+            "text": "CR Lodi esegue anche installazione e ristrutturazione. La qualità della scelta dipende anche dal collegamento con il lavoro da eseguire: un materiale selezionato nello showroom deve essere adatto alla superficie su cui verrà posato e alle condizioni di utilizzo previste per la stanza."
           },
           {
             "type": "p",
@@ -664,14 +664,14 @@ export const editorialNative: Article[] = [
       {
         "heading": "Prenotare una visita da CR Lodi",
         "paragraphs": [
-          "Lo showroom di CR Lodi Casa & Design è in via Veneto 8, a Cornegliano Laudense, in provincia di Lodi. Giuseppe Cinnirella, fondatore e titolare, è il riferimento dell’attività. Il [sito ufficiale](https://crlodicasaedesign.it/) presenta le categorie di prodotti e i servizi disponibili, insieme ai recapiti per organizzare l’incontro.",
+          "Lo showroom di CR Lodi Casa & Design è in via Veneto 8, a Cornegliano Laudense, in provincia di Lodi. Giuseppe Cinnirella, fondatore e titolare, è il riferimento dell’attività. Da [CR Lodi](https://crlodicasaedesign.it/) si possono valutare insieme prodotti, finiture e installazione, partendo dagli ambienti da rinnovare.",
           "Per scegliere pavimenti e rivestimenti conviene arrivare con fotografie, una pianta e un’idea degli elementi che si desidera conservare. Non serve aver già deciso tutto. Lo scopo della visita è proprio vedere i materiali da vicino e collegarli alla propria casa, comprendendo quali abbinamenti e quali lavorazioni approfondire.",
           "[Contatta CR Lodi per visitare lo showroom e valutare pavimenti e rivestimenti](https://crlodicasaedesign.it/contatti/ \"sponsored\"). Si può chiamare anche lo 0371 752990: la richiesta viene rivolta direttamente all’azienda, indicando gli ambienti da rinnovare e le esigenze principali da affrontare durante l’appuntamento."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Lo showroom di CR Lodi Casa & Design è in via Veneto 8, a Cornegliano Laudense, in provincia di Lodi. Giuseppe Cinnirella, fondatore e titolare, è il riferimento dell’attività. Il [sito ufficiale](https://crlodicasaedesign.it/) presenta le categorie di prodotti e i servizi disponibili, insieme ai recapiti per organizzare l’incontro."
+            "text": "Lo showroom di CR Lodi Casa & Design è in via Veneto 8, a Cornegliano Laudense, in provincia di Lodi. Giuseppe Cinnirella, fondatore e titolare, è il riferimento dell’attività. Da [CR Lodi](https://crlodicasaedesign.it/) si possono valutare insieme prodotti, finiture e installazione, partendo dagli ambienti da rinnovare."
           },
           {
             "type": "p",
@@ -1961,112 +1961,115 @@ export const editorialNative: Article[] = [
   },
   {
     "slug": "renova-solution-una-scheda-di-progetto-per-la-ristrutturazione",
-    "title": "Renova Solution: una scheda di progetto per la ristrutturazione",
+    "title": "Renova Solution: ristrutturazioni di casa in Friuli Venezia Giulia e Veneto",
     "category": "news",
     "subcategory": "Mercato",
-    "excerpt": "Decisioni, referenti e revisioni: come organizzare la richiesta di ristrutturazione e conoscere l’offerta Renova Solution.",
+    "excerpt": "Renova Solution ristruttura case in Friuli Venezia Giulia e Veneto: impianti, pavimenti, rivestimenti, infissi e finiture.",
     "keywords": [
       "Renova Solution: una scheda di progetto per la ristrutturazione"
     ],
     "publishedAt": "2026-10-22",
-    "updatedAt": "2026-10-22",
+    "updatedAt": "2026-11-18",
     "author": {
       "name": "Redazione Edilizia 24 Ore",
       "role": "Redazione"
     },
-    "readingTime": 5,
+    "readingTime": 4,
     "faq": [
       {
-        "q": "La scheda sostituisce un progetto tecnico?",
-        "a": "No. Organizza esigenze e informazioni iniziali. Progetto, verifiche e documentazione necessaria dipendono dall'intervento e dalle attività dei professionisti coinvolti."
+        "q": "Dove opera Renova Solution?",
+        "a": "In Friuli Venezia Giulia e Veneto."
       },
       {
-        "q": "Come segnalo qualcosa che non conosco?",
-        "a": "Usa la dicitura «da verificare» e formula la domanda. Non compilare una scheda apparentemente completa con misure o condizioni ipotizzate che potrebbero orientare male la proposta."
+        "q": "Quali lavori di ristrutturazione esegue?",
+        "a": "Ristrutturazioni complete e interventi su impianti, pavimenti, rivestimenti, cappotto termico e finiture, con fornitura di infissi e altri servizi per la casa."
       },
       {
-        "q": "Cosa devo approvare dopo una revisione?",
-        "a": "Individua versione e allegati esatti, distinguendo le modifiche approvate dalle questioni ancora aperte. Conserva anche la versione precedente per poter ricostruire le decisioni."
+        "q": "Come richiedere un preventivo?",
+        "a": "Si può contattare direttamente Renova Solution descrivendo la località e gli ambienti da rinnovare, per organizzare il sopralluogo e definire le lavorazioni."
       }
     ],
     "image": {
       "src": "/editorial-assets/renova-solution.webp",
       "alt": "Casa illustrativa con serramenti e pannelli solari, non un progetto documentato di Renova Solution"
     },
-    "intro": [
-      "Prima del calendario di cantiere serve un quadro condiviso. Una scheda sintetica aiuta proprietario e interlocutori a parlare della stessa versione del progetto."
-    ],
+    "intro": [],
     "sections": [
       {
-        "heading": "Il punto di partenza",
+        "heading": "Ristrutturare casa con Renova Solution",
         "paragraphs": [
-          "Prima del calendario di cantiere serve un quadro condiviso. Una scheda sintetica aiuta proprietario e interlocutori a parlare della stessa versione del progetto.",
-          "Una ristrutturazione si complica quando le decisioni restano distribuite tra messaggi, fotografie e appunti. Per conoscere l'offerta Renova Solution, che comprende servizi di rinnovo della casa, si può partire da una scheda capace di riunire le informazioni del primo contatto. Non deve contenere già tutte le soluzioni: deve chiarire ciò che vuoi realizzare."
+          "Renova Solution si occupa di ristrutturazioni residenziali in Friuli Venezia Giulia e Veneto. L’offerta comprende interventi completi, rifacimento di impianti, pavimenti e rivestimenti, cappotto termico e finiture. Accanto ai lavori edili, l’azienda fornisce anche infissi e soluzioni per il fotovoltaico e la climatizzazione.",
+          "Per chi deve rinnovare un appartamento, il vantaggio di partire da un progetto unitario è poter scegliere insieme gli elementi che si incontreranno nella stessa stanza. Un pavimento va valutato accanto alle porte, un impianto rispetto ai mobili e una nuova finestra nel rapporto con la parete e con gli oscuranti.",
+          "Il servizio di ristrutturazione comprende sopralluogo, progetto, preventivo, esecuzione e consegna. La richiesta può riguardare un’abitazione da rinnovare nel suo insieme oppure ambienti e lavorazioni specifici, da definire con Renova Solution sulla base delle condizioni dell’immobile."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Prima del calendario di cantiere serve un quadro condiviso. Una scheda sintetica aiuta proprietario e interlocutori a parlare della stessa versione del progetto."
+            "text": "Renova Solution si occupa di ristrutturazioni residenziali in Friuli Venezia Giulia e Veneto. L’offerta comprende interventi completi, rifacimento di impianti, pavimenti e rivestimenti, cappotto termico e finiture. Accanto ai lavori edili, l’azienda fornisce anche infissi e soluzioni per il fotovoltaico e la climatizzazione."
           },
           {
             "type": "p",
-            "text": "Una ristrutturazione si complica quando le decisioni restano distribuite tra messaggi, fotografie e appunti. Per conoscere l'offerta Renova Solution, che comprende servizi di rinnovo della casa, si può partire da una scheda capace di riunire le informazioni del primo contatto. Non deve contenere già tutte le soluzioni: deve chiarire ciò che vuoi realizzare."
+            "text": "Per chi deve rinnovare un appartamento, il vantaggio di partire da un progetto unitario è poter scegliere insieme gli elementi che si incontreranno nella stessa stanza. Un pavimento va valutato accanto alle porte, un impianto rispetto ai mobili e una nuova finestra nel rapporto con la parete e con gli oscuranti."
+          },
+          {
+            "type": "p",
+            "text": "Il servizio di ristrutturazione comprende sopralluogo, progetto, preventivo, esecuzione e consegna. La richiesta può riguardare un’abitazione da rinnovare nel suo insieme oppure ambienti e lavorazioni specifici, da definire con Renova Solution sulla base delle condizioni dell’immobile."
           }
         ]
       },
       {
-        "heading": "Identificare il progetto in una pagina",
+        "heading": "Bagno, cucina e ambienti da rinnovare",
         "paragraphs": [
-          "Inserisci località, ambienti interessati, stato dell'immobile e disponibilità dei documenti. Indica chi può approvare le scelte e quali altri soggetti stanno già seguendo il lavoro. Aggiungi le esigenze della famiglia durante il cantiere, come la necessità di conservare l'accesso a una parte dell'abitazione.",
-          "Una scheda così costruita non sostituisce gli elaborati professionali. Offre però un riferimento comune per distinguere ciò che è già stato deciso da ciò che dovrà essere verificato nel sopralluogo o durante la progettazione."
+          "Bagno e cucina riuniscono molte scelte nello stesso spazio: rivestimenti, punti d’acqua, apparecchiature e superfici di lavoro devono restare comodi da usare. Prima di scegliere una finitura, conviene osservare quali passaggi funzionano già e quali creano difficoltà. Anche mantenere una parte della disposizione esistente può essere una scelta precisa, se risponde alle abitudini della famiglia.",
+          "Per il primo confronto sono utili la località, una pianta disponibile e fotografie degli ambienti. Indica se la casa resterà abitata e quali mobili o elementi vuoi conservare. Sono informazioni che aiutano a discutere il lavoro effettivo e a collegare le preferenze estetiche agli spazi, senza dover arrivare con tutte le soluzioni già decise."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Inserisci località, ambienti interessati, stato dell'immobile e disponibilità dei documenti. Indica chi può approvare le scelte e quali altri soggetti stanno già seguendo il lavoro. Aggiungi le esigenze della famiglia durante il cantiere, come la necessità di conservare l'accesso a una parte dell'abitazione."
+            "text": "Bagno e cucina riuniscono molte scelte nello stesso spazio: rivestimenti, punti d’acqua, apparecchiature e superfici di lavoro devono restare comodi da usare. Prima di scegliere una finitura, conviene osservare quali passaggi funzionano già e quali creano difficoltà. Anche mantenere una parte della disposizione esistente può essere una scelta precisa, se risponde alle abitudini della famiglia."
           },
           {
             "type": "p",
-            "text": "Una scheda così costruita non sostituisce gli elaborati professionali. Offre però un riferimento comune per distinguere ciò che è già stato deciso da ciò che dovrà essere verificato nel sopralluogo o durante la progettazione."
+            "text": "Per il primo confronto sono utili la località, una pianta disponibile e fotografie degli ambienti. Indica se la casa resterà abitata e quali mobili o elementi vuoi conservare. Sono informazioni che aiutano a discutere il lavoro effettivo e a collegare le preferenze estetiche agli spazi, senza dover arrivare con tutte le soluzioni già decise."
           }
         ]
       },
       {
-        "heading": "Rendere riconoscibili le revisioni",
+        "heading": "Impianti, superfici e infissi nello stesso progetto",
         "paragraphs": [
-          "Quando cambia una scelta, aggiorna il documento e indica quale versione sostituisce. Vale per finiture, apparecchiature e perimetro delle opere. Chiedi che l'offerta faccia riferimento agli stessi allegati: è il modo più semplice per non confrontare un disegno nuovo con un preventivo precedente.",
-          "Nel dialogo con Renova Solution, presenta le alternative come decisioni esplicite. Una soluzione di base e una variante dovrebbero essere leggibili separatamente, con ciò che includono e con le informazioni ancora necessarie. Il progetto diventa così un percorso di approvazioni, anziché un accumulo di possibilità."
+          "La ristrutturazione può coinvolgere impianti idraulici ed elettrici, pavimenti, rivestimenti e isolamento esterno. I lavori vanno organizzati in modo che ogni scelta tenga conto di quelle vicine. Un nuovo spessore del pavimento, per esempio, va esaminato insieme alle porte e alle soglie che rimarranno; la posizione di una presa va collegata all’arredo previsto.",
+          "Renova Solution tratta inoltre finestre in PVC, alluminio e legno-alluminio e porte blindate. Se il rinnovo comprende anche le aperture, conviene discuterle prima di confermare le finiture delle pareti. L’[offerta per le ristrutturazioni](https://www.renovasolution.it/ristrutturazioni \"sponsored\") permette di avviare un confronto sui diversi interventi, mantenendo riconoscibili prodotti, posa e lavorazioni comprese nel preventivo."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Quando cambia una scelta, aggiorna il documento e indica quale versione sostituisce. Vale per finiture, apparecchiature e perimetro delle opere. Chiedi che l'offerta faccia riferimento agli stessi allegati: è il modo più semplice per non confrontare un disegno nuovo con un preventivo precedente."
+            "text": "La ristrutturazione può coinvolgere impianti idraulici ed elettrici, pavimenti, rivestimenti e isolamento esterno. I lavori vanno organizzati in modo che ogni scelta tenga conto di quelle vicine. Un nuovo spessore del pavimento, per esempio, va esaminato insieme alle porte e alle soglie che rimarranno; la posizione di una presa va collegata all’arredo previsto."
           },
           {
             "type": "p",
-            "text": "Nel dialogo con Renova Solution, presenta le alternative come decisioni esplicite. Una soluzione di base e una variante dovrebbero essere leggibili separatamente, con ciò che includono e con le informazioni ancora necessarie. Il progetto diventa così un percorso di approvazioni, anziché un accumulo di possibilità."
+            "text": "Renova Solution tratta inoltre finestre in PVC, alluminio e legno-alluminio e porte blindate. Se il rinnovo comprende anche le aperture, conviene discuterle prima di confermare le finiture delle pareti. L’[offerta per le ristrutturazioni](https://www.renovasolution.it/ristrutturazioni \"sponsored\") permette di avviare un confronto sui diversi interventi, mantenendo riconoscibili prodotti, posa e lavorazioni comprese nel preventivo."
           }
         ]
       },
       {
-        "heading": "Un punto di contatto per ogni passaggio",
+        "heading": "Un referente per seguire i lavori",
         "paragraphs": [
-          "Prima dell'avvio, domanda come saranno comunicate richieste e aggiornamenti e quali conferme serviranno per procedere. Definisci anche il canale che userai per inviare documenti, evitando di distribuire lo stesso materiale in conversazioni diverse.",
-          "Il sito ufficiale Renova Solution consente di conoscere i servizi e presentare l'intervento. Arrivare al contatto con una scheda ordinata aiuta a discutere un progetto concreto: il beneficio non è aggiungere burocrazia alla ristrutturazione, ma rendere più semplice capire che cosa è stato richiesto, approvato e infine realizzato."
+          "Renova Solution organizza i lavori con un interlocutore che coordina il cantiere e gli aggiornamenti. Per il proprietario è utile sapere a chi rivolgersi durante le diverse fasi e come verranno confermate le scelte. Colori, materiali e apparecchiature diventano più facili da seguire quando i riferimenti approvati rimangono raccolti nello stesso posto.",
+          "Durante il sopralluogo si può parlare anche dell’accesso all’immobile e delle esigenze quotidiane della famiglia. Una stanza da mantenere utilizzabile o un mobile da proteggere sono elementi da inserire nell’organizzazione del lavoro. Calendario, modalità operative e condizioni economiche devono corrispondere all’intervento concordato e al preventivo che verrà approvato."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Prima dell'avvio, domanda come saranno comunicate richieste e aggiornamenti e quali conferme serviranno per procedere. Definisci anche il canale che userai per inviare documenti, evitando di distribuire lo stesso materiale in conversazioni diverse."
+            "text": "Renova Solution organizza i lavori con un interlocutore che coordina il cantiere e gli aggiornamenti. Per il proprietario è utile sapere a chi rivolgersi durante le diverse fasi e come verranno confermate le scelte. Colori, materiali e apparecchiature diventano più facili da seguire quando i riferimenti approvati rimangono raccolti nello stesso posto."
           },
           {
             "type": "p",
-            "text": "Il sito ufficiale Renova Solution consente di conoscere i servizi e presentare l'intervento. Arrivare al contatto con una scheda ordinata aiuta a discutere un progetto concreto: il beneficio non è aggiungere burocrazia alla ristrutturazione, ma rendere più semplice capire che cosa è stato richiesto, approvato e infine realizzato."
+            "text": "Durante il sopralluogo si può parlare anche dell’accesso all’immobile e delle esigenze quotidiane della famiglia. Una stanza da mantenere utilizzabile o un mobile da proteggere sono elementi da inserire nell’organizzazione del lavoro. Calendario, modalità operative e condizioni economiche devono corrispondere all’intervento concordato e al preventivo che verrà approvato."
           }
         ]
       },
       {
-        "heading": "La scheda deve distinguere bisogno e soluzione",
+        "heading": "Partire dalle esigenze degli ambienti",
         "paragraphs": [
           "Un documento iniziale non deve sembrare un capitolato già concluso. Può limitarsi a spiegare cosa non funziona oggi e quale risultato si vuole ottenere: rendere utilizzabile un locale, rinnovare aperture, coordinare più interventi. Le soluzioni vanno proposte e verificate nel percorso successivo. Separare questi livelli evita che un'espressione indicativa venga interpretata come ordine definitivo. Per il confronto con Renova Solution, la scheda è un modo per rendere riconoscibile la richiesta, non per anticipare la progettazione."
         ],
@@ -2078,7 +2081,7 @@ export const editorialNative: Article[] = [
         ]
       },
       {
-        "heading": "Tre allegati semplici rendono il contesto leggibile",
+        "heading": "Pianta, fotografie e materiali da conservare",
         "paragraphs": [
           "Abbina una pianta disponibile, fotografie numerate e una lista delle decisioni. Indica quando i documenti sono stati raccolti e quali parti non rappresentano più la situazione attuale. Se non hai una pianta aggiornata, non modificare a intuito quella precedente: descrivi la differenza e chiedi quali rilievi servano. Le fotografie dovrebbero mostrare anche il rapporto tra ambienti e passaggi, oltre ai dettagli che vuoi cambiare. L'obiettivo è ridurre le ambiguità nel primo incontro."
         ],
@@ -2115,7 +2118,7 @@ export const editorialNative: Article[] = [
         ]
       },
       {
-        "heading": "Un elenco separato per le esclusioni",
+        "heading": "Che cosa comprende il preventivo",
         "paragraphs": [
           "Quando leggi una proposta, cerca anche ciò che rimane fuori. Una lavorazione esclusa non è necessariamente un problema, purché tu sappia chi la gestirà e quando. Annota elementi mantenuti, attività affidate ad altri e acquisti che intendi effettuare direttamente. La scheda può diventare la base di un riepilogo condiviso prima dell'avvio. Non deve però sostituire i documenti contrattuali o autorizzativi necessari: è uno strumento per verificare che descrivano il lavoro effettivamente concordato."
         ],
@@ -2127,14 +2130,14 @@ export const editorialNative: Article[] = [
         ]
       },
       {
-        "heading": "Aggiornare senza perdere la versione approvata",
+        "heading": "Conservare i riferimenti delle scelte approvate",
         "paragraphs": [
-          "Dopo ogni modifica, conserva una copia con data e breve descrizione del cambiamento. Una cartella con file denominati soltanto «definitivo» diventa presto difficile da interpretare. Nel messaggio di approvazione indica il documento e gli allegati a cui ti riferisci. È particolarmente utile quando la richiesta comprende servizi diversi, come quelli presentati da Renova Solution per infissi, energia e ristrutturazioni. Tutti gli interlocutori devono poter individuare la stessa base di lavoro."
+          "Dopo ogni modifica, conserva una copia con data e breve descrizione del cambiamento. Una cartella con file denominati soltanto «definitivo» diventa presto difficile da interpretare. Nel messaggio di approvazione indica il documento e gli allegati a cui ti riferisci. È particolarmente utile quando la richiesta comprende servizi diversi, come infissi, impianti energetici e ristrutturazioni offerti da Renova Solution. Tutti gli interlocutori devono poter individuare la stessa base di lavoro."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Dopo ogni modifica, conserva una copia con data e breve descrizione del cambiamento. Una cartella con file denominati soltanto «definitivo» diventa presto difficile da interpretare. Nel messaggio di approvazione indica il documento e gli allegati a cui ti riferisci. È particolarmente utile quando la richiesta comprende servizi diversi, come quelli presentati da Renova Solution per infissi, energia e ristrutturazioni. Tutti gli interlocutori devono poter individuare la stessa base di lavoro."
+            "text": "Dopo ogni modifica, conserva una copia con data e breve descrizione del cambiamento. Una cartella con file denominati soltanto «definitivo» diventa presto difficile da interpretare. Nel messaggio di approvazione indica il documento e gli allegati a cui ti riferisci. È particolarmente utile quando la richiesta comprende servizi diversi, come infissi, impianti energetici e ristrutturazioni offerti da Renova Solution. Tutti gli interlocutori devono poter individuare la stessa base di lavoro."
           }
         ]
       },
@@ -2165,20 +2168,20 @@ export const editorialNative: Article[] = [
       }
     ],
     "sponsor": "Renova Solution",
-    "seoTitle": "Renova Solution: preparare una ristrutturazione",
-    "seoDescription": "Decisioni, referenti e revisioni: come organizzare la richiesta di ristrutturazione e conoscere l’offerta Renova Solution."
+    "seoTitle": "Renova Solution: ristrutturazioni in Friuli e Veneto",
+    "seoDescription": "Renova Solution ristruttura case in Friuli Venezia Giulia e Veneto: impianti, pavimenti, rivestimenti, infissi e finiture."
   },
   {
     "slug": "innovasol-dal-primo-contatto-a-una-richiesta-di-impianto-piu-chiara",
-    "title": "Innovasol: dal primo contatto a una richiesta di impianto più chiara",
+    "title": "Innovasol: fotovoltaico, climatizzazione e riscaldamento in Sicilia",
     "category": "news",
     "subcategory": "Sostenibilità",
-    "excerpt": "Obiettivo, documenti e sopralluogo: un percorso pratico per chiedere a Innovasol una proposta riferita al proprio immobile.",
+    "excerpt": "Innovasol progetta e installa in Sicilia impianti fotovoltaici, climatizzazione, riscaldamento e solare termico, dal sopralluogo alla posa.",
     "keywords": [
       "Innovasol: dal primo contatto a una richiesta di impianto più chiara"
     ],
     "publishedAt": "2026-10-22",
-    "updatedAt": "2026-10-22",
+    "updatedAt": "2026-11-18",
     "author": {
       "name": "Redazione Edilizia 24 Ore",
       "role": "Redazione"
@@ -2186,108 +2189,111 @@ export const editorialNative: Article[] = [
     "readingTime": 4,
     "faq": [
       {
-        "q": "Posso chiedere informazioni su più impianti insieme?",
-        "a": "Sì, ma rendi riconoscibile ciascuna esigenza. Elenca le priorità e chiedi di chiarire quali collegamenti tra i diversi interventi vadano valutati nel caso specifico."
+        "q": "Quali impianti realizza Innovasol?",
+        "a": "Impianti fotovoltaici, di climatizzazione, riscaldamento e solare termico."
       },
       {
-        "q": "Che cosa faccio se non conosco il modello dell'impianto attuale?",
-        "a": "Segnala l'informazione mancante e cerca i documenti disponibili. Non intervenire sulle parti tecniche per identificarlo: chiedi come completare correttamente la raccolta dei dati."
+        "q": "Dove opera Innovasol?",
+        "a": "In Sicilia, con servizi dedicati anche alle aree di Catania, Messina, Palermo e Siracusa."
       },
       {
-        "q": "Una proposta iniziale è già una configurazione definitiva?",
-        "a": "Dipende dal suo contenuto. Verifica se riporta scelte approvate o condizioni ancora da accertare e quali passaggi debbano essere completati prima di procedere."
+        "q": "Qual è la differenza tra fotovoltaico e solare termico?",
+        "a": "Il fotovoltaico produce energia elettrica; il solare termico serve a riscaldare acqua. La scelta dipende dalle esigenze della casa e dagli impianti presenti."
       }
     ],
     "image": {
       "src": "/editorial-assets/innovasol.webp",
       "alt": "Abitazione mediterranea illustrativa con solare e climatizzazione, non un impianto reale di Innovasol"
     },
-    "intro": [
-      "Una richiesta iniziale ben preparata non deve essere lunga. Deve far capire quale decisione vuoi prendere e quali informazioni sono già disponibili."
-    ],
+    "intro": [],
     "sections": [
       {
-        "heading": "Il punto di partenza",
+        "heading": "Gli impianti per la casa di Innovasol",
         "paragraphs": [
-          "Una richiesta iniziale ben preparata non deve essere lunga. Deve far capire quale decisione vuoi prendere e quali informazioni sono già disponibili.",
-          "«Vorrei un preventivo» è un buon inizio, ma racconta poco del progetto. Per un nuovo impianto può essere utile aggiungere il tipo di immobile, la località e il risultato desiderato. Innovasol presenta servizi energetici e un percorso di contatto che comprende la possibilità di richiedere una proposta."
+          "Innovasol progetta e installa impianti fotovoltaici, di climatizzazione, riscaldamento e solare termico in Sicilia. L’attività riguarda la produzione di energia e il comfort degli ambienti, con soluzioni da scegliere in base all’immobile e alle esigenze di chi lo utilizza.",
+          "Sono esigenze diverse, che possono presentarsi insieme nello stesso appartamento: produrre elettricità, raffrescare il soggiorno, riscaldare le camere oppure preparare l’acqua calda sanitaria. Capire la funzione di ogni impianto rende più semplice discutere le priorità e riconoscere che cosa comprende la proposta ricevuta.",
+          "Il percorso di Innovasol comprende contatto iniziale, sopralluogo quando necessario, progettazione, preventivo e installazione. La pagina dei [servizi per gli impianti](https://innovasol.it/ \"sponsored\") raccoglie le attività dell’azienda; per avviare una richiesta si possono utilizzare direttamente i contatti indicati in fondo all’articolo."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Una richiesta iniziale ben preparata non deve essere lunga. Deve far capire quale decisione vuoi prendere e quali informazioni sono già disponibili."
+            "text": "Innovasol progetta e installa impianti fotovoltaici, di climatizzazione, riscaldamento e solare termico in Sicilia. L’attività riguarda la produzione di energia e il comfort degli ambienti, con soluzioni da scegliere in base all’immobile e alle esigenze di chi lo utilizza."
           },
           {
             "type": "p",
-            "text": "«Vorrei un preventivo» è un buon inizio, ma racconta poco del progetto. Per un nuovo impianto può essere utile aggiungere il tipo di immobile, la località e il risultato desiderato. Innovasol presenta servizi energetici e un percorso di contatto che comprende la possibilità di richiedere una proposta."
-          }
-        ]
-      },
-      {
-        "heading": "Scegliere la domanda principale",
-        "paragraphs": [
-          "Il progetto riguarda la produzione elettrica, la climatizzazione o l'acqua calda? Individuare il tema di partenza consente di orientare il dialogo. Se stai considerando più interventi, elencali mantenendo chiaro quale viene prima nella tua valutazione.",
-          "Scrivi anche il punto in cui ti trovi: stai raccogliendo informazioni, hai un progetto già seguito da un tecnico oppure devi confrontare alternative? Questa distinzione aiuta a non chiedere una cifra definitiva quando mancano ancora le informazioni che ne definiscono il perimetro."
-        ],
-        "blocks": [
-          {
-            "type": "p",
-            "text": "Il progetto riguarda la produzione elettrica, la climatizzazione o l'acqua calda? Individuare il tema di partenza consente di orientare il dialogo. Se stai considerando più interventi, elencali mantenendo chiaro quale viene prima nella tua valutazione."
+            "text": "Sono esigenze diverse, che possono presentarsi insieme nello stesso appartamento: produrre elettricità, raffrescare il soggiorno, riscaldare le camere oppure preparare l’acqua calda sanitaria. Capire la funzione di ogni impianto rende più semplice discutere le priorità e riconoscere che cosa comprende la proposta ricevuta."
           },
           {
             "type": "p",
-            "text": "Scrivi anche il punto in cui ti trovi: stai raccogliendo informazioni, hai un progetto già seguito da un tecnico oppure devi confrontare alternative? Questa distinzione aiuta a non chiedere una cifra definitiva quando mancano ancora le informazioni che ne definiscono il perimetro."
+            "text": "Il percorso di Innovasol comprende contatto iniziale, sopralluogo quando necessario, progettazione, preventivo e installazione. La pagina dei [servizi per gli impianti](https://innovasol.it/ \"sponsored\") raccoglie le attività dell’azienda; per avviare una richiesta si possono utilizzare direttamente i contatti indicati in fondo all’articolo."
           }
         ]
       },
       {
-        "heading": "Organizzare gli elementi utili al sopralluogo",
+        "heading": "Fotovoltaico e solare termico: due funzioni diverse",
         "paragraphs": [
-          "Raccogli planimetrie, documenti dell'impianto esistente e dati di consumo disponibili. Non occorre procurare ciò che non hai attraverso verifiche improvvisate: prepara invece l'elenco dei punti da accertare. Chiedi quali materiali servano prima dell'incontro e quali verranno raccolti durante la visita.",
-          "Nella richiesta a Innovasol, indica anche eventuali lavori già previsti. Il progetto dell'impianto deve poter essere discusso insieme alle informazioni sull'immobile, non come un prodotto privo di contesto. Foto e appunti sono utili se ordinati e riferiti agli stessi ambienti."
+          "Il fotovoltaico produce energia elettrica; il solare termico utilizza il sole per riscaldare acqua. Il fatto che entrambi impieghino collettori o moduli esposti alla luce non li rende intercambiabili. Per chi sta rinnovando casa, la scelta parte dal servizio che si vuole ottenere e dagli impianti già presenti.",
+          "Per confrontare un nuovo impianto è utile descrivere quando la casa viene utilizzata e quali consumi si desidera affrontare. Una famiglia presente soprattutto la sera può avere esigenze differenti da chi lavora da casa. Bollette e documentazione disponibile aiutano a discutere queste differenze senza scegliere la dimensione dell’impianto soltanto dal numero di stanze."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Raccogli planimetrie, documenti dell'impianto esistente e dati di consumo disponibili. Non occorre procurare ciò che non hai attraverso verifiche improvvisate: prepara invece l'elenco dei punti da accertare. Chiedi quali materiali servano prima dell'incontro e quali verranno raccolti durante la visita."
+            "text": "Il fotovoltaico produce energia elettrica; il solare termico utilizza il sole per riscaldare acqua. Il fatto che entrambi impieghino collettori o moduli esposti alla luce non li rende intercambiabili. Per chi sta rinnovando casa, la scelta parte dal servizio che si vuole ottenere e dagli impianti già presenti."
           },
           {
             "type": "p",
-            "text": "Nella richiesta a Innovasol, indica anche eventuali lavori già previsti. Il progetto dell'impianto deve poter essere discusso insieme alle informazioni sull'immobile, non come un prodotto privo di contesto. Foto e appunti sono utili se ordinati e riferiti agli stessi ambienti."
+            "text": "Per confrontare un nuovo impianto è utile descrivere quando la casa viene utilizzata e quali consumi si desidera affrontare. Una famiglia presente soprattutto la sera può avere esigenze differenti da chi lavora da casa. Bollette e documentazione disponibile aiutano a discutere queste differenze senza scegliere la dimensione dell’impianto soltanto dal numero di stanze."
           }
         ]
       },
       {
-        "heading": "Leggere il risultato del confronto",
+        "heading": "Climatizzazione e riscaldamento degli ambienti",
         "paragraphs": [
-          "Quando arriva una proposta, controlla che risponda all'obiettivo iniziale e identifichi componenti, opere e condizioni. Evidenzia le domande rimaste aperte prima di decidere. Il valore del percorso è ridurre la distanza tra la prima idea e ciò che verrebbe effettivamente realizzato.",
-          "Puoi usare la pagina di richiesta preventivo Innovasol per avviare questo dialogo. Presentare poche informazioni attendibili è preferibile a compilare una descrizione tecnica con dati ipotizzati: consente di approfondire il servizio partendo dal problema corretto e di mantenere leggibile l'evoluzione del progetto."
+          "Innovasol si occupa anche degli impianti per raffrescare e riscaldare. Prima della scelta delle apparecchiature, conta il rapporto con la casa: quali stanze si usano insieme, dove si soggiorna più a lungo e come sono organizzati i passaggi. Il comfort non si descrive soltanto con la temperatura impostata su un comando.",
+          "Fotografie e una pianta disponibile permettono di parlare della posizione delle unità e degli elementi vicini. Se sono previsti altri lavori, conviene segnalarli durante il sopralluogo: un impianto da installare in una stanza già finita richiede un’organizzazione diversa da quello inserito in una ristrutturazione ancora aperta."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Quando arriva una proposta, controlla che risponda all'obiettivo iniziale e identifichi componenti, opere e condizioni. Evidenzia le domande rimaste aperte prima di decidere. Il valore del percorso è ridurre la distanza tra la prima idea e ciò che verrebbe effettivamente realizzato."
+            "text": "Innovasol si occupa anche degli impianti per raffrescare e riscaldare. Prima della scelta delle apparecchiature, conta il rapporto con la casa: quali stanze si usano insieme, dove si soggiorna più a lungo e come sono organizzati i passaggi. Il comfort non si descrive soltanto con la temperatura impostata su un comando."
           },
           {
             "type": "p",
-            "text": "Puoi usare la pagina di richiesta preventivo Innovasol per avviare questo dialogo. Presentare poche informazioni attendibili è preferibile a compilare una descrizione tecnica con dati ipotizzati: consente di approfondire il servizio partendo dal problema corretto e di mantenere leggibile l'evoluzione del progetto."
+            "text": "Fotografie e una pianta disponibile permettono di parlare della posizione delle unità e degli elementi vicini. Se sono previsti altri lavori, conviene segnalarli durante il sopralluogo: un impianto da installare in una stanza già finita richiede un’organizzazione diversa da quello inserito in una ristrutturazione ancora aperta."
           }
         ]
       },
       {
-        "heading": "Una richiesta leggibile evita di mescolare servizi diversi",
+        "heading": "Dal sopralluogo al preventivo",
         "paragraphs": [
-          "Prima del primo contatto, indica quale esigenza vuoi affrontare: acqua calda, riscaldamento, raffrescamento o produzione elettrica. Se le esigenze sono più di una, elencale separatamente e assegna una priorità. Innovasol presenta sul proprio sito servizi fotovoltaici, solari termici, di climatizzazione e riscaldamento. Il fatto che siano disponibili più ambiti non rende automaticamente definita la configurazione per il tuo immobile. La richiesta iniziale deve spiegare il problema, non indovinare il pacchetto di componenti."
+          "Il sopralluogo permette di collegare la prima richiesta alle condizioni dell’immobile. È il momento per mostrare ciò che esiste, spiegare il risultato desiderato e individuare quali informazioni servono per il progetto. Non occorre sostituirsi al tecnico scegliendo in anticipo tutti i componenti: sono più utili esigenze ben descritte e documenti riferiti alla situazione reale.",
+          "Nel preventivo vanno riconosciuti apparecchiature, installazione, collegamenti e attività comprese. Se arrivano più alternative, vale la pena capire quale funzione cambia tra una proposta e l’altra. Si può così valutare l’insieme del servizio, mantenendo il confronto collegato alle priorità iniziali e non soltanto al prezzo del singolo componente."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Prima del primo contatto, indica quale esigenza vuoi affrontare: acqua calda, riscaldamento, raffrescamento o produzione elettrica. Se le esigenze sono più di una, elencale separatamente e assegna una priorità. Innovasol presenta sul proprio sito servizi fotovoltaici, solari termici, di climatizzazione e riscaldamento. Il fatto che siano disponibili più ambiti non rende automaticamente definita la configurazione per il tuo immobile. La richiesta iniziale deve spiegare il problema, non indovinare il pacchetto di componenti."
+            "text": "Il sopralluogo permette di collegare la prima richiesta alle condizioni dell’immobile. È il momento per mostrare ciò che esiste, spiegare il risultato desiderato e individuare quali informazioni servono per il progetto. Non occorre sostituirsi al tecnico scegliendo in anticipo tutti i componenti: sono più utili esigenze ben descritte e documenti riferiti alla situazione reale."
+          },
+          {
+            "type": "p",
+            "text": "Nel preventivo vanno riconosciuti apparecchiature, installazione, collegamenti e attività comprese. Se arrivano più alternative, vale la pena capire quale funzione cambia tra una proposta e l’altra. Si può così valutare l’insieme del servizio, mantenendo il confronto collegato alle priorità iniziali e non soltanto al prezzo del singolo componente."
           }
         ]
       },
       {
-        "heading": "Il racconto dell'immobile deve distinguere dati e ipotesi",
+        "heading": "Valutare insieme i diversi impianti",
+        "paragraphs": [
+          "Fotovoltaico, solare termico, riscaldamento e climatizzazione possono essere discussi nello stesso progetto senza confonderne le funzioni. Il punto è capire che cosa si vuole migliorare per primo e quali interventi sono già previsti. Anche una richiesta limitata a un solo servizio beneficia di questa visione: aiuta a lasciare leggibili gli sviluppi futuri della casa e a coordinare i lavori con le parti da mantenere."
+        ],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Fotovoltaico, solare termico, riscaldamento e climatizzazione possono essere discussi nello stesso progetto senza confonderne le funzioni. Il punto è capire che cosa si vuole migliorare per primo e quali interventi sono già previsti. Anche una richiesta limitata a un solo servizio beneficia di questa visione: aiuta a lasciare leggibili gli sviluppi futuri della casa e a coordinare i lavori con le parti da mantenere."
+          }
+        ]
+      },
+      {
+        "heading": "I dati utili per descrivere la casa",
         "paragraphs": [
           "Raccogli località, uso degli ambienti e informazioni sui sistemi esistenti. Se prevedi altri lavori, indica quali siano già decisi e quali soltanto desiderati. La distinzione è importante perché una proposta può dipendere dalle condizioni che l'immobile avrà dopo l'intervento. Non presentare una possibilità come fatto acquisito. Se mancano documenti o identificativi, crea un elenco da completare nel confronto: le informazioni sconosciute devono essere riconoscibili."
         ],
@@ -2320,7 +2326,7 @@ export const editorialNative: Article[] = [
         ]
       },
       {
-        "heading": "Confrontare il perimetro prima dei dettagli commerciali",
+        "heading": "Apparecchiature, posa e lavori compresi",
         "paragraphs": [
           "Quando ricevi una proposta, verifica quali attività descriva: fornitura, collegamenti, posa, eventuali opere accessorie e documentazione. Le esclusioni vanno considerate insieme alle inclusioni, perché possono richiedere un altro interlocutore. Chiedi che i punti ancora da definire siano distinti dalle scelte approvate. Una presentazione sintetica può essere comprensibile, ma non dovrebbe lasciare al proprietario il compito di dedurre quali parti del lavoro siano state considerate."
         ],
@@ -2332,14 +2338,14 @@ export const editorialNative: Article[] = [
         ]
       },
       {
-        "heading": "Un percorso ordinato fino all'approvazione",
+        "heading": "Scegliere una proposta riferita al proprio immobile",
         "paragraphs": [
-          "Tieni insieme richiesta iniziale, domande emerse, documenti ricevuti e revisione scelta. Prima dell'approvazione riprendi le priorità per verificare se la proposta risponda a quelle stesse esigenze o se nel frattempo il progetto sia cambiato. Se una nuova richiesta amplia il lavoro, trattala come tale invece di inserirla indistintamente nella conversazione. È un metodo redazionale per organizzare il confronto, non una descrizione contrattuale delle procedure o dei tempi garantiti dall'azienda."
+          "Prima di confermare, riprendi le esigenze indicate nel primo contatto e confrontale con la proposta finale. Una configurazione può rispondere bene alla zona giorno e richiedere un’altra valutazione per le camere; un impianto esistente può influire sui collegamenti o sulle opere necessarie. Conservare disegni, riferimenti dei prodotti e decisioni approvate rende più semplice seguire l’installazione e ritrovare le informazioni utili anche dopo i lavori."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Tieni insieme richiesta iniziale, domande emerse, documenti ricevuti e revisione scelta. Prima dell'approvazione riprendi le priorità per verificare se la proposta risponda a quelle stesse esigenze o se nel frattempo il progetto sia cambiato. Se una nuova richiesta amplia il lavoro, trattala come tale invece di inserirla indistintamente nella conversazione. È un metodo redazionale per organizzare il confronto, non una descrizione contrattuale delle procedure o dei tempi garantiti dall'azienda."
+            "text": "Prima di confermare, riprendi le esigenze indicate nel primo contatto e confrontale con la proposta finale. Una configurazione può rispondere bene alla zona giorno e richiedere un’altra valutazione per le camere; un impianto esistente può influire sui collegamenti o sulle opere necessarie. Conservare disegni, riferimenti dei prodotti e decisioni approvate rende più semplice seguire l’installazione e ritrovare le informazioni utili anche dopo i lavori."
           }
         ]
       },
@@ -2370,20 +2376,20 @@ export const editorialNative: Article[] = [
       }
     ],
     "sponsor": "Innovasol",
-    "seoTitle": "Innovasol: preparare la richiesta per un impianto",
-    "seoDescription": "Obiettivo, documenti e sopralluogo: un percorso pratico per chiedere a Innovasol una proposta riferita al proprio immobile."
+    "seoTitle": "Innovasol: fotovoltaico e climatizzazione in Sicilia",
+    "seoDescription": "Innovasol progetta e installa in Sicilia impianti fotovoltaici, climatizzazione, riscaldamento e solare termico, dal sopralluogo alla posa."
   },
   {
     "slug": "green-energy-group-e-le-cer-le-domande-per-iniziare-il-confronto",
-    "title": "Green Energy Group e le CER: le domande per iniziare il confronto",
+    "title": "Green Energy Group: fotovoltaico e comunità energetiche rinnovabili",
     "category": "news",
     "subcategory": "Sostenibilità",
-    "excerpt": "Ruolo dei partecipanti, documenti e progetto locale: come avvicinarsi alla proposta sulle comunità energetiche presentata da Green Energy Group.",
+    "excerpt": "Green Energy Group propone impianti fotovoltaici e la comunità energetica La Specola NEXT17: produzione, consumi e condivisione dell’energia.",
     "keywords": [
       "Green Energy Group e le CER: le domande per iniziare il confronto"
     ],
     "publishedAt": "2026-10-22",
-    "updatedAt": "2026-10-22",
+    "updatedAt": "2026-11-18",
     "author": {
       "name": "Redazione Edilizia 24 Ore",
       "role": "Redazione"
@@ -2391,8 +2397,8 @@ export const editorialNative: Article[] = [
     "readingTime": 4,
     "faq": [
       {
-        "q": "Devo avere un impianto per chiedere informazioni?",
-        "a": "Puoi presentare la tua situazione e chiedere quali ruoli siano previsti nella configurazione considerata. Le condizioni di partecipazione devono essere verificate nel caso concreto."
+        "q": "Quale comunità energetica propone Green Energy Group?",
+        "a": "La comunità energetica rinnovabile La Specola NEXT17, rivolta a persone e aziende interessate alla produzione locale e alla condivisione virtuale di energia."
       },
       {
         "q": "La condivisione virtuale è una fornitura fisica diretta?",
@@ -2405,89 +2411,87 @@ export const editorialNative: Article[] = [
     ],
     "image": {
       "src": "/editorial-assets/green-energy-group.webp",
-      "alt": "Casa illustrativa con fotovoltaico, accumulo e ricarica, non una realizzazione documentata di Green Energy Group"
+      "alt": "Abitazione con pannelli fotovoltaici: immagine AI illustrativa, non un progetto reale di Green Energy Group."
     },
-    "intro": [
-      "L’interesse per una comunità energetica diventa concreto quando sono chiari partecipanti, obiettivi e passaggi di valutazione. Prima dei benefici attesi viene la comprensione del progetto."
-    ],
+    "intro": [],
     "sections": [
       {
-        "heading": "Il punto di partenza",
+        "heading": "Fotovoltaico e condivisione dell’energia",
         "paragraphs": [
-          "L’interesse per una comunità energetica diventa concreto quando sono chiari partecipanti, obiettivi e passaggi di valutazione. Prima dei benefici attesi viene la comprensione del progetto.",
-          "Una comunità energetica viene spesso raccontata attraverso un vantaggio economico. Per chi vuole approfondire, il primo passo è capire quale progetto viene presentato e come potrebbe parteciparvi. Green Energy Group dedica una pagina alla propria proposta sulle CER e vi presenta la comunità La Specola."
+          "Green Energy Group realizza soluzioni fotovoltaiche per abitazioni e imprese e propone la comunità energetica rinnovabile La Specola NEXT17. Il tema unisce due aspetti: la produzione di elettricità da fonti rinnovabili e la possibilità di condividere virtualmente energia all’interno di una configurazione ammessa.",
+          "Per un proprietario o un’impresa sono scelte da collegare ai consumi e all’immobile. Avere un impianto, volerlo realizzare oppure chiedere informazioni come consumatore sono situazioni differenti. Il confronto con Green Energy Group permette di presentare la propria esigenza e approfondire il progetto pertinente, senza confondere l’installazione fotovoltaica con l’adesione alla comunità."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "L’interesse per una comunità energetica diventa concreto quando sono chiari partecipanti, obiettivi e passaggi di valutazione. Prima dei benefici attesi viene la comprensione del progetto."
+            "text": "Green Energy Group realizza soluzioni fotovoltaiche per abitazioni e imprese e propone la comunità energetica rinnovabile La Specola NEXT17. Il tema unisce due aspetti: la produzione di elettricità da fonti rinnovabili e la possibilità di condividere virtualmente energia all’interno di una configurazione ammessa."
           },
           {
             "type": "p",
-            "text": "Una comunità energetica viene spesso raccontata attraverso un vantaggio economico. Per chi vuole approfondire, il primo passo è capire quale progetto viene presentato e come potrebbe parteciparvi. Green Energy Group dedica una pagina alla propria proposta sulle CER e vi presenta la comunità La Specola."
+            "text": "Per un proprietario o un’impresa sono scelte da collegare ai consumi e all’immobile. Avere un impianto, volerlo realizzare oppure chiedere informazioni come consumatore sono situazioni differenti. Il confronto con Green Energy Group permette di presentare la propria esigenza e approfondire il progetto pertinente, senza confondere l’installazione fotovoltaica con l’adesione alla comunità."
           }
         ]
       },
       {
-        "heading": "Capire quale ruolo si sta valutando",
+        "heading": "La comunità La Specola NEXT17",
         "paragraphs": [
-          "Prima del contatto, descrivi la tua situazione: immobile interessato, impianto eventualmente presente e motivo dell'interesse. Non è necessario qualificarsi da soli come idonei. La richiesta serve a capire quali informazioni debbano essere verificate per il progetto specifico.",
-          "Se il tema coinvolge un'impresa o più proprietari, individua chi raccoglierà le risposte. Un referente permette di confrontare i documenti senza moltiplicare interpretazioni diverse della stessa presentazione."
+          "La [comunità energetica La Specola NEXT17](https://greenenergygroup.it/comunita-energetica-contributo/ \"sponsored\") riguarda persone e aziende interessate alla produzione locale e alla condivisione virtuale di energia rinnovabile. La proposta di Green Energy Group si inserisce quindi accanto ai servizi fotovoltaici, con un percorso da esaminare in base al ruolo e al punto di connessione dell’interessato.",
+          "Per iniziare sono utili la località, le informazioni sul punto di consumo e la presenza di un impianto esistente o di un progetto ancora da realizzare. Sono elementi che permettono di rendere concreto il primo incontro. Una presentazione generale chiarisce il tema; i documenti della comunità descrivono poi il funzionamento e le condizioni della partecipazione."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Prima del contatto, descrivi la tua situazione: immobile interessato, impianto eventualmente presente e motivo dell'interesse. Non è necessario qualificarsi da soli come idonei. La richiesta serve a capire quali informazioni debbano essere verificate per il progetto specifico."
+            "text": "La [comunità energetica La Specola NEXT17](https://greenenergygroup.it/comunita-energetica-contributo/ \"sponsored\") riguarda persone e aziende interessate alla produzione locale e alla condivisione virtuale di energia rinnovabile. La proposta di Green Energy Group si inserisce quindi accanto ai servizi fotovoltaici, con un percorso da esaminare in base al ruolo e al punto di connessione dell’interessato."
           },
           {
             "type": "p",
-            "text": "Se il tema coinvolge un'impresa o più proprietari, individua chi raccoglierà le risposte. Un referente permette di confrontare i documenti senza moltiplicare interpretazioni diverse della stessa presentazione."
+            "text": "Per iniziare sono utili la località, le informazioni sul punto di consumo e la presenza di un impianto esistente o di un progetto ancora da realizzare. Sono elementi che permettono di rendere concreto il primo incontro. Una presentazione generale chiarisce il tema; i documenti della comunità descrivono poi il funzionamento e le condizioni della partecipazione."
           }
         ]
       },
       {
-        "heading": "Separare presentazione e decisione di adesione",
+        "heading": "Partecipare come consumatore o produttore",
         "paragraphs": [
-          "Chiedi quale soggetto promuove il progetto, quali documenti ne descrivono il funzionamento e quali passaggi precedono una decisione. È utile ricevere materiale che possa essere letto con calma, soprattutto quando più persone devono valutare la partecipazione.",
-          "Per discutere un eventuale beneficio, domanda quali ipotesi lo sostengano e quali condizioni riguardino il caso concreto. La pagina aziendale può introdurre il tema; la valutazione va poi riferita ai documenti e alle regole del progetto. Non basta un valore riassuntivo per descrivere ogni possibile partecipante."
+          "Una richiesta può partire da chi consuma elettricità e vuole conoscere la comunità, oppure da chi dispone di un impianto o intende realizzarlo. Nel primo caso è importante descrivere il punto di prelievo; nel secondo si aggiungono le informazioni sulla produzione. La distinzione aiuta a parlare delle attività che riguardano davvero la propria situazione.",
+          "Quando il progetto coinvolge più proprietari o un’impresa, è utile individuare un referente che raccolga i documenti e le domande. Si mantiene così una base comune di informazioni anche se al confronto partecipano persone con esigenze differenti. Il riferimento resta il progetto specifico della comunità, insieme alle verifiche previste per l’adesione."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Chiedi quale soggetto promuove il progetto, quali documenti ne descrivono il funzionamento e quali passaggi precedono una decisione. È utile ricevere materiale che possa essere letto con calma, soprattutto quando più persone devono valutare la partecipazione."
+            "text": "Una richiesta può partire da chi consuma elettricità e vuole conoscere la comunità, oppure da chi dispone di un impianto o intende realizzarlo. Nel primo caso è importante descrivere il punto di prelievo; nel secondo si aggiungono le informazioni sulla produzione. La distinzione aiuta a parlare delle attività che riguardano davvero la propria situazione."
           },
           {
             "type": "p",
-            "text": "Per discutere un eventuale beneficio, domanda quali ipotesi lo sostengano e quali condizioni riguardino il caso concreto. La pagina aziendale può introdurre il tema; la valutazione va poi riferita ai documenti e alle regole del progetto. Non basta un valore riassuntivo per descrivere ogni possibile partecipante."
+            "text": "Quando il progetto coinvolge più proprietari o un’impresa, è utile individuare un referente che raccolga i documenti e le domande. Si mantiene così una base comune di informazioni anche se al confronto partecipano persone con esigenze differenti. Il riferimento resta il progetto specifico della comunità, insieme alle verifiche previste per l’adesione."
           }
         ]
       },
       {
-        "heading": "Arrivare preparati al primo incontro",
+        "heading": "Consumi della casa e attività dell’impresa",
         "paragraphs": [
-          "Annota tre domande: che cosa dovrei mettere a disposizione, quali impegni dovrei assumere e quali verifiche precedono l'adesione? Aggiungi ciò che vorresti capire sulla gestione delle informazioni e sui riferimenti da utilizzare nel tempo. Non è un parere legale né una procedura universale: è una traccia per orientare il confronto.",
-          "La pagina CER di Green Energy Group è il punto da cui conoscere la proposta e avviare un contatto. L'obiettivo iniziale è ottenere una descrizione comprensibile del progetto, così da passare dall'interesse generale a una valutazione consapevole della propria possibile partecipazione."
+          "Gli orari di utilizzo aiutano a descrivere il rapporto tra un immobile e l’energia. Un ufficio aperto di giorno, un’abitazione utilizzata soprattutto la sera e un’attività con macchinari hanno profili diversi. Prima del confronto conviene raccogliere le informazioni disponibili, evitando di usare come riferimento automatico l’esperienza di un’altra famiglia o di un’altra azienda.",
+          "Se è previsto un impianto nuovo, il suo progetto va valutato anche per il servizio che dovrà offrire all’immobile. La partecipazione a una comunità è un ulteriore aspetto del percorso: non sostituisce la scelta dei componenti, il dimensionamento o l’esame delle condizioni di installazione. Con Green Energy Group si possono affrontare questi temi mantenendo distinte le decisioni."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Annota tre domande: che cosa dovrei mettere a disposizione, quali impegni dovrei assumere e quali verifiche precedono l'adesione? Aggiungi ciò che vorresti capire sulla gestione delle informazioni e sui riferimenti da utilizzare nel tempo. Non è un parere legale né una procedura universale: è una traccia per orientare il confronto."
+            "text": "Gli orari di utilizzo aiutano a descrivere il rapporto tra un immobile e l’energia. Un ufficio aperto di giorno, un’abitazione utilizzata soprattutto la sera e un’attività con macchinari hanno profili diversi. Prima del confronto conviene raccogliere le informazioni disponibili, evitando di usare come riferimento automatico l’esperienza di un’altra famiglia o di un’altra azienda."
           },
           {
             "type": "p",
-            "text": "La pagina CER di Green Energy Group è il punto da cui conoscere la proposta e avviare un contatto. L'obiettivo iniziale è ottenere una descrizione comprensibile del progetto, così da passare dall'interesse generale a una valutazione consapevole della propria possibile partecipazione."
+            "text": "Se è previsto un impianto nuovo, il suo progetto va valutato anche per il servizio che dovrà offrire all’immobile. La partecipazione a una comunità è un ulteriore aspetto del percorso: non sostituisce la scelta dei componenti, il dimensionamento o l’esame delle condizioni di installazione. Con Green Energy Group si possono affrontare questi temi mantenendo distinte le decisioni."
           }
         ]
       },
       {
-        "heading": "Prima di parlare di benefici, identificare il ruolo",
+        "heading": "Le informazioni per avviare il confronto",
         "paragraphs": [
-          "Chi dispone di un impianto e chi vuole informarsi come utilizzatore possono porre domande differenti. Presenta la situazione del punto di consumo e l'eventuale produzione, distinguendo ciò che esiste dai progetti ancora aperti. La pagina di Green Energy Group dedicata alle comunità energetiche è un riferimento per avviare il confronto sui servizi presentati dall'azienda. L'adesione e le condizioni della singola configurazione non possono però essere dedotte dalla sola visita a una pagina commerciale."
+          "Presenta il punto di consumo, l’eventuale impianto e il motivo del tuo interesse. Se stai considerando altri lavori, indica quali sono già decisi e quali sono ancora da valutare. Un riepilogo breve, accompagnato dai documenti disponibili, aiuta più di una descrizione tecnica ricostruita a memoria. L’obiettivo è riconoscere il percorso adatto al proprio caso e capire quali dati servono per proseguire."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Chi dispone di un impianto e chi vuole informarsi come utilizzatore possono porre domande differenti. Presenta la situazione del punto di consumo e l'eventuale produzione, distinguendo ciò che esiste dai progetti ancora aperti. La pagina di Green Energy Group dedicata alle comunità energetiche è un riferimento per avviare il confronto sui servizi presentati dall'azienda. L'adesione e le condizioni della singola configurazione non possono però essere dedotte dalla sola visita a una pagina commerciale."
+            "text": "Presenta il punto di consumo, l’eventuale impianto e il motivo del tuo interesse. Se stai considerando altri lavori, indica quali sono già decisi e quali sono ancora da valutare. Un riepilogo breve, accompagnato dai documenti disponibili, aiuta più di una descrizione tecnica ricostruita a memoria. L’obiettivo è riconoscere il percorso adatto al proprio caso e capire quali dati servono per proseguire."
           }
         ]
       },
@@ -2525,7 +2529,7 @@ export const editorialNative: Article[] = [
         ]
       },
       {
-        "heading": "Distinguere informazioni generali e condizioni specifiche",
+        "heading": "Documenti e condizioni della comunità",
         "paragraphs": [
           "Una presentazione di una CER può descrivere finalità e possibilità, ma il singolo interessato deve capire a quali documenti si riferisca la propria valutazione. Chiedi quali informazioni siano necessarie per esaminare il caso e quali soggetti gestiscano i passaggi pertinenti. Non considerare confermata l'ammissibilità soltanto perché l'immobile si trova in una certa località. Per requisiti, procedure e valutazioni economiche servono riferimenti aggiornati e una verifica della situazione concreta."
         ],
@@ -2537,14 +2541,14 @@ export const editorialNative: Article[] = [
         ]
       },
       {
-        "heading": "Conservare le domande prima di approvare",
+        "heading": "Valutare una proposta con informazioni complete",
         "paragraphs": [
-          "Prepara un elenco che distingua organizzazione, dati richiesti, documenti da leggere ed eventuali aspetti ancora da chiarire. Se vengono presentati esempi, domanda quali ipotesi li descrivano e se siano pertinenti al tuo caso. Non trasformarli automaticamente in previsioni individuali. Il risultato del primo incontro dovrebbe essere un percorso comprensibile di approfondimento, non la certezza di un beneficio ricavata da una simulazione riferita a condizioni diverse."
+          "Prima della decisione, rileggi il ruolo proposto, gli impegni e le modalità di funzionamento della comunità. Se vengono presentati esempi economici, osserva le ipotesi utilizzate e la loro pertinenza alla tua situazione. La proposta diventa più semplice da valutare quando aspetti tecnici, organizzazione e condizioni sono leggibili insieme. Per chiedere informazioni sulla comunità o sugli impianti fotovoltaici, il contatto va rivolto direttamente a Green Energy Group."
         ],
         "blocks": [
           {
             "type": "p",
-            "text": "Prepara un elenco che distingua organizzazione, dati richiesti, documenti da leggere ed eventuali aspetti ancora da chiarire. Se vengono presentati esempi, domanda quali ipotesi li descrivano e se siano pertinenti al tuo caso. Non trasformarli automaticamente in previsioni individuali. Il risultato del primo incontro dovrebbe essere un percorso comprensibile di approfondimento, non la certezza di un beneficio ricavata da una simulazione riferita a condizioni diverse."
+            "text": "Prima della decisione, rileggi il ruolo proposto, gli impegni e le modalità di funzionamento della comunità. Se vengono presentati esempi economici, osserva le ipotesi utilizzate e la loro pertinenza alla tua situazione. La proposta diventa più semplice da valutare quando aspetti tecnici, organizzazione e condizioni sono leggibili insieme. Per chiedere informazioni sulla comunità o sugli impianti fotovoltaici, il contatto va rivolto direttamente a Green Energy Group."
           }
         ]
       },
@@ -2574,7 +2578,7 @@ export const editorialNative: Article[] = [
       }
     ],
     "sponsor": "Green Energy Group",
-    "seoTitle": "Green Energy Group: come preparare il confronto su una CER",
-    "seoDescription": "Ruolo dei partecipanti, documenti e progetto locale: come avvicinarsi alla proposta sulle comunità energetiche presentata da Green Energy Group."
+    "seoTitle": "Green Energy Group: fotovoltaico e comunità energetiche",
+    "seoDescription": "Green Energy Group propone impianti fotovoltaici e la comunità energetica La Specola NEXT17: produzione, consumi e condivisione dell’energia."
   }
 ];
