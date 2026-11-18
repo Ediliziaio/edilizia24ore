@@ -4,6 +4,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/articolo/panorama-infissi-finestre-tetti-accessori",
+      "destination": "/articolo/panorama-infissi-finestre-porte-casa",
+      "permanent": true
+    },
+    {
       "source": "/guide-pratiche/facciata-ventilata-preventivo-prezzo-completo",
       "destination": "/articolo/facciata-ventilata-preventivo-prezzo-completo",
       "permanent": true

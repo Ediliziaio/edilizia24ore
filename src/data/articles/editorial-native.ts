@@ -2,7 +2,7 @@ import type { Article } from "../types";
 export const editorialNative: Article[] = [
   {
     "sponsor": "Panorama Infissi",
-    "slug": "panorama-infissi-finestre-tetti-accessori",
+    "slug": "panorama-infissi-finestre-porte-casa",
     "title": "Panorama Infissi: finestre, porte e soluzioni per rinnovare casa",
     "seoTitle": "Panorama Infissi: finestre e porte a Paderno Dugnano",
     "seoDescription": "Panorama Infissi: finestre, porte, persiane e zanzariere. Scopri lo showroom di Paderno Dugnano e i servizi dalla scelta alla posa.",
