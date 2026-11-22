@@ -128,7 +128,7 @@ export function newsArticleLd(article: Article): Record<string, unknown> {
     '@type': type,
     '@id': `${url}#article`,
     ...(article.sponsor ? { sponsor: { "@type": "Organization", name: article.sponsor } } : {}),
-    headline: article.title,
+    headline: article.h1 ?? article.title,
     description: article.seoDescription ?? article.excerpt,
     image,
     // Collective byline: the newsroom is the author, so the author is the

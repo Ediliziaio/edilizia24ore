@@ -1,3 +1,4 @@
+import { condono2027 } from "./condono-2027";
 import nuovaGuida from "./preventivo-lavori-prezzo-ipotesi-bonus";
 import { editorialNative } from "./editorial-native";
 import type { Article, ArticleCategory } from '../types';
@@ -77,7 +78,7 @@ const all: Article[] = [
 ];
 
 /** All 30 articles, sorted by publication date (most recent first). */
-export const articles: Article[] = [nuovaGuida, ...editorialNative, ...all]
+export const articles: Article[] = [...condono2027, nuovaGuida, ...editorialNative, ...all]
   // Attach the editorial hero image (when one exists) from the merged manifest.
   .map((a) => (articleImages[a.slug] ? { ...a, image: articleImages[a.slug] } : a))
   .sort(

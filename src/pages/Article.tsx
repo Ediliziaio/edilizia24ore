@@ -227,6 +227,9 @@ export default function Article() {
                 sizes="(min-width: 1024px) 760px, 100vw"
                 className="aspect-[16/9] w-full rounded-md"
               />
+              {article.image?.caption && (
+                <p className="mt-2 text-xs text-neutral-600">{article.image.caption}</p>
+              )}
 
               {/* "In breve" answer-first box (AEO/GEO pattern) */}
               <div className="in-breve mt-8" role="note" aria-label="Risposta in breve">

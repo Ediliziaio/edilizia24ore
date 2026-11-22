@@ -34,6 +34,7 @@ export type ArticleCategory = 'top-10' | 'top-5' | 'news';
 export interface ArticleImage {
   src: string;
   alt: string;
+  caption?: string;
 }
 
 export type NewsSubcategory =
